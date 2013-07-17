@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: retrospectiva | Almir 'm3nd3s']]></title>
+  <link href="http://www.almirmendes.com/blog/categories/retrospectiva/atom.xml" rel="self"/>
+  <link href="http://www.almirmendes.com/"/>
+  <updated>2013-05-13T13:38:49-03:00</updated>
+  <id>http://www.almirmendes.com/</id>
+  <author>
+    <name><![CDATA[m3nd3s]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[E lá se vai 2012, que venha 2013!]]></title>
+    <link href="http://www.almirmendes.com/blog/2012/12/30/e-la-se-vai-2012/"/>
+    <updated>2012-12-30T11:10:00-03:00</updated>
+    <id>http://www.almirmendes.com/blog/2012/12/30/e-la-se-vai-2012</id>
+    <content type="html"><![CDATA[<p>Comentei com alguns amigos que escreveria um blog post de retrospectiva do ano de 2012, isso já tem algumas semanas, mas fui enrolando até que o <a href="http://twitter.com/jvrmaia">@jvrmaia</a> publicou o <a href="http://blog.joaovrmaia.com/blog/2012/12/29/morre-deabo-de-2012-e-vem-ni-mim-2013/">seu blog post retrospectivo</a>, então percebi que tinha que publicar logo senão ficaria feio pra mim <code>:-D</code>. Então, vamos lá!</p>
+
+<p>O ano de 2012 foi um ano irado! Simplesmente o ano de muito trabalho e diversas conquistas. Começarei pela que considero a mais marcante deste ano e provavelmente da minha vida: a conquista da minha graduação. Em julho eu terminei minha graduação em Ciência da Computação, <a href="blog/2012/07/08/mission-accomplished/">foi uma luta e tanto</a>. Depois de anos na rotina <em>trabalho -> faculdade -> casa -> repete tudo</em> eu finalmente posso escolher o que fazer após o expediente de trabalho <code>:)</code>.</p>
+
+<p>Também conquistei a liberdade automotiva :), está sendo uma experiência e tanto. É muito boa a sensação de ir aonde quer na hora que quer e escolher quando voltar.</p>
+
+<p>Vários amigos meus começaram ou já faziam algum tipo de atividade física, alguns com bikes, outros com simples caminhadas e/ou frequentando academias. Então eu e minha digníssima esposa decidimos deixar o banco dos reservas (sedentários) e partimos para a competição (fazer alguma atividade). Ainda estamos, como eu diria... em processo de adaptação :).</p>
+
+<p>  Outra <em>parada</em> muito bacana foi eu ter finalmente comprado o meu videogame. Para muitos isso pode ser algo irrelevante né? Afinal, um videogame é algo banal. Deixa eu contextualizar isso: Sempre fui viciado em jogos de videogame, houve uma época que eu estava todos os dias na locadora gastando o pouco dinheiro que eu tinha para jogar. Minha paixão sempre foram os jogos de luta, parte desta história você pode <a href="blog/2010/01/24/pkgbuild-do-advancemame/">ver aqui</a>. Mas nunca tive dinheiro para comprar um videogame, e quando tive oportunidade financeira para comprar, adquirir um videogame nunca atingira o topo da minha lista de prioridades. Mas este ano consegui realizar meu sonho, coincidentemente ao final da minha faculdade.</p>
+
+<p>Profissionalmente foi um ano de muita luta, carrego a posição e líder técnico do time de desenvolvimento do <a href="http://www.adena.com.br">Adena</a>, posso dizer que é um aprendizado diário e contínuo, muitas vezes aprendo mais do que ensinando o que pessoalmente me deixa muito motivado. Nesse sentido 2013 tende a ser um ano muito promissor, com o término da faculdade posso começar finalmente a estudar o que me interessa sem a preocupação de ter uma prova ao final. É o momento de aprofundar em metodologias, técnicas, padrões e tudo mais.</p>
+
+<p>Foram várias as conquistas também, algumas delas você pode <a href="http://blog.giran.com.br/">ver aqui</a>.</p>
+
+<p>Sempre participei de grupos e comunidades de software livre, organizando eventos e micro-eventos. Entretanto não tive oportunidade e tempo para ajudar em algum projeto de software. Penso que todo desenvolvedor deveria participar do desenvolvimento de algum software livre, os benefícios de estar em uma comunidade, trocar experiências, ter seu código <em>auditado</em> por uma comunidade e o fato de se trabalhar com pessoas que você não conhece, culturas diferentes, pessoas de outros países, etc há de ser algo de muito valor.</p>
+
+<p>Comecei por baixo, aos poucos reportando algumas issues, corrigindo outras, refatorando algumas implementações. Mas acho que é chegada a hora de participar firmemente de algum projeto, ainda não achei um, na verdade nem fiz pesquisas. Mas como tenho desenvolvido em ruby tende a ser algo em ruby mesmo.</p>
+
+<p>Continuarei ajudando em eventos e mantendo minha participação nos grupos, mas em 2013, assim como foi ao final de 2012, vou me afastar da organização e participar apenas com palestras. Portanto se você que me lê conhecer ou estiver organizando algum evento de desenvolvimento ou software livre fique a vontade para fazer contato, ficarei feliz em ajudar no que for possível <code>;)</code>.</p>
+
+<p>Pretendo continuar o <a href="http://horaextra.org/">#Horaextra</a> como fizemos neste último semestre de 2012. O #horaextra não foi criado por nós, como pode ver no link foi criado no Rio de Janeiro. Eu fiquei sabendo dele através do <a href="https://twitter.com/henriquebastos">@henriquebastos</a> quando de sua vinda aqui às terras capixabas. Desde então tenho seguido mais ou menos o que eles fazem. Mensalmente eu, <a href="https://twitter.com/vixlima">@vixlima</a>, <a href="https://twitter.com/jvrmaia">@jvrmaia</a>, <a href="https://twitter.com/ra_pha">@ra_pha</a>, alguns membros mais do <a href="https://twitter.com/_tuxes">@_tuxes</a> e alguns amigos nos reunimos para comer, beber e conversar, geralmente sobre tecnologia.</p>
+
+<p>Foram ótimos encontros!</p>
+
+<p>Agradeço pelo ano de 2012 e tudo que ele foi e desejo um ano de 2013 repleto de conquistas e muito trabalho para todos nós <code>\o/</code>.</p>
+]]></content>
+  </entry>
+  
+</feed>

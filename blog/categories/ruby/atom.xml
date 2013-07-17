@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: ruby, | Almir 'm3nd3s']]></title>
+  <link href="http://www.almirmendes.com/blog/categories/ruby/atom.xml" rel="self"/>
+  <link href="http://www.almirmendes.com/"/>
+  <updated>2013-05-13T13:38:49-03:00</updated>
+  <id>http://www.almirmendes.com/</id>
+  <author>
+    <name><![CDATA[m3nd3s]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Rock'n Rails 2012]]></title>
+    <link href="http://www.almirmendes.com/blog/2012/09/13/rockn-rails-2012/"/>
+    <updated>2012-09-13T12:49:00-03:00</updated>
+    <id>http://www.almirmendes.com/blog/2012/09/13/rockn-rails-2012</id>
+    <content type="html"><![CDATA[<p>É isso aí galera, o Rock'n Rails 2012 já está com data e local defindos, como no ano passado o evento será realizado na <a href="http://www.uvv.br">Universidade Vila Velha</a> no dia <strong>20 de outubro de 2012</strong>.</p>
+
+<p><a href="http://www.rockandrails.com.br"><img class="right" src="/images/logo-rockandrails.jpg"></a></p>
+
+<p>Nós criamos o Rock'n Rails na tentativa de juntar desenvolvedores, curiosos, empresários, todo tipo de pessoa interessada na linguagem para conversarem, aprenderem e principalmente fazerem um networking bacana entre profissionais e empresários afim de fomentar o movimento Ruby/Rails em terras capixabas.</p>
+
+<p>Um ano se passou desde a nossa <a href="http://www.flickr.com/photos/68470895@N07">primeira edição</a> e ficamos orgulhosos com o resultado: conhecemos inúmeras pessoas, expandimos nosso conhecimento e como resultado e consequência disto nós pretendemos fazer um evento ainda melhor este ano.</p>
+
+<p>Como no ano passado o evento está sendo organizado pela equipe da <a href="http://www.giran.com.br">Giran Ecommerce Solutions</a>, o Rock'n Rails não tem fins lucrativos: todos os recursos obtidos junto aos parceiros, patrocinadores e incrições será revertido para cobertura do evento e compra de brindes para sorteio ao final do evento.</p>
+
+<p>Nossa grade de palestras está quase fechada mas já com figuras de peso confirmadas como Bruno Oliveira(<a href="https://twitter.com/abstractj">@abstractj</a>) da <a href="http://br.redhat.com/">Red Hat</a> e <a href="https://twitter.com/timotta">Tiago Motta</a> da <a href="http://www.globo.com/">Globo.com</a>, <a href="https://twitter.com/sr_valeriano">Ricardo Valeriano</a> da <a href="http://www.caelum.com.br/">Caelum</a> e <a href="https://twitter.com/maxwellleonardo">Maxwell Leonardo</a> da <a href="http://www.giran.com.br">Giran</a>. Estamos confirmando mais gente e esperando fechar tudo nos próximos dias.</p>
+
+<p>Esse ano iniciamos com patrocinadores de peso: a <a href="http://www.caelum.com.br">Caelum</a> apoiando como sempre a disseminação de conhecimento e a <a href="http://www.casadocodigo.com.br/">Casa de Código</a>, nova editora de livros feitos por programadores para programadores. Além deles, a <a href="http://www.helabs.com.br/">He:Labs</a>, desenvolvedora de software e organizadora do evento StartupDev Rumble, nos ajudará esse ano. Nosso muito obrigado a vocês. :)</p>
+
+<p>Como a idéia do evento é ser melhor que o ano passado, estaremos cobrando uma taxa simbólica de <em>R$ 35,00</em> para cobrir os custos e tentar fazer camisas para todos. :) As inscrições serão abertas em breve, estamos apenas com uma pendência de nosso gateway de pagamentos.</p>
+
+<p>No mais, sintam-se a vontade para ajudar e sugerir, pois movimento e comunidade só se faz com a ajuda e contribuição de todos. Os contatos e mais informações estão disponívels no site do <a href="http://www.rockandrails.com.br">Rock'n Rails</a>, fique a vontade para nos contactar.</p>
+
+<p>Nos vemos no dia <strong>20 de outubro</strong> <code>\o/</code>!</p>
+]]></content>
+  </entry>
+  
+</feed>

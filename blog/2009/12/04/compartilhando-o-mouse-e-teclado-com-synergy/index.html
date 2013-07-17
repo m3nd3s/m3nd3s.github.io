@@ -1,0 +1,389 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Compartilhando o mouse e teclado com Synergy - Almir 'm3nd3s'</title>
+  <meta name="author" content="m3nd3s">
+
+  
+  <meta name="description" content="O Synergy é uma ferramenta que permite o compartilhamento de um único conjunto de teclado e mouse entre vários computadores, mesmo que utilizando &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://www.almirmendes.com/blog/2009/12/04/compartilhando-o-mouse-e-teclado-com-synergy">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Almir 'm3nd3s'" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<!-- <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css"> 
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css"> -->
+<link href='http://fonts.googleapis.com/css?family=Lustria|Amethysta|Terminal+Dosis' rel='stylesheet' type='text/css'>
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-10130376-2']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Almir 'm3nd3s'</a></h1>
+  
+    <h2>Ruby, Rails, Arduino, GNU/Linux, Software livre...</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:www.almirmendes.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Posts</a></li>
+  <li><a href="/presentations">Apresentações</a></li>
+  <li><a href="/about">Sobre</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Compartilhando O Mouse E Teclado Com Synergy</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-12-04T14:04:20-03:00" pubdate data-updated="true">Dec 4<span>th</span>, 2009</time>
+        
+         | <a href="#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p style="text-align: center;"><img class=" aligncenter" title="Synergy" src="http://synergy2.sourceforge.net/images/logo.gif" alt="Synergy" width="216" height="77" /></p>
+
+
+<p>O Synergy é uma ferramenta que permite o compartilhamento de um único conjunto de teclado e mouse entre vários computadores, mesmo que utilizando sistemas operacionais diferentes sem a necessidade de um hardware especial para isso. Se você conhece o equipamento denominado KVM, imagine que o Synergy fará praticamente o mesmo que o KVM faz.</p>
+
+<p style="text-align: center;"><img class=" aligncenter" title="KVM" src="http://www.sb.fsu.edu/~xray/Images/kvm-switch.jpg" alt="KVM permite utilizar mouse e teclado em várias CPUs" width="300" height="300" /></p>
+
+
+<p>O que o Synergy faz é utilizar-se da rede TCP/IP para redirecionar o uso do teclado e mouse para outra máquina, bastando pra isso mover o cursor para uma das extremidade do seu monitor, claro que isso deve ser configurado. Portanto é necessário configurar o Synergy de modo a informá-lo em que posição estão as máquinas.</p>
+
+<p>Atualmente o Synergy roda tanto em SOs da Microsoft quanto em Unix e MAC OS. Aqui eu recomendo uma visita à página oficial do projeto <a title="Synergy" href="[http://synergy2.sourceforge.net" target="_blank">[http://synergy2.sourceforge.net</a>] para obter maiores detalhes.</p>
+
+<h2>Instalação</h2>
+
+
+<p>Como de costume, você pode instalar os pacotes do software para a sua distribuição, ou fazer a instalação manual a partir dos fontes. Não irei abordar a instalação manual, se você for fazer isso consulte a documentação que vem junto com os fontes do Synergy.</p>
+
+<h3>Archlniux</h3>
+
+
+<p>[cc lang=&#8221;bash&#8221;]# pacman -S synergy[/cc]</p>
+
+<h3>Debian</h3>
+
+
+<p>[cc lang=&#8221;bash&#8221;]# apt-get install synergy[/cc]</p>
+
+<h3>Slackware</h3>
+
+
+<p><em>Utilize os Slackbuilds em: http://slackbuilds.org/repository/13.0/desktop/synergy-plus/</em></p>
+
+<p>Uma vez instalado o Synergy, basta configurar.</p>
+
+<h2>Configuração do Server</h2>
+
+
+<p>O Synergy tem dois binários executáveis, o servidor e o cliente. Chamaremos de servidor a máquina que tem o mouse e o teclado que serão compartilhados entre as demais estações.</p>
+
+<p>Utilize a configuração abaixo como modelo, salve-a com o nome .synergy.conf no seu diretório home:
+[cc lang=&#8221;bash&#8221;]# Aqui devem vir os hosts que serão usados para compartilhar</p>
+
+<h1>o mouse e teclado, o nome deve ser o hostname da máquina.</h1>
+
+<p>section: screens
+servidor:
+cliente:
+end</p>
+
+<h1>Em links nós definimos as posições em que esses screens irão ficar.</h1>
+
+<h1>As posições possíveis são: left, right, up ou down. Cada posição deve</h1>
+
+<h1>ser seguida pela screen definida acima.</h1>
+
+<h1>Em nosso caso a máquina que irá compartilhar o mouse e teclado está</h1>
+
+<h1>a esquerda, e o cliente, no caso um notebook, a direita.</h1>
+
+<p>section: links
+servidor:
+right = cliente
+cliente:
+left  = servidor
+end</p>
+
+<h1>Na sessão aliases nós iremos passar o endereço IP, ou nome (DNS),</h1>
+
+<h1>das screens configuradas. É dessa forma que o synergy consegue</h1>
+
+<h1>manipular as demais máquinas.</h1>
+
+<p>section: aliases
+servidor:
+192.168.0.5
+cliente:
+192.168.0.6
+end[/cc]
+Uma vez salvo o arquivo, basta rodar o executável do synergy servidor, rode-o com o seu usuário mesmo, NÃO é preciso usar o administrador do sistema para isso.
+[cc lang=&#8221;bash&#8221;]$ synergys &#8211;daemon[/cc]</p>
+
+<h2>Configuração do Cliente</h2>
+
+
+<p>O cliente é mais fácil ainda, basta executar o comando abaixo:
+[cc lang=&#8221;bash&#8221;]$ synergyc -f 192.168.0.5[/cc]
+Esse comando irá executar o synergy client em foreground (-f) conectando ao servidor 192.168.0.5. Agora basta mover seu mouse para direita e quando ele atingir a extremidade direita do seu monitor o mouse, e o controle do teclado, passarão para a máquina da direita, ou seja, o cliente.</p>
+
+<h2>Agradecimentos</h2>
+
+
+<p>Especialmente ao meu amigo <a title="Blog do Renato Cunha" href="http://valedotrovao.com/" target="_blank">Trovão,</a> que me mostrou essa ferramenta pela primeira vez. Vlw Trovão.</p>
+
+<h2>Novidades</h2>
+
+
+<p>Existe também o synergy+ [<a title="Synergy+" href="http://code.google.com/p/synergy-plus/" target="_self">http://code.google.com/p/synergy-plus/</a>], que me parece ser um fork ou mesmo a continuação do projeto original, já que utilizam os mesmos parâmetros nos comandos e configuração.</p>
+
+<p style="text-align: center;"><img class="aligncenter" title="Synergy+" src="http://synergy-foss.org/img/splash.jpg" alt="" /></p>
+
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">m3nd3s</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-12-04T14:04:20-03:00" pubdate data-updated="true">Dec 4<span>th</span>, 2009</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.almirmendes.com/blog/2009/12/04/compartilhando-o-mouse-e-teclado-com-synergy/" data-via="m3nd3s" data-counturl="http://www.almirmendes.com/blog/2009/12/04/compartilhando-o-mouse-e-teclado-com-synergy/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2009/10/26/synaptics-touchpad-dois-dedos-para-scroll/" title="Previous Post: Synaptics touchpad + dois dedos para scroll">&laquo; Synaptics touchpad + dois dedos para scroll</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2009/12/10/eu-duvido/" title="Next Post: Eu duvido!">Eu duvido! &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/05/13/meu-ambiente-de-trabalho-em-7-itens-2013/">Meu ambiente de trabalho em 7 itens: 2013</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/12/30/e-la-se-vai-2012/">E lá se vai 2012, que venha 2013!</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/09/25/gtd-no-meu-dia-a-dia/">GTD no meu dia-a-dia</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/09/13/rockn-rails-2012/">Rock'n Rails 2012</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/07/27/instalando-nginx-com-rvm-para-aplicacoes-rails/">Instalando Nginx com RVM para aplicações Rails</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/m3nd3s">@m3nd3s</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'm3nd3s',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - m3nd3s -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'm3nd3s';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id; js.async = true;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

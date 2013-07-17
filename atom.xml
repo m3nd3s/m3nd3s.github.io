@@ -1,0 +1,1407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Almir 'm3nd3s']]></title>
+  <link href="http://www.almirmendes.com/atom.xml" rel="self"/>
+  <link href="http://www.almirmendes.com/"/>
+  <updated>2013-05-13T13:38:49-03:00</updated>
+  <id>http://www.almirmendes.com/</id>
+  <author>
+    <name><![CDATA[m3nd3s]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Meu ambiente de trabalho em 7 itens: 2013]]></title>
+    <link href="http://www.almirmendes.com/blog/2013/05/13/meu-ambiente-de-trabalho-em-7-itens-2013/"/>
+    <updated>2013-05-13T14:19:00-03:00</updated>
+    <id>http://www.almirmendes.com/blog/2013/05/13/meu-ambiente-de-trabalho-em-7-itens-2013</id>
+    <content type="html"><![CDATA[<p>Em 20 de janeiro de 2011, inspirado por um <a href="http://jeveaux.com/2011/meu-ambiente-de-trabalho-em-7-itens/">post</a> do <a href="http://jeveaux.com/">Jeveaux</a>, eu publiquei um post sobre as <a href="http://www.almirmendes.com/blog/2011/01/20/meu-ambiente-de-trabalho-em-7-itens/">ferramentas que utilizo em meu ambiente de trabalho</a>. Com o passar do tempo é comum que façamos mudanças em nosso ambiente visando melhorar e agilizar nosso processo de trabalho. Então resolvi dar uma atualizada no post para mostrar como e o que estou usando agora.</p>
+
+<h2>1. Navegador</h2>
+
+<p>Como desenvolvedor web o navegador é uma ferramenta essencial. Há muitos anos vinha utilizando o <a href="http://www.mozilla.org/en-US/firefox/new/">Mozilla Firefox</a> mas de uns tempos pra cá ele vinha me decepcionando.</p>
+
+<p>Ao menos em minha máquina o Firefox comia muita memória e não raro travava enquanto abria determinada página. Outro problema eram as extensões que eu precisava instalar para torna-lo uma ferramenta de trabalho (Firebug, WebDeveloper, etc).</p>
+
+<p>Hoje abro os demais navegadores apenas para fazer testes nos sistemas que trabalho. É impressionante as informações que podemos extrair através do Developer Tools do Google Chrome, até hoje não aprendi todas. Abaixo deixo alguns links que julgo ser imprecindíveis para quem desenvolve aplicações web, mais específicamente para quem tem o Google Chrome como opção:</p>
+
+<ul>
+<li><a href="https://developers.google.com/chrome-developer-tools/">Chrome DevTools</a></li>
+<li><a href="http://discover-devtools.codeschool.com/">Code School Discover DevTools</a></li>
+</ul>
+
+
+<h2>2. Editor</h2>
+
+<p>Neste caso não há uma mudança grande ou significativa, sempre utilizei Vim como editor principal e já estou tão acostumado que me minha produtividade em outro editor chega a ser péssima.</p>
+
+<p>Assim que comecei a usar o sistema MacOS eu conheci o <a href="https://github.com/b4winckler/macvim">MacVim</a>, instalei e desde então o utilizava. Um dos motivos que me fazia utiliza-lo era, principalmente, que um dos plugins que eu utilizo, o <a href="https://wincent.com/products/command-t">CommandT</a>, dependia do Vim com suporte a ruby. Como o vim padrão do MacOS não possuía suporte e eu não tinha vontade de compilar o na unha, eu utilizava o MacVim.</p>
+
+<p>Com o uso do <a href="http://mxcl.github.io/homebrew/">homebrew</a> descobri que o Vim dele incluía suporte a ruby, isso e a vontade de usar o Tmux (leia abaixo) me fizeram largar do MacVim  para o vim.</p>
+
+<h2>3. Tmux</h2>
+
+<p>Talvez a mudança/melhoria mais significativa. Ao menos uma coisa é certa, mantenho minha mente e memória ocupados por um bom tempo tendo que decorar mais algumas teclas de atalho, mas nem tanto.</p>
+
+<p>O <a href="http://tmux.sourceforge.net/">Tmux</a> é um terminal multiplexer, basicamente é um programa que lhe permite manipular vários programas em um único terminal, assim como o velho conhecido de usuários Unix Like, o <a href="http://www.gnu.org/software/screen/">GNU screen</a>. A diferença é que o Tmux tem várias features que o transformam em uma opção considerável para programadores que utilizam editores em modo texto. Recomendo olhar na internet alguns vídeos de integração Tmux + Vim + Ruby.</p>
+
+<p>Meu interesse nele surgiu pela vontade de reduzir ainda mais o uso de cliques para escolher janelas e navegar entre elas e as features que ele possui que melhorariam significativamente meu fluxo de desenvolvimento.</p>
+
+<h2>4. Git e Github</h2>
+
+<p>Simplesmente indispensável. Todos os produtos que desenvolvemos na <a href="http://www.giran.com.br/">Giran</a> são versionados pelo <a href="http://git-scm.com/book">Git</a>, nós utilizamos também o <a href="http://www.github.com">Github</a> que parafraseando um <a href="https://twitter.com/rodolfospalenza">amigo</a>, que até hoje não postou nada no blog dele:</p>
+
+<blockquote><p>Todo desenvolvedor deveria conhecer o Github e ter uma conta.</p></blockquote>
+
+<h2>5. Terminal</h2>
+
+<p>Depois de alguns meses usando o ZSH, por meio de um pacote de script providos pelo projeto <a href="https://github.com/robbyrussell/oh-my-zsh">oh-my-zsh</a>, estou de volta ao Bash. Tive alguns problemas misteriosos utilizando os scripts do oh-my-zsh então resolvi voltar ao Bash, com o auxílio de um <a href="https://github.com/revans/bash-it">outro pacote de scripts</a> deixei-o do jeito que eu queria.</p>
+
+<p>Depois de anos utilizando sistemas Unix Like - antes eu usava Linux (Slackware, Archlinux, Debian, Ubuntu) e hoje MacOSX - não consigo mais utilizar um SO que não tenha um terminal descente.</p>
+
+<h2>6. Evernote (GTD)</h2>
+
+<p>O <a href="http://evernote.com">Evernote</a> ganhou minha admiração, eu praticamente anoto tudo que julgo importante nele.</p>
+
+<p>Na Giran temos uma reunião diária, chamamos de <a href="http://improveit.com.br/scrum/daily_scrum">Daily</a>, nela repassamos tudo que fizemos no dia anterior e o que faremos no dia de hoje bem como os impedimentos que ocorreram até o momento.</p>
+
+<p>Um dos usos que faço do Evernote é anotar o que tenho feito no meu dia de trabalho, com isso conseguirei lembrar o que precisarei dizer na Daily do dia seguinte, bem como me planejar para o dia corrente. A medida que as solicitações vão chegando eu vou colocando na minha lista de coisas a fazer, conforme vou fazendo eu vou marcando como feito e tocando para o próximo da lista.</p>
+
+<p>O Evernote se tornou tão útil pra mim que o utilizo em minha vida pessoal e demais atividades que tenho fora do meu trabalho.</p>
+
+<h2>7. Monitor Externo</h2>
+
+<p>Nunca tinha pensando que fosse tão bom e produtivo ter um monitor externo.</p>
+
+<p>A possibilidade de distribuir janelas e visualiza-las ao mesmo tempo sem perda de informação é fantástico! Isso me ajuda muito na produtividade. Costumo abrir um terminal (iTerm2) em fullscreen, dividi-lo com tmux, e abrir o vim, visualizar os logs dos servidores, executar comandos, abrir o navegador e ainda sobra espaço. Tudo isso sem precisar ficar fazendo <em>&#8220;ALT + TAB&#8221;</em>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[E lá se vai 2012, que venha 2013!]]></title>
+    <link href="http://www.almirmendes.com/blog/2012/12/30/e-la-se-vai-2012/"/>
+    <updated>2012-12-30T11:10:00-03:00</updated>
+    <id>http://www.almirmendes.com/blog/2012/12/30/e-la-se-vai-2012</id>
+    <content type="html"><![CDATA[<p>Comentei com alguns amigos que escreveria um blog post de retrospectiva do ano de 2012, isso já tem algumas semanas, mas fui enrolando até que o <a href="http://twitter.com/jvrmaia">@jvrmaia</a> publicou o <a href="http://blog.joaovrmaia.com/blog/2012/12/29/morre-deabo-de-2012-e-vem-ni-mim-2013/">seu blog post retrospectivo</a>, então percebi que tinha que publicar logo senão ficaria feio pra mim <code>:-D</code>. Então, vamos lá!</p>
+
+<p>O ano de 2012 foi um ano irado! Simplesmente o ano de muito trabalho e diversas conquistas. Começarei pela que considero a mais marcante deste ano e provavelmente da minha vida: a conquista da minha graduação. Em julho eu terminei minha graduação em Ciência da Computação, <a href="blog/2012/07/08/mission-accomplished/">foi uma luta e tanto</a>. Depois de anos na rotina <em>trabalho -> faculdade -> casa -> repete tudo</em> eu finalmente posso escolher o que fazer após o expediente de trabalho <code>:)</code>.</p>
+
+<p>Também conquistei a liberdade automotiva :), está sendo uma experiência e tanto. É muito boa a sensação de ir aonde quer na hora que quer e escolher quando voltar.</p>
+
+<p>Vários amigos meus começaram ou já faziam algum tipo de atividade física, alguns com bikes, outros com simples caminhadas e/ou frequentando academias. Então eu e minha digníssima esposa decidimos deixar o banco dos reservas (sedentários) e partimos para a competição (fazer alguma atividade). Ainda estamos, como eu diria&#8230; em processo de adaptação :).</p>
+
+<p>  Outra <em>parada</em> muito bacana foi eu ter finalmente comprado o meu videogame. Para muitos isso pode ser algo irrelevante né? Afinal, um videogame é algo banal. Deixa eu contextualizar isso: Sempre fui viciado em jogos de videogame, houve uma época que eu estava todos os dias na locadora gastando o pouco dinheiro que eu tinha para jogar. Minha paixão sempre foram os jogos de luta, parte desta história você pode <a href="blog/2010/01/24/pkgbuild-do-advancemame/">ver aqui</a>. Mas nunca tive dinheiro para comprar um videogame, e quando tive oportunidade financeira para comprar, adquirir um videogame nunca atingira o topo da minha lista de prioridades. Mas este ano consegui realizar meu sonho, coincidentemente ao final da minha faculdade.</p>
+
+<p>Profissionalmente foi um ano de muita luta, carrego a posição e líder técnico do time de desenvolvimento do <a href="http://www.adena.com.br">Adena</a>, posso dizer que é um aprendizado diário e contínuo, muitas vezes aprendo mais do que ensinando o que pessoalmente me deixa muito motivado. Nesse sentido 2013 tende a ser um ano muito promissor, com o término da faculdade posso começar finalmente a estudar o que me interessa sem a preocupação de ter uma prova ao final. É o momento de aprofundar em metodologias, técnicas, padrões e tudo mais.</p>
+
+<p>Foram várias as conquistas também, algumas delas você pode <a href="http://blog.giran.com.br/">ver aqui</a>.</p>
+
+<p>Sempre participei de grupos e comunidades de software livre, organizando eventos e micro-eventos. Entretanto não tive oportunidade e tempo para ajudar em algum projeto de software. Penso que todo desenvolvedor deveria participar do desenvolvimento de algum software livre, os benefícios de estar em uma comunidade, trocar experiências, ter seu código <em>auditado</em> por uma comunidade e o fato de se trabalhar com pessoas que você não conhece, culturas diferentes, pessoas de outros países, etc há de ser algo de muito valor.</p>
+
+<p>Comecei por baixo, aos poucos reportando algumas issues, corrigindo outras, refatorando algumas implementações. Mas acho que é chegada a hora de participar firmemente de algum projeto, ainda não achei um, na verdade nem fiz pesquisas. Mas como tenho desenvolvido em ruby tende a ser algo em ruby mesmo.</p>
+
+<p>Continuarei ajudando em eventos e mantendo minha participação nos grupos, mas em 2013, assim como foi ao final de 2012, vou me afastar da organização e participar apenas com palestras. Portanto se você que me lê conhecer ou estiver organizando algum evento de desenvolvimento ou software livre fique a vontade para fazer contato, ficarei feliz em ajudar no que for possível <code>;)</code>.</p>
+
+<p>Pretendo continuar o <a href="http://horaextra.org/">#Horaextra</a> como fizemos neste último semestre de 2012. O #horaextra não foi criado por nós, como pode ver no link foi criado no Rio de Janeiro. Eu fiquei sabendo dele através do <a href="https://twitter.com/henriquebastos">@henriquebastos</a> quando de sua vinda aqui às terras capixabas. Desde então tenho seguido mais ou menos o que eles fazem. Mensalmente eu, <a href="https://twitter.com/vixlima">@vixlima</a>, <a href="https://twitter.com/jvrmaia">@jvrmaia</a>, <a href="https://twitter.com/ra_pha">@ra_pha</a>, alguns membros mais do <a href="https://twitter.com/_tuxes">@_tuxes</a> e alguns amigos nos reunimos para comer, beber e conversar, geralmente sobre tecnologia.</p>
+
+<p>Foram ótimos encontros!</p>
+
+<p>Agradeço pelo ano de 2012 e tudo que ele foi e desejo um ano de 2013 repleto de conquistas e muito trabalho para todos nós <code>\o/</code>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[GTD no meu dia-a-dia]]></title>
+    <link href="http://www.almirmendes.com/blog/2012/09/25/gtd-no-meu-dia-a-dia/"/>
+    <updated>2012-09-25T12:56:00-03:00</updated>
+    <id>http://www.almirmendes.com/blog/2012/09/25/gtd-no-meu-dia-a-dia</id>
+    <content type="html"><![CDATA[<p>Reuniões, e-mails, solicitações, tarefas, projetos, família, lembretes, faculdade, eventos, lazer, estudos, médico, etc. São alguns exemplos das coisas que nós, querendo ou não, gerenciamos todos os dias. Quanto mais funções você acumula, quanto maior for seu envolvimento com as coisa ao seu redor, mais itens você terá para gerenciar.</p>
+
+<p>OK, talvez o parágrafo inicial tenha ficado um pouco descontextualizado, mas se você já ouviu falar de <a href="http://pt.wikipedia.org/wiki/Getting_Things_Done">Getting Things Done</a>, ou só GTD, deve imaginar do que se trata. Aos que não conhecem segue abaixo uma breve explicação sobre o que é o GTD, dito pelo próprio autor <em>Devid Allen</em>:</p>
+
+<blockquote><p>Tire tudo de sua cabeça. Tome decisões sobre cada coisa no momento em que toma conhecimento dela, sem esperar elas explodirem. Organize lembretes de seus projetos e das próximas ações em cada um deles em categorias apropriadas.</p>
+
+<p>Mantenha seu sistema atualizado, completo e analisado com uma freqüência suficiente para ter confiança em suas escolhas intuitivas sobre o que você está fazendo (ou deixando de fazer) a cada momento.</p></blockquote>
+
+<p><em><em>O texto foi retirado do site <a href="http://www.efetividade.net/">Efetividade.net</a>, que também é um ótimo ponto de partida para se estudar o GTD</em></em></p>
+
+<p>Trata-se de um sistema de organização pessoal para que você consiga dar fluxo e continuidade a tudo que você precisa fazer, desde projetos pessoais (viagens, eventos, passeios, lazer em geral, família, médico, enfim tudo) até suas tarefas profissionais. Não é o objetivo desde blog post descrever com funciona e como utilizar o GTD. Caso tenha interesse em aprender mais eu sugiro, como ponto de partida, o <a href="http://www.efetividade.net/tag/gtd/">Efetividade.net</a>.</p>
+
+<p>Não posso dizer que sou usuário assíduo e exemplar do método GTD, entretanto posso afirmar que utilizo algumas das técnicas do GTD, e outras ainda estou criando o hábito de utiliza-las. Contudo o pouco que tenho utilizado tem me ajudado bastante e é isso que gostaria de compartilhar.</p>
+
+<p>Este blog post é sobre como eu tenho utilizado as técnicas do GTD em meu dia-a-dia e como isto tem me ajudado, me permitindo lembrar de cosias que eu deveria lembrar (quando eu precisava lembrar) e não me preocupar com coisas que, digamos, não são importantes <em>(ao menos não no momento)</em>.</p>
+
+<p>Listarei algumas ferramentas que utilizo, descrevendo um pouco sobre como eu as utilizo, depois comento um pouco sobre como o GTD melhorou minha produtividade e melhorou o fluxo das tarefas no meu dia-a-dia. Por fim deixo alguns <strong>comentários pessoais</strong> que podem ajudar quem estiver começando agora com o GTD.</p>
+
+<h2>Ferramentas</h2>
+
+<p><img class="left" src="http://www.almirmendes.com/images/blog/moleskine1.png" title="Meu Moleskine" ></p>
+
+<p>Trabalho com tecnologia da informação <em>(vulgo informática)</em> e por isso tendencio a procurar por softwares que façam o trabalho por mim, entretanto isto é um erro comum. As ferramentas servem de apoio e portanto a função delas é dar suporte. Adequar-se ao GTD é mais uma questão de mudança de hábito, e como mudar hábitos nunca é tão fácil, muitas pessoas se frustram enquanto tentam aplicar o GTD em suas vidas e acabam por culpar o software que escolheram para lhes ajudarem.</p>
+
+<p>As ferramentas que utilizo no meu dia-a-dia são basicamente: Papel e caneta, Gmail e Evernote. Destes o melhor de todos sem dúvida é a dupla <em>papel e caneta</em>.</p>
+
+<h3>Papel e caneta</h3>
+
+<p><img class="right" src="http://www.almirmendes.com/images/blog/moleskine2.png" title="Meu Moleskine" ></p>
+
+<p>São meus preferidos e suponho que também seja o de muitos outros colegas. É prático, está sempre a mão e é muito simples de ser utilizado. Eu tenho comigo um <a href="http://www.moleskine.com/web/us/">Moleskine</a> que ganhei, eu comecei a utilizar ele para meu GTD diário, entretanto o Moleskine é um caderno com preço um pouco acima dos demais, portanto parei de utiliza-lo como anotação diária e passei a usá-lo apenas como referência das reuniões e projetos que participo.</p>
+
+<p>Há algum tempo eu utilizava um caderno quadriculado, só que ele era um pouco grande e me atrapalhava na mesa, portanto passei a utilizar um bloco de anotações simples.</p>
+
+<p><a href="http://www.pomodorotechnique.com/"><img class="right" src="http://www.almirmendes.com/images/blog/pomodoro.jpg" title="Pomodoro Technique" ></a></p>
+
+<p>Estou ainda tentando me acostumar com o <a href="http://www.pomodorotechnique.com/">Pomodoro Technique</a>, muito bom para o passo <strong>Fazer</strong> do GTD. Então utilizo o bloco de anotações para marcar o que estou fazendo e quantos <em>pomodoros</em> utilizei para executar tal tarefa.</p>
+
+<p>Também utilizo o caderno/bloco como <strong>Inbox</strong> de solicitações que recebo diariamente, assim não corro o risco de esquecer e ainda me serve de retrospectiva do que fiz durante todo dia.</p>
+
+<h3>Evernote</h3>
+
+<p><a href="http://evernote.com/"><img class="center" src="http://www.almirmendes.com/images/blog/hero_evernote.png" title="Evernote" ></a></p>
+
+<p>Existem anotações que merecem ser guardadas para referências futuras. Em geral eu descarto as folhas dos blocos, mas as mais importantes eu guardo para referência, outras eu prefiro juntar em uma nota no <a href="http://evernote.com/">Evernote</a>.</p>
+
+<p>O Evernote é uma ferramenta impressionante e mesmo que você não tenha interesse em aplicar o GTD em seu dia-a-dia vale a pena instalar e usar a ferramenta. É possível salvar notas, fotos, páginas de sites, enfim, tudo que faça lhe faça necessário criar uma nota sobre. E por ter versões para web, mobile e desktop permite o acesso rápido e fácil às suas notas onde quer que você esteja.</p>
+
+<h3>Gmail</h3>
+
+<p>Quando comecei a usar o Gmail fiz como a maioria, nunca apagava um e-mail sequer, afinal espaço não era problema. Para piorar a situação eu não me importava em organizar os e-mails que recebia, foram anos assim. Imagina a dificuldade de buscar algo, simplesmente era um sufoco.</p>
+
+<p>Com o GTD passei a encarar meu Gmail como, literalmente, uma Inbox. Tornou-se minha Inbox principal, é no e-mail que recebo a maioria das requisições e tarefas que executo durante meu dia de trabalho. Sendo assim a organização dos e-mails tornou-se algo primordial e necessário, caso contrário usar o e-mail como Inbox não faria qualquer sentido.</p>
+
+<p>Fiz várias pesquisas na internet e <a href="http://lifehacker.com/5321180/turn-gmail-into-your-ultimate-gtd-inbox">descobri uma forma simples</a>, hoje basicamente utilizo assim:</p>
+
+<ul>
+<li>Se for algo que eu precise fazer e for rápido <em>(regra dos 2-3 minutos do GTD)</em> eu &#8220;faço na hora&#8221;;</li>
+<li>Se levar mais que 2-3 minutos, marco com uma <strong>Star (exclamação)</strong> para ser feito depois;</li>
+<li>Se for algo que eu possa delegar, delego e marco com uma <strong>Star (setinhas)</strong> se precisar que eu acompanhe, caso contrário deleto o e-mail;</li>
+<li>Se for algo para leitura posterior, tenho duas opções: mando para o <a href="http://getpocket.com/">Pocket</a> quando se tratar de link ou marco com uma <strong>Star (estrela lilaz)</strong>;</li>
+<li>Se não for necessária qualquer ação mas o e-mail for importante o bastante, aplico um label &#8220;Referência* e Arquivo o e-mail;</li>
+<li>Apago qualquer e-mail que eu julgar não mais necessário;</li>
+</ul>
+
+
+<p>Em todos os casos, excetuando quando da exclusão, eu arquivo o e-mail. O importante é não manter o e-mail na Inbox. Desta forma a minha inbox fica limpa sempre para receber novos e-mails e com isso novas solicitações. Uma inbox lotada de e-mails, muitos não lidos, aterroriza sua mente e lhe dá a impressão que há muita coisa a ser feita. Esta forma de organização e atitudes no e-mail me permitem estar no controle sempre.</p>
+
+<h2>Compartilhando o que já experimentei</h2>
+
+<p>Estas foram as ferramentas que mais utilizo, agora vamos aos meu comentários sobre as experiências que já passei e acho que posso ajudar compartilhando-as.</p>
+
+<h3>Não ache que conseguirá usar o GTD do dia pra noite (ou vice-versa)</h3>
+
+<p>Quando comecei a usar o GTD eu tive um sério problema. O método pede que você páre, literalmente, durante um ou dois dias para organizar sua vida antes de começar a usar os métodos do GTD, ou seja, organizar tudo que você fez até hoje nos moldes do GTD. Mas convenhamos, se eu tivesse um ou dois dias para parar provavelmente eu não estaria tão desorganizado.</p>
+
+<p>O que fiz? Uma faxina de porco <code>:)</code>, joguei a sujeira para deibaxo do tapete e comecei aos poucos aplicando os métodos que eu conseguisse. Conforme falei usar o GTD é uma questão de mudança de hábito, e decidi começar pelas que eu imaginava serem mais fácil, no meu caso a <em>Coleta</em>.</p>
+
+<h3>Coleta</h3>
+
+<p>Comecei a implementar o GTD em minha vida pela coleta, uma das ações que fazem parte do GTD. O alvo principal foi meu Gmail <strong>sempre</strong> organizado. No mínimo uma vez por dia eu checo meu email e faço os procedimentos citados no tópico acima. Hoje consigo fazer isso quase instantaneamente quando recebo um e-mail. Minha dica, mantenha sua inbox do (G)mail vazia, faz um bem que você não imagina <code>:-D</code>. Que o diga o amigo <a href="https://twitter.com/leohackin">@leohackin</a>.</p>
+
+<p>Não tenha medo de apagar seus e-mails, use labels/pastas sempre, crie uma estrutura de labels/pastas que for conveniente para você, especialmente porque se você arquivou o e-mail é porque um dia precisará busca-lo novamente, portanto organização é fundamental.</p>
+
+<h3>Anote <em>&#8220;tuto&#8221;</em></h3>
+
+<p>Uma frase que sempre digo: <em>&#8220;Sua mente não tem mente própria&#8221;</em>, portanto anote tudo, especialmente as coisas que você sabe precisará lembrar e mantenha isso perto de você. Seja no Evernote, seja no bloco de anotações, seja no caderno, no Smartphone ou em um belíssimo Moleskine. O importante é anotar.</p>
+
+<p>Assim como sugere o GTD, se for um compromisso ou algo que tenha data e hora para acontecer o lugar correto é o calendário. No meu caso tenho usado o Google Calendar, agendando avisos em SMS e/ou e-mail sempre que necessário para me lembrar.</p>
+
+<h3>Várias ferramentas = Problemas</h3>
+
+<p>Eu tentei utilizar o Gmail tasks, o Wunderlist ou Wunderkit e várias outras ferramentas. Simplesmente não consigo!</p>
+
+<p>Uma das dicas do GTD ou ZTD é que se utilize o mínimo de inbox possíveis pois quanto mais tiver mais locais você precisará procurar por tasks. Eu tentei usar outras ferramentas, mas estou tão bem organizado no meu Gmail e bloquinho de anotações que sinceramente não compensa usar outra ferramenta para isso.</p>
+
+<p>Não estou dizendo que não funcionará para você, só quero dizer para tomar cuidado ao usar muitas ferramentas ao mesmo tempo, você pode ser confundir. E lembrando o que citei acima, as ferramentas não são para usarem o GTD por você, são para te ajudar.</p>
+
+<h3>ZTD</h3>
+
+<p><a href="http://zenhabits.net/zen-to-done-the-simple-productivity-e-book/"><img class="left" src="http://www.almirmendes.com/images/blog/ztd.png" title="Zen To Done" ></a></p>
+
+<p>Uma variante do GTD é o ZTD - Zen To Done. Ele se baseia no GTD entretanto ele faz um <em>&#8220;resumo&#8221;</em>, uma compactada no GTD para que se torne ainda mais fácil o uso dos métodos do GTD. Confesso que depois de ler tanto sobre o GTD eu foi apresentado ao ZTD (graças ao amigo <a href="https://twitter.com/leohackin">@leohackin</a>) e estou gostando. Eu encaro o ZTD como um caminho simples para aplicar o GTD.</p>
+
+<p>Recomendo a leitura, o link oficial pode ser visitado <a href="http://zenhabits.net/books/">aqui</a>. Se preferir há uma tradução para <em>pt-BR</em> <a href="http://lucasteixeira.com/ztd/">disponível aqui</a>.</p>
+
+<h2>Finalizando</h2>
+
+<p>Eu teria mais um monte de coisas para compartilhar, mas acho que o blog post está grande o suficiente. Se tiver alguma dúvida, sugestão, etc. fique a vontade para deixar seu comentário, ficarei feliz em ajudar.</p>
+
+<p>Mais uma vez queria deixar claro que o blog post expressa minha opinião e experiência sobre o GTD.</p>
+
+<p>Obrigado e que a força esteja contigo.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Rock'n Rails 2012]]></title>
+    <link href="http://www.almirmendes.com/blog/2012/09/13/rockn-rails-2012/"/>
+    <updated>2012-09-13T12:49:00-03:00</updated>
+    <id>http://www.almirmendes.com/blog/2012/09/13/rockn-rails-2012</id>
+    <content type="html"><![CDATA[<p>É isso aí galera, o Rock&#8217;n Rails 2012 já está com data e local defindos, como no ano passado o evento será realizado na <a href="http://www.uvv.br">Universidade Vila Velha</a> no dia <strong>20 de outubro de 2012</strong>.</p>
+
+<p><a href="http://www.rockandrails.com.br"><img class="right" src="http://www.almirmendes.com/images/logo-rockandrails.jpg"></a></p>
+
+<p>Nós criamos o Rock&#8217;n Rails na tentativa de juntar desenvolvedores, curiosos, empresários, todo tipo de pessoa interessada na linguagem para conversarem, aprenderem e principalmente fazerem um networking bacana entre profissionais e empresários afim de fomentar o movimento Ruby/Rails em terras capixabas.</p>
+
+<p>Um ano se passou desde a nossa <a href="http://www.flickr.com/photos/68470895@N07">primeira edição</a> e ficamos orgulhosos com o resultado: conhecemos inúmeras pessoas, expandimos nosso conhecimento e como resultado e consequência disto nós pretendemos fazer um evento ainda melhor este ano.</p>
+
+<p>Como no ano passado o evento está sendo organizado pela equipe da <a href="http://www.giran.com.br">Giran Ecommerce Solutions</a>, o Rock&#8217;n Rails não tem fins lucrativos: todos os recursos obtidos junto aos parceiros, patrocinadores e incrições será revertido para cobertura do evento e compra de brindes para sorteio ao final do evento.</p>
+
+<p>Nossa grade de palestras está quase fechada mas já com figuras de peso confirmadas como Bruno Oliveira(<a href="https://twitter.com/abstractj">@abstractj</a>) da <a href="http://br.redhat.com/">Red Hat</a> e <a href="https://twitter.com/timotta">Tiago Motta</a> da <a href="http://www.globo.com/">Globo.com</a>, <a href="https://twitter.com/sr_valeriano">Ricardo Valeriano</a> da <a href="http://www.caelum.com.br/">Caelum</a> e <a href="https://twitter.com/maxwellleonardo">Maxwell Leonardo</a> da <a href="http://www.giran.com.br">Giran</a>. Estamos confirmando mais gente e esperando fechar tudo nos próximos dias.</p>
+
+<p>Esse ano iniciamos com patrocinadores de peso: a <a href="http://www.caelum.com.br">Caelum</a> apoiando como sempre a disseminação de conhecimento e a <a href="http://www.casadocodigo.com.br/">Casa de Código</a>, nova editora de livros feitos por programadores para programadores. Além deles, a <a href="http://www.helabs.com.br/">He:Labs</a>, desenvolvedora de software e organizadora do evento StartupDev Rumble, nos ajudará esse ano. Nosso muito obrigado a vocês. :)</p>
+
+<p>Como a idéia do evento é ser melhor que o ano passado, estaremos cobrando uma taxa simbólica de <em>R$ 35,00</em> para cobrir os custos e tentar fazer camisas para todos. :) As inscrições serão abertas em breve, estamos apenas com uma pendência de nosso gateway de pagamentos.</p>
+
+<p>No mais, sintam-se a vontade para ajudar e sugerir, pois movimento e comunidade só se faz com a ajuda e contribuição de todos. Os contatos e mais informações estão disponívels no site do <a href="http://www.rockandrails.com.br">Rock&#8217;n Rails</a>, fique a vontade para nos contactar.</p>
+
+<p>Nos vemos no dia <strong>20 de outubro</strong> <code>\o/</code>!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Instalando Nginx com RVM para aplicações Rails]]></title>
+    <link href="http://www.almirmendes.com/blog/2012/07/27/instalando-nginx-com-rvm-para-aplicacoes-rails/"/>
+    <updated>2012-07-27T13:05:00-03:00</updated>
+    <id>http://www.almirmendes.com/blog/2012/07/27/instalando-nginx-com-rvm-para-aplicacoes-rails</id>
+    <content type="html"><![CDATA[<p>Olá pessoal! Depois de muito tempo sem um post, eu resolvi fazer algo que estava no meu dashboard há um bom tempo, explicar o básico para se levantar uma aplicação Rails e Nginx em um servidor Linux.</p>
+
+<p>Minha intenção com o post é passar os caminhos básicos de como configurar o Nginx, o Passenger e o RVM em um servidor Linux. O processo é relativamente simples.</p>
+
+<p>Antes de começar o processo de instalação é necessário que você possua acesso de administrador do sistema, ou seja, acesso ao usuário <em>root</em>. Caso você não possua esse nível de acesso os comandos abaixo não darão certo.</p>
+
+<p>Algumas distribuições não permitem o acesso direto ao usuário <em>root</em>, exigindo que você tenha uma conta de usuário normal e só então, a partir dele, mudar o nível de acesso para o <em>root</em>, isso normalmente é feito através do comando <code>sudo</code>. Se for o seu caso sugiro rodar o comando <code>sudo su -</code> que fará você mudar o nível de privilégios para administrador do sitema, aí é só seguir os passos abaixo.</p>
+
+<h2>Instalando o RVM</h2>
+
+<p>O processo de instalação do RVM não possui muitos mistérios, basta seguir <a href="https://rvm.io/rvm/install/">o processo de instalação disponível no site do RVM</a>. Mas para que você não tenha dúvidas segue a linha a ser executada:</p>
+
+<figure class='code'><figcaption><span>Instalando o RVM</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>curl -L https://get.rvm.io | bash -s stable --ruby
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Este comando fará a instalação do RVM no sistema, e logo em seguida a instalação da a última versão do ruby disponível, no momento que escrevo esse post a versão mais atual é a <strong>1.9.3-p194</strong>.</p>
+
+<p>A instalação do RVM requer o uso do <code>curl</code>, portanto é preciso ter ele instalado, verifique como instalar esse software em sua distribuição/versão de Linux.</p>
+
+<p>Caso ocorra algum erro na instalação do ruby é bem provável que seja pela ausência de alguma dependência na distribuição utilizada, para fazer um levantamento e identificar se falta algo rode o comando <code>rvm requirements</code>. Siga os procedimentos informados e após terminar tente novamente instalar o <code>ruby</code>:</p>
+
+<figure class='code'><figcaption><span>Instalando o ruby manualmente</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>rvm install 1.9.3 <span class="c">#ou a versão que deseja</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Instalando o Passenger</h2>
+
+<p>Esse talvez seja o passo mais fácil. O passenger é uma gem que por sua vez possui um script que auxilia em todo o processo, como estamos fazendo a instalação em um ambiente servidor nós podemos instalar a gem sem os arquivos de documentação:</p>
+
+<figure class='code'><figcaption><span>Instalando o Passenger</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>gem install passenger --no-ri --no-rdoc
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Pronto, agora já temos o passenger instalado. Entretanto ele sozinho não fará muita coisa por você, ou melhor, por sua aplicação. Vamos agora instalar o Nginx.</p>
+
+<h2>Instalando o Nginx</h2>
+
+<p>Infelizmente não podemos utilizar o Nginx provido pela distribuição Linux que você está usando, isso porque o Nginx não possui o suporte a módulos, algo que o Apache tem, que seria a possibilidade de instalar o Nginx e depois apenas os módulos que necessários (php, ruby, etc.). Para o nosso caso será necessário (re)compilar o Nginx habilitando o suporte ao Passenger, é justamente isso que vamos abordar no próximo tópico.</p>
+
+<h3>Instalando o Nginx com suporte ao Passenger (usando o assistente)</h3>
+
+<p>Nós utilizaremos o instalador provido pela gem <code>passenger</code>, esse script fará todo o trabalho sujo por você, baixando o nginx, configurando e compilando. Esse processo é recomendado para aqueles que estão começando e querem algo funcional de forma simples. Vamos lá então:</p>
+
+<figure class='code'><figcaption><span>Instaladando o Nginx com suporte ao passenger</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>passenger-install-nginx-module
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>O script fará uma série de perguntas, vou documentar cada uma delas e explicar para que você se sinta seguro <code>;)</code>.</p>
+
+<p>Logo no início será apresentado um texto informativo sobre o que será realizado durante o processo de instalação, nessa primeira parte será solicitado que você pressione <code>&lt;ENTER&gt;</code> para continuar, ou <code>&lt;CTRL&gt;-C</code> caso tenha se arrependido e queira abortar a instalação. <strong>É óbvio que vamos continuar né!</strong> <code>:P</code>, senta o dedo aí no <code>&lt;ENTER&gt;</code>.</p>
+
+<p>Logo em seguida o script fará um checklist sobre todas as dependências necessárias para compilar o Passenger e o Nginx, entre os itens verificados estão: compilador, make, curl ou wget, headers do ruby (bibliotecas necessárias para compilação), rubygems, rack, openssl, zlib, etc. Caso algum deles esteja faltando o script fará o alerta e mostrará o que fazer para resolver as dependências.</p>
+
+<p>Se for o seu caso, instale as dependências e depois volte a executar o comando <code>passenger-install-nginx-module</code> novamente.</p>
+
+<p>Após o checklist de dependências o script solicitará qual o método você utilizará para instalar o Nginx + Passenger:</p>
+
+<figure class='code'><figcaption><span>Questionamento sobre qual processo será utilizado para instalar o Nginx + Passenger</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+</pre></td><td class='code'><pre><code class='text'><span class='line'>Automatically download and install Nginx?
+</span><span class='line'>
+</span><span class='line'>Nginx doesn&#39;t support loadable modules such as some other web servers do,
+</span><span class='line'>so in order to install Nginx with Passenger support, it must be recompiled.
+</span><span class='line'>
+</span><span class='line'>Do you want this installer to download, compile and install Nginx for you?
+</span><span class='line'>
+</span><span class='line'> 1. Yes: download, compile and install Nginx for me. (recommended)
+</span><span class='line'>    The easiest way to get started. A stock Nginx 1.0.10 with Passenger
+</span><span class='line'>    support, but with no other additional third party modules, will be
+</span><span class='line'>    installed for you to a directory of your choice.
+</span><span class='line'>
+</span><span class='line'> 2. No: I want to customize my Nginx installation. (for advanced users)
+</span><span class='line'>    Choose this if you want to compile Nginx with more third party modules
+</span><span class='line'>    besides Passenger, or if you need to pass additional options to Nginx&#39;s
+</span><span class='line'>    &#39;configure&#39; script. This installer will  1) ask you for the location of
+</span><span class='line'>    the Nginx source code,  2) run the &#39;configure&#39; script according to your
+</span><span class='line'>    instructions, and  3) run &#39;make install&#39;.
+</span><span class='line'>
+</span><span class='line'>Whichever you choose, if you already have an existing Nginx configuration file,
+</span><span class='line'>then it will be preserved.
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Selecione a opção 1 e pressione <code>&lt;ENTER&gt;</code>. Nesta opção será feito o download e compilação do Nginx com suporte ao Passenger pelo próprio script. Logo Após será feito um novo questionamento, desta vez sobre qual será o local onde o Nginx será instalado. Eu prefiro escolher um local diferente por questões de gosto e costume, em meus processos de instalação eu utilizo o path <code>/usr/local/nginx</code>, fique a vontade para escolher qual deles utilizar.</p>
+
+<figure class='code'><figcaption><span>Onde instalar o Nginx</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='text'><span class='line'>Where do you want to install Nginx to?
+</span><span class='line'>
+</span><span class='line'>Please specify a prefix directory [/opt/nginx]: /usr/local/nginx
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Faça a sua escolha e pressione <code>&lt;ENTER&gt;</code> para dar início a compilação, agora é só esperar finalizar o processo.</p>
+
+<p>Ao finalizar a compilação e instalação do Nginx o script exibe alguns parâmetros que devem ser definidos na configuração do Nginx para ativar o passenger, nós não precisamos nos preocupar com isso agora pois o script de instalação já injetou essas diretivas no arquivo de configuração do nginx, mas vale a pena registrar para não ter dúvidas:</p>
+
+<figure class='code'><figcaption><span>Nginx instalado, diretivas de configuração para suporte ao Passenger</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+</pre></td><td class='code'><pre><code class='text'><span class='line'>Nginx with Passenger support was successfully installed.
+</span><span class='line'>
+</span><span class='line'>The Nginx configuration file (/usr/local/nginx/conf/nginx.conf)
+</span><span class='line'>must contain the correct configuration options in order for Phusion Passenger
+</span><span class='line'>to function correctly.
+</span><span class='line'>
+</span><span class='line'>This installer has already modified the configuration file for you! The
+</span><span class='line'>following configuration snippet was inserted:
+</span><span class='line'>
+</span><span class='line'>  http {
+</span><span class='line'>      ...
+</span><span class='line'>      passenger_root /usr/local/rvm/gems/ruby-1.9.3-p194/gems/passenger-3.0.15;
+</span><span class='line'>      passenger_ruby /usr/local/rvm/wrappers/ruby-1.9.3-p194/ruby;
+</span><span class='line'>      ...
+</span><span class='line'>  }
+</span><span class='line'>
+</span><span class='line'>After you start Nginx, you are ready to deploy any number of Ruby on Rails
+</span><span class='line'>applications on Nginx.
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Pressione <code>&lt;ENTER&gt;</code> e outra mensagem informativa será exibida, desta vez é exibido um trecho de configuração da seção <code>server</code> dos arquivos de configuração do Nginx, essa seção é utilizada justamente para configurar uma aplicação/site no Nginx, <strong>esta não é inserida automaticamente</strong>, precisaremos setar isso quando da configuração de nossa aplicação.</p>
+
+<h2>Organizando a instalação</h2>
+
+<p>Vamos agora dar uma organizada para termos menos trabalho no futuro, até para melhorar a manutenção. Como é padrão das distribuições linux os arquivos de configuração devem ficar no path <code>/etc</code>, sendo assim ficaria melhor se a configuração do Nginx ficasse em <code>/etc/nginx</code>, vamos criar um link simbólico dos arquivos de configuração do Nginx para o <code>/etc/nginx</code>:</p>
+
+<figure class='code'><figcaption><span>Criando link simbólico do Nginx para o</span><a href='http://www.almirmendes.com/etc/'>link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>ln -s /usr/local/nginx/conf /etc/nginx
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Outra melhoria que podemos fazer é colocar o binário do nginx em um path globalmente reconhecido pelo linux, para isso vamos criar outro link simbólico:</p>
+
+<figure class='code'><figcaption><span>Criando link simbólico do binário do nginx</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>ln -s /usr/local/nginx/sbin/nginx /usr/local/sbin/nginx
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Configurando o Nginx</h2>
+
+<p>O Nginx é instalado com um arquivo default de configuração, não vou cobrir todo esse processo, no lugar eu sugiro que você baixe e use o arquivo de configuração abaixo:</p>
+
+<div><script src='https://gist.github.com/3334030.js?file=nginx.conf'></script>
+<noscript><pre><code>user www-data;
+worker_processes 4;
+pid /var/run/nginx.pid;
+
+events {
+    worker_connections 512;
+    multi_accept on;
+}
+
+http {
+
+        sendfile on;
+    tcp_nopush on;
+    tcp_nodelay on;
+
+        # Paths para o passenger e o ruby utilizados
+    passenger_root /usr/local/rvm/gems/ruby-1.9.3-p194/gems/passenger-3.0.15;
+    passenger_ruby /usr/local/rvm/wrappers/ruby-1.9.3-p194/ruby;
+
+        # Vide mais configurações em: http://www.modrails.com/documentation/Users%20guide%20Nginx.html
+    passenger_max_pool_size 4;
+    passenger_max_instances_per_app 2;
+    passenger_pool_idle_time 10;
+    passenger_log_level 2;
+
+
+    # Buffer
+    client_body_buffer_size 8K;
+    client_header_buffer_size 1k;
+    client_max_body_size 5m;
+    large_client_header_buffers 2 1k;
+
+    # Timeouts
+    client_body_timeout   10;
+    client_header_timeout 10;
+    keepalive_timeout     15;
+    send_timeout          10;
+
+
+    types_hash_max_size 2048;
+
+    include /etc/nginx/mime.types;
+    default_type application/octet-stream;
+
+    ##
+    # Logging Settings
+    ##
+    access_log /var/log/nginx/access.log;
+    error_log /var/log/nginx/error.log;
+
+    ##
+    # Gzip Settings
+    ##
+    gzip on;
+    gzip_disable &quot;msie6&quot;;
+
+    gzip_vary on;
+    gzip_proxied any;
+    gzip_comp_level 6;
+    gzip_buffers 16 8k;
+    gzip_http_version 1.1;
+    gzip_types text/plain text/css application/json application/x-javascript text/xml application/xml application/xml+rss text/javascript;
+
+        # Para melhorar a organização os .conf foram separados em conf.d e sites-enabled (no estilo do Apache)
+    include /etc/nginx/conf.d/*.conf;
+    include /etc/nginx/sites-enabled/*;
+}</code></pre></noscript></div>
+
+
+<p>A seguir vamos criar algumas pastas para organizar melhor os arquivos de configuração:</p>
+
+<figure class='code'><figcaption><span>Criando a pasta conf.d, sites-enabled e sites-available</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>mkdir /etc/nginx/conf.d
+</span><span class='line'>mkdir /etc/nginx/sites-enabled
+</span><span class='line'>mkdir /etc/nginx/sites-available
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Configurando seu domínio</h2>
+
+<p>Pronto, quase tudo configurado, falta agora configurar o Nginx para responder pelo domínio de seu site, para isso usaremos a diretiva <code>server</code>, vamos utilizar como exemplo o meu domínio almirmendes.com. Vamos criar um arquivo em <code>/etc/nginx/sites-available/</code> com o nome do seu domínio (o nome não importa, pode ser qualquer um):</p>
+
+<figure class='code'><figcaption><span>Criando arquivo de configuração para o domínio</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>vim /etc/nginx/sites-available/almirmendes.com
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Eu tenho, no Gist abaixo, uma configuração que você pode utilizar como exemplo, apenas lembre-se de trocar as entradas que tiverem <strong>almirmendes.com</strong> pelo seu domínio:</p>
+
+<div><script src='https://gist.github.com/3482847.js'></script>
+<noscript><pre><code></code></pre></noscript></div>
+
+
+<p>Agora vamos fazer um link simbólico do arquivo <code>almirmendes.com</code> para a pasta `/etc/nginx/sites-enabled/. Se reparar no arquivo de configuração acima, no gist 3482847, ela é a única que está sendo lida pelo Nginx, esta é a forma que temos para ativar uma configuração nova de site. Com isso habilitaremos o site:</p>
+
+<figure class='code'><figcaption><span>Habilitando a configuração do domínio</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>ln -s /etc/nginx/sites-available/almirmendes.com /etc/nginx/sites-enabled/almirmendes.com
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Se algum dia precisar desativar o site basta remover o link simbólico e pronto em <code>/etc/nginx/sites-enabled/almirmendes.com</code>. Você ainda terá o arquivo de configuração intacto em <code>/etc/nginx/sites-available</code>.</p>
+
+<p>Para testar a configuração use o seguinte comando:</p>
+
+<figure class='code'><figcaption><span>Testando a configuração do nginx</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>nginx -t
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Se no resultado do comando acima aparecer algo semelhante ao exibido abaixo é sinal de que está tudo correto, agora só falta inicializarmos o Nginx <code>;)</code>:</p>
+
+<figure class='code'><figcaption><span>Sintaxe testada pelo Nginx</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>nginx: the configuration file /usr/local/nginx/conf/nginx.conf syntax is ok
+</span><span class='line'>nginx: configuration file /usr/local/nginx/conf/nginx.conf <span class="nb">test </span>is successful
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Script de inicialização do Nginx</h2>
+
+<p>Por fim falta só adicionar ao sistema o script de inicialização do Nginx. Sugiro que baixe o que está disponível <a href="https://gist.github.com/3506074">neste link</a> e salve-o em <code>/etc/init.d/nginx</code>. :</p>
+
+<figure class='code'><figcaption><span>Inicializando o Nginx</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>chmod +x /etc/init.d/nginx <span class="c"># permissão de execução para o script</span>
+</span><span class='line'>service nginx start <span class="c">#inicializa o nginx</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Existem inúmeras outas informações a serem adicionadas ao post, entretanto não queria deixá-lo ainda maior. Espero que ajude você a configurar o Nginx, qualquer coisa estamos a disposição. Abraços!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Mission Accomplished]]></title>
+    <link href="http://www.almirmendes.com/blog/2012/07/08/mission-accomplished/"/>
+    <updated>2012-07-08T12:16:00-03:00</updated>
+    <id>http://www.almirmendes.com/blog/2012/07/08/mission-accomplished</id>
+    <content type="html"><![CDATA[<p>Senhores, vocês devem ter percebido que faz um tempo que não tenho <em>blogado</em> com algum tipo de periodicidade.</p>
+
+<p>Este primeiro semestre de 2012 foi uma verdadeira maratona pra mim. No semestre anterior a este, 2011/2, eu enfrentei as disciplinas mais &#8220;pesadas&#8221; do meu curso <em>(na minha visão)</em>: TCC e Cálculo 3. Foi um semestre <em>prova de fogo</em>! Mas graças a força dos amigos, familiares e em especial do meu colega de TCC Renato Tecchio nós conseguimos fechar o semestre com louvor. Para alguns o curso chegara ao fim, mas eu ainda tinha duas disciplinas pela frente antes de me formar.</p>
+
+<p>Quando se está no final do curso, depois de anos ocupando todos os finais de semana com estudos, exercícios, trabalhos para nota, preocupações sobre provas e o que cairá nelas e todo tipo de coisa, que só quem faz/fez um curso de graduação sabe como é, você começa a criar &#8220;anticorpos&#8221; para o estudo, não há mais a mínima vontade de aprender. Não que seja culpa dos professores, na verdade a culpa é única do aluno, neste caso <strong>eu</strong>.</p>
+
+<p>Como disse meu irmão certa vez: <em>&#8220;Tem que ter emoção!&#8221;</em>. Fiquei de prova final em uma disciplina, então resolvi concentrar todas as minhas forças nesta última prova e a única coisa que eu pensava, a cada instante, era na sensação de liberdade que eu a anos tinha deixado trancada em virtude de me dedicar a um curso de graduação, a sensação de:</p>
+
+<ul>
+<li>Sair do trabalho e escolher para onde ir;</li>
+<li>Escolher o que fazer no sábado e domingo;</li>
+<li>Jogar video game sem o peso na consciência;</li>
+<li>Combinar com amigos aquele bate papo após o trabalho;</li>
+<li>Poder trabalhar até mais tarde sem ter o peso na consciência de ter perdido matéria que fatalmente seria cobrada na prova;</li>
+</ul>
+
+
+<p>Passei duas semanas estudando e decorando todo tipo de fórmula, degustando exercícios nos finais de semana até que nesta última quinta-feira fiz a prova. Fiz a prova, conversei com a professora e disse que aguardaria o resultado. Se eu fosse pra casa sem o resultado acho que passaria mal :). E para a minha alegria e felicidade, consegui a nota que precisava para passar <code>\o/</code>.</p>
+
+<p><img class="center" src="http://www.almirmendes.com/images/mission-complete.gif" title="Missão cumprida" ></p>
+
+<p>É com muita alegria que digo: Mission Accomplished! Terminei meu curso de graduação em Ciência da Computação e devo isso a todos que torceram por mim, em especial a minha família, meu Pai e Minha mãe, de quem herdei muitas qualidades e me educaram para ser um vencedor. A minha esposa querida que sempre me deu toda força, participou dos momentos críticos e me apoiou, e cobrou, quando precisava. A todos os amigos de eventos e software livre, agora poderei me dedicar mais a esse propósito que tanto gosto. E por fim, mas de forma alguma menos importante a <a href="http://www.giran.com.br"> Giran </a>, se não fosse o apoio <strong>imensurável</strong> dessa galera eu teria fraquejado ou mesmo desistido em algum momento, muito obrigado a todos vocês!</p>
+
+<p>Aos que tiverem interesse e quiserem comparecer na colação de grau, ela será realizada no dia 08 de agosto de 2012, quarta-feira, às 20h no <a href="http://www.clubeitalobrasileiro.com.br">Clube Ítalo Brasileiro</a> - Ilha do Boi.</p>
+
+<p>É isso aí galera, simbora que o resto do ano promete ;)</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[O Maior Liberdade Interativa já realizado]]></title>
+    <link href="http://www.almirmendes.com/blog/2012/04/02/o-maior-liberdade-interativa-ja-realizado/"/>
+    <updated>2012-04-02T17:54:00-03:00</updated>
+    <id>http://www.almirmendes.com/blog/2012/04/02/o-maior-liberdade-interativa-ja-realizado</id>
+    <content type="html"><![CDATA[<p>Neste último final de semana, dia 31 de março, eu fui para o norte do estado, mais precisamente em Barra de São Francisco, juntamente com os manos João Victor, André Lima, Daniel Marcos, Francisco Souza e Rodrigo Martins. De antemão eu gostaria de agradecer a eles por aceitarem o desafio de deixar sua cidade, Vitória, para compartilhar o conhecimnto que adquiriram.</p>
+
+<p><img class="center" src="http://www.almirmendes.com/images/li-bsf/foto-panoramica-liberdade-interativa.jpg" title="Foto panorâmica do LI-BSF. Origem: Site Barra - www.sitebarra.com.br" ></p>
+
+<p>Antes de mais nada queria dizer que formos surpreendidos com a proporção que o <a href="http://www.tux-es.org/liberdadeinterativa">LI</a> tomou nesse evento, ainda não temos uma contagem oficial sobre quantas pessoas compareceram no evento, mas certamente foram mais de 500 pessoas.</p>
+
+<p>Tudo começou através de um contato que o o prof. Marcelo fez com a comunidaede Tux-ES por meio da <a href="http://groups.google.com/group/tuxes">lista de discussão</a>. Em pouco tempo conseguimos montar uma lista de palestras e palestrantes que enviamos ao prof. Marcelo que, junto com os demais organizadores/professores, decidram as palestras. A grade final contou com as palestras:</p>
+
+<ul>
+<li><a href="http://www.slideshare.net/m3nd3s/software-livre-que-histria-essa">Software Livre, que histórias é essa?</a> <em>(por Almir Mendes)</em></li>
+<li><a href="http://www.joaovrmaia.com/LI-BSF/#/capa">Distribuições Linux</a> <em>(por João Víctor)</em></li>
+<li><a href="http://www.slideshare.net/franciscosouza/software-livre-na-globocom">Software Livre na Globo.com</a> <em>(por Francisco Souza)</em></li>
+<li><a href="http://www.slideshare.net/daniel2marcos/mercado-carreiras-e-escolhas-no-mercado-de-ti">Mercado, carreiras e escolhas</a> <em>(por Daniel Marcos)</em></li>
+<li><a href="http://www.slideshare.net/vixlima/conquistando-seu-lugar-ao-sol">Conquistando seu lugar ao sol</a> <em>(André Lima + Francisco Souza)</em> *palestra extra</li>
+<li><a href="http://www.slideshare.net/rrmartins/android-e-dispositivos-mobile">Android e dispositivos móris</a> <em>(por Rodrigo Martins)</em></li>
+<li><a href="http://www.slideshare.net/m3nd3s/arduino-project">Arduino Project</a> <em>(por Almir Mendes)</em></li>
+</ul>
+
+
+<p>Com exceção do Francisco Souza os demais palestrantes eram todos da grande Vitória, o Francisco veio do Rio de Janeiro exclusivamente para o evento, ele veio aqui para Vitória e daqui partimos todos de carro para Barra de São Francisco (BSF), cerca de 4h de viagem. Chegando em BSF nós fomos diretamente na escola João XXIII, local onde se realizaria o evento. Lá conhecemos o Alan Peterson, a Diretora Márcia Vânia, o prof. Veríssimo e uma galerinha show de bola que estava ajudando na organização e preparativos do evento desde cedo. A este pessoa eu deixo meus parabéns, vocês são 10!</p>
+
+<p>Após conhecer a escola XXIII, ainda na mesma noite que chegamos em Vitória, nós fomos direto para uma churrascaria. Uma ótima cortezia oferecida por nossos anfitriões. Foi um momento de muitas brincadeiras e de conhecer um pouco sobre a região.</p>
+
+<p>Após uma ótima noite e algumas horas de sono/descanso é chegada a hora de iniciar o evento. Logo pela manhã recebemos a notícia que já tinham cerca de 500 pessoas no local aguardando nossa chegada, nós não parávamos de ser surpreendidos, desde que chegamos foram várias as caravanas que chegaram, trazendo outros alunos de escolas de localidades próximas, para o evento.</p>
+
+<p>Eu fiquei muito feliz de ter palestrado ao lado de pessoas tão qualificadas e dispostas a compartilhar seus conhecimentos e experiências sem cobrar nada por isso! Como diria o André Lima: <em>&#8220;Galera! Vocês são lindos!&#8221;</em>.</p>
+
+<p><img class="center" src="http://www.almirmendes.com/images/li-bsf/foto-1.jpg" title="Foto com pessoal de BSF" ></p>
+
+<p>Foram muitas as pessoas que conhecemos em BSF, com certeza não conseguirei lembrar o nome de cada um, portanto para não ser injusto eu prefiro não citar nomes, mas sem sombra de dúvida foi um prazer enorme conhecer vocês! Estamos à disposição para ajudar e por favor mantenham contato ;).</p>
+
+<p>Aproveite e veja as fotos do evento <a href="https://picasaweb.google.com/111413438700863962066/LIBSF31032012">neste link</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Blog com Octopress]]></title>
+    <link href="http://www.almirmendes.com/blog/2012/02/17/blog-com-octopress/"/>
+    <updated>2012-02-17T20:40:00-02:00</updated>
+    <id>http://www.almirmendes.com/blog/2012/02/17/blog-com-octopress</id>
+    <content type="html"><![CDATA[<p>Já devem ter reparado no novo layout do meu blog. Dessa vez eu não troquei somente o tema, troquei de CMS mesmo.</p>
+
+<p>Há um bom tempo eu vinha utilizado Wordpress como solução para CMS, mas não estava tão feliz assim com ele, principalmente com os plugins referentes a exibição de código e a forma como os códigos deveriam ser &#8220;formatados&#8221;, convenhamos, fazer esse tipo de &#8220;formatação&#8221; era (e ainda é) um saco.</p>
+
+<p>Desde que o <a href="https://twitter.com/#!/franciscosouza">@franciscosouza</a> me falou sobre o formato <a href="http://daringfireball.net/projects/markdown/">Markdown</a> eu tenho o utilizado sempre onde posso, só não tinha pensado ainda em escrever meus posts utilizando Markdown. Isso só me veio a mente quando o <a href="https://twitter.com/#!/ReinaldoJunior">@ReinaldoJunior</a> comentou comigo sobre o <a href="http://octopress.org">Octopress</a>, foi então que juntei o que eu mais gostava, agora eu escrevo meus blog posts como se tivesse programando \o/.</p>
+
+<p><img class="left" src="http://www.almirmendes.com/images/blog/logoOctopress.png" title="Logo Octopress" ></p>
+
+<p>O Octopress é um framework que utiliza o <a href="https://github.com/mojombo/jekyll">Jekyll</a>, um gerador de HTML estático. Para utilizar o Jekyll você tem que escrever seu próprio template HTML, CSS, javascript e setar sua configuração. Mas com o Octopress isso fica mais fácil, o próprio Octopress cuida desse trabalho para você, permitindo que você escreva seus blog posts em HTML ou mesmo em Markdown (Amazing!!! \o/).</p>
+
+<p>O mais bacana disso tudo é que eu posso criar páginas, blog posts, configurar, etc. tudo isso no meu editor favorito: <code>(Mac|G)?Vim</code>. E ainda utilizar o formato Markdown que é muito bacana e simples.</p>
+
+<p>O Octopress vem com alguns plugins para integração com redes sociais, mas o mais bacana mesmo é o de integração com o Github, são fantásticos. Posso, por exemplo, fazer referência a algum Gist ou mesmo listar os projetos abertos que tenho no meu Github, uma belezidade.</p>
+
+<p>Eu de fato estou satisfeitíssimo com esse framework, ainda estou personalizando o tema default do meu blog, aos poucos vou trocando os detalhes já que não tenho dom para esse tipo de trabalho, acho que vou levar alguns meses até o blog ficar como eu quero. Até lá quem sabe não surgem alguns blog posts sobre o assunto. ;)</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Meu Projeto de Conclusão de Curso, usando Arduino]]></title>
+    <link href="http://www.almirmendes.com/blog/2011/12/05/meu-projeto-de-conclusao-de-curso-usando-arduino/"/>
+    <updated>2011-12-05T18:12:38-02:00</updated>
+    <id>http://www.almirmendes.com/blog/2011/12/05/meu-projeto-de-conclusao-de-curso-usando-arduino</id>
+    <content type="html"><![CDATA[<h2>A ideia</h2>
+
+<p>Finalmente finalizei meu Trabalho de Conclusão de Curso (TCC), defendi/apresentei no dia 16 de novembro na <a href="http://site.faesa.br">FAESA</a>, faculdade em que estou cursando graduação em Ciência da Computação.</p>
+
+<p>O trabalho foi feito em parceria meu grande amigo Renato Tecchio. O título dado ao nosso trabalho foi <strong>&#8220;Aplicação embarcada para monitoramento de temperatura em câmaras climatizadas&#8221;</strong>. O objetivo principal do trabalho era implementar um sistema embarcado para medir, registrar e monitorar câmaras climatizadas.</p>
+
+<p>Baseado nas exigências da Agência Nacional de Vigilância Sanitária (ANVISA), mais especificamente nas portarias que regem o controle de temperatura de câmaras para armazenamento de alimentos, a nossa missão era, em resumo, implementar um sistema embarcado que pudesse medir e registrar as temperaturas câmaras climatizadas, e além disso que o sistema pudesse informar e notificar ao responsável quando a temperatura estivesse fora dos níveis aceitáveis.</p>
+
+<p><img class="left" src="http://www.almirmendes.com/images/blog/Foto_prototipo2-300x295.jpg" title="&#34;Foto do protótipo - Módulo Registrador (Arduino)&#34;" alt="&#34;Foto do protótipo - Módulo Registrador (Arduino)&#34;"></p>
+
+<p>Ao final o trabalho foi implementado em dois sistemas, um módulo registrador (usando Arduino) e um outro sistema (chamamos de Servidor de Dados e Monitoramento), implementado em Ruby on Rails, que era responsável por consumir os dados registrados pelo(s) Arduino(s) e com isso fornecer relatórios e gráficos. Também era responsabilidade do Servido de Dados e Monitoramento notificar, via SMS e/ou e-mail, o usuário sobre qualquer discrepância detectada entre as capturas de temperatura (realizadas pelo Módulo Registrador).</p>
+
+<p>Ambos os sistemas foram implementados com interface web. Agora imagina o trabalho para implementar um simples formulário HTML que enviasse os dados via POST e posteriormente gravasse os dados em um arquivo. Pois é, nós fizemos isso :).</p>
+
+<h4>O começo</h4>
+
+
+<p>Inicialmente pensamos em implementar tanto o hardware quanto o software, mas vimos que isso nos tomaria muito tempo, mais do que o que poderíamos dispor no momento.</p>
+
+<p>Começamos então uma procura de um hardware que atendesse ao nosso projeto. O nosso orientador, o professor Marcelo Brunoro, indicou alguns hardwares existentes no mercado, mas o preço nos assustou um pouco. Partimos então para o &#8220;Saint Google&#8221; em busca de algum hardware que nos atendesse.</p>
+
+<p>Entretanto, foi em uma conversa com outro amigo, outro Renato, o <a href="http://renatocunha.com/about/">Renato Cunha</a> que me fez a indicação do Arduino, e foi como que paixão a primeira vista. Fiquei impressionado com a <a href="http://www.arduino.cc/playground/Projects/ArduinoUsers">quantidade de projetos</a> já implementados com Arduino e a capacidade dessa plaquinha, não tive dúvidas e compartilhei a descoberta com o Renato Tecchio que também aprovou. Decidimos então então utilizar o Arduino em nosso projeto.</p>
+
+<p><img class="right" src="http://www.almirmendes.com/images/blog/ArduinoDuemilanove-300x187.png" title="&#34;Arduino Duemilanove&#34;" alt="&#34;Arduino Duemilanove&#34;"></p>
+
+<p>Pesquisamos por quem revendia o Arduino aqui no Brasil, localizamos um revendedor e compramos as placas Arduino e Ethernet shields. Depois disso compramos um monte de &#8220;quinquilharias&#8221; para plugar ao Arduino, diga-se de passagem a maioria dessas &#8220;quinquilharias&#8221; foram adquiridas no <a href="http://www.soldafria.com.br/">Solda Fria</a>, que eu recomendo.</p>
+
+<h4>Mãos a obra</h4>
+
+
+<p><em>Comentar sobre a parte de documentação (referências) é um pouco chato, caso tenha interesse em saber quais foram as referências que usamos para o trabalho peço que entre em contato, vou comentar aqui sobre o que utilizamos para o trabalho.</em></p>
+
+<p>Utilizamos para nosso trabalho basicamente 4 componentes/dispositivos:</p>
+
+<ul>
+<li>A placa <a href="http://arduino.cc/en/Main/arduinoBoardDuemilanove">Arduino Duemilanove</a></li>
+<li>O sensor de temperatura <a href="http://www.maxim-ic.com/datasheet/index.mvp/id/2815">DS18S20</a></li>
+<li>O relógio de tempo real <a href="http://www.maxim-ic.com/datasheet/index.mvp/id/2685">DS1302</a></li>
+<li>Uma <a href="http://www.arduino.cc/en/Main/ArduinoEthernetShield">Ethernet Shield</a></li>
+</ul>
+
+
+<p><img class="left" src="http://www.almirmendes.com/images/blog/IMG_10288_600-150x150.jpg" title="Sensor de Temperatura DS18S20" ></p>
+
+<p>Na época em que compramos nossas placas Arduino ainda não tinham chegado aqui ao Brasil a Arduino Uno, que era versão mais nova das placas do Projeto Arduino.</p>
+
+<p>Obviamente precisávamos de um sensor de temperatura, afinal o objetivo do nosso trabalho dependia da leitura de temperaturas. A escolha do sensor DS18S20 foi simplesmente pela facilidade de já existirem drivers/bibliotecas para sua utilização com o Arduino.</p>
+
+<p>Por fim o DS1302, um relógio de tempo real (Real Time Clock - RTC). Talvez você não saiba, mas o Arduino não possui um relógio. Em nosso trabalho nós precisávamos de, além de registrar a temperatura, registrar junto a temperatura o momento em que a leitura foi realizada, por isso o uso de um RTC no projeto. A escolha do modelo DS1302 também foi por já existirem bibliotecas prontas para a comunicação do dispositivo com o Arduino.</p>
+
+<p>Depois de tudo adquirido foi só juntar tudo e programar, e foi aí que o bicho pegou!</p>
+
+<h4>Aprendizado</h4>
+
+
+<p>Sem sombra de dúvidas foi uma experiência muito proveitosa!</p>
+
+<p>Entendemos, por experiência própria, o que significa a expressão &#8220;Enxugar bits&#8221;. A Arduino Duemilanove possui 32K de memória flash, dos quais 30K são utilizada para armazenar o sistema embarcado. Possui também 2K de memória SDRAM, esta por sua vez é utilizada para rodar o programa embarcado.</p>
+
+<p><img class="right" src="http://www.almirmendes.com/images/blog/17810-img_3251_pl-150x150.jpg" title="DS1302 e o Cristal" ></p>
+
+<p>Como puderam perceber o nosso projeto considerava o uso do RTC e o sensor de temperatura, isso implica em carregar as bibliotecas de cada um desses dispositivos. Além disso trabalho contemplava a implementação de um sistema web que permitisse ao usuário configurar o próprio dispositivo (descrição, temperaturas críticas, endereço mac, endereço IP, máscara, relógio, etc). Tudo isso e ainda todo processamento backend.</p>
+
+<p>Resumindo, tivemos que enxugar muitas partes de nosso código para que isso tudo coubesse dentro de 30K, foi uma tarefa difícil, mas que conseguimos vencer.</p>
+
+<p>Outra coisa aprendida é que saber C++ ajuda muito. O Projeto Arduino usa como linguagem para desenvolvimento dos sketchs (nome dado aos programas criados para arduino) uma linguagem <strong>baseada</strong> em C++. Nem eu e nem o Renato tínhamos conhecimentos sobre a linguagem C++, nós fomos aprendendo enquanto o trabalho se desenrolava.</p>
+
+<p>Vimos também o poder dessa plaquinha. O Projeto Arduino tem o objetivo de fornecer uma placa de prototipagem, que pudemos comprovar, sem sombra de dúvidas, que cumpre com louvor seu objetivo de prototipar sistemas. Antes mesmo de terminar o nosso trabalho eu já estava com uma lista de projetos para <em>brincar</em> quando terminasse, e é exatamente o que farei daqui para frente.</p>
+
+<h4>E agora?</h4>
+
+
+<p>Agora é só diversão. Como comentei acima eu tenho uma lista de projetos para brincar, alguns muito simples, outros mais audaciosos (que pretendo fazer em parceria com o mano @tagliati e @amenderdesign). Para essa troca de experiências nós (@tagliati, @amendesdesign e eu) criamos uma lista para discussão, chamada <a href="http://groups.google.com/group/openmadlab">OpenMadLab</a>, onde algumas pessoas já estão trocando ideias. Já estamos inclusive gerindo para 2012 um evento, que está agarrado desde o início do ano devido minha ocupação com o TCC, mas agora com o seu término nada nos impede.</p>
+
+<p>Ainda publicarei uma série de outros artigos sobre Arduino, contando com detalhes (e códigos) o que pude aprender nesse 1 ano de TCC/Arduino.</p>
+
+<p>Esse post foi apenas para dar um ponto de partida em uma série e posts sobre Arduino e conta um pouco minha experiência com essa plaquinha, por isso não tem código ou coisas do tipo, mas o próximo com certeza terá. Estou pensando em partir de algo básico e com o tempo vamos incrementando e aumentando as funcionalidades ;).</p>
+
+<p>Obrigado e até mais.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Que venha o Rock'n Rails]]></title>
+    <link href="http://www.almirmendes.com/blog/2011/09/14/que-venha-o-rockn-rails/"/>
+    <updated>2011-09-14T14:25:09-03:00</updated>
+    <id>http://www.almirmendes.com/blog/2011/09/14/que-venha-o-rockn-rails</id>
+    <content type="html"><![CDATA[<p>Já tem um bom tempo que estou brincando/trabalhando com Ruby on Rails e é chegada a hora de compartilhar esse conhecimento com a comunidade, quem sabe instigar os colegas desenvolvedores a migrar de linguagem+framework, conhecer algo novo e ágil.</p>
+
+<p><img class="center" src="http://www.almirmendes.com/images/blog/logoWeb.png" title="&#34;Giran - Soluções e E-commerce&#34;" alt="&#34;Giran - Soluções e E-commerce&#34;"></p>
+
+<p>Nós da <a href="http://www.twitter.com/giran_br">@giran_br</a> estamos organizando um evento único no nosso Espírito Santo, um evento totalmente voltado à linguagem Ruby, mais especificamente ao framework Ruby on Rails.</p>
+
+<p>O Rock and Rails é um evento dedicado ao desenvolvimento em Ruby e a framework Ruby on Rails. Diga-se de passagem a aceitação e adoção nas empresas de todo o Brasil, e do mundo, está em franco crescimento. O evento é inédito no estado e tem como objetivos principais disseminar o conhecimento da linguagem/framework e dar uma ideia da quantidade de interessados/profissionais/entusiastas não apenas da linguagem mas do desenvolvimento para internet.</p>
+
+<p><img class="left" src="http://www.almirmendes.com/images/blog/logo_rock_and_rails11.png" title="&#34;Rock and Rails&#34;" alt="&#34;Rock and Rails&#34;"></p>
+
+<p>Os recursos obtidos junto aos parceiros, patrocinadores e incrições será revertido completamente para cobertura do evento e compra de brindes para sorteio ao final do evento.</p>
+
+<p>Então meu amigo, com um valor simbólico de apenas R$ 20,00 você poderá, em um único dia, ter uma visão geral dos recursos e a agilidade que esse framework para desenvolvimento web pode lhe proporcionar e ainda fazer um ótimo networking com a galera presente.</p>
+
+<p>Já temos confirmação de várias caravanas, até mesmo de outros estados \o/.</p>
+
+<p>Se interssou? Então não perca tempo, o evento já está para acontecer, será no dia 01 de outubro de 2011, 011011 (binário!). <a href="http://www.rockandrails.com.br/inscricao/">Faça já sua inscrição</a>.</p>
+
+<p>Siga-nos no twitter (@rockandrails) e mande o seu &#8220;Eu vou ao @rockandrails!&#8221;. Ou mesmo pelo <a href="http://www.facebook.com/groups/138369966254056/">Facebook</a>, qualquer ajuda na divulgação será muito bem vinda!</p>
+
+<p>Na página oficial do <a href="http://www.rockandrails.com.br">Rock and Rails</a>, você pode ver todos os detalhes do evento, a grade, os palestrantes, o local, <em>&#8220;TUTO&#8221;</em> sobre o Rock and Rails.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Eventos 2011/2]]></title>
+    <link href="http://www.almirmendes.com/blog/2011/08/21/eventos-20112/"/>
+    <updated>2011-08-21T16:49:37-03:00</updated>
+    <id>http://www.almirmendes.com/blog/2011/08/21/eventos-20112</id>
+    <content type="html"><![CDATA[<p>Para que você gosta de acompanhar os eventos de informática aqui da Grande Vitória - Espírito Santo:</p>
+
+<h2>1º Fórum Capixaba de Informatica - FOCAI</h2>
+
+<p>Em setembro o SENAI será a sede do Fórum Capixaba de Informática, FOCAI 2011. São esperadas cerca de 800 pessoas entre estudantes, profissionais e especialistas da área. O evento será realizado nos dias 02 e 03 de setembro no SENAI - Beira Mar.</p>
+
+<p>O FOCAI é um evento que abrirá espaço para discussões e reflexões sobre o mercado capixaba, novas tecnologias, além de promover a integração e valorização dos profissionais e empresas do estado do Espírito Santo.</p>
+
+<p>Constam na programação do evento: palestras, mesa-redonda e minicursos sobre temas ligados às tecnologias da informação e comunicação, segurança, infra-estrutura, sistemas livres e proprietários, etc.</p>
+
+<p>Mais detalhes sobre a localização, programação do evento e inscrições podem ser obtidas no site do evento: <a href="http://www.focai.com.br">http://www.focai.com.br</a>.</p>
+
+<p>Eu terei o privilégio de apresentar duas palestras: Do PHP ao Rails e outra sobre Arduino. Agente se vê por lá.</p>
+
+<h2>Liberdade Interativa</h2>
+
+<p>Evento organizado pela comunidade Tux-ES. Como o próprio nome diz, esse evento foi criado para manter a Interatividade entre a comunidade de Software Livre do Espírito Santo, onde todos poderão trocar idéias, compartilhar conhecimentos e, por que não, fazer um Networking.</p>
+
+<p>Baseado nos eventos “Day”, o Liberdade Interativa acontece em um sábado a cada dois meses, contando, atualmente, com dois Workshops (ou Palestras) por dia.</p>
+
+<p>O próximo LI será realizado no dia 24 de setembro, ainda sem local definido mas muito provavelmente será realizado na Faculdade Salesiana. Abaixo os tópicos que serão abordados nesta próxima edição:</p>
+
+<ul>
+<li>Desenvolvimento Mobile com Ruby - Rodrigo Martins</li>
+<li>SEO - Daniel Marcos</li>
+<li>Hands On do Gentoo - Claudio / Spidey</li>
+</ul>
+
+
+<p>Fique ligado no site da comunidade <a href="http://www.tux-es.org/liberdadeinterativa">Tux-ES</a> para obter mais informações</p>
+
+<h2>Rock&#8217;n Rails</h2>
+
+<p>O Rock and Rails será um evento dedicado ao desenvolvimento em linguagem Ruby e a framework Ruby on Rails, cuja aceitação e adoção nas empresas está em franco crescimento.</p>
+
+<p>Este evento é inédito no estado do Espírito Santo e tem como objetivos principais disseminar o conhecimento da linguagem/framework e obter uma ideia da quantidade de interessados/profissionais/entusiastas não apenas da linguagem mas do desenvolvimento para internet.</p>
+
+<p>O evento está sendo organizado pela equipe da <a href="http://www.giran.com.br/">Giran Ecommerce Solutions</a> e não terá fins lucrativos: todos os recursos obtidos junto aos parceiros, patrocinadores e incrições será revertido para cobertura do evento e compra de brindes para sorteio ao final do evento.</p>
+
+<p>A grade ainda está em planejamento, entretanto já temos dia, local e horário: 01 de outubro de 2011 (sábado) de 8:00h até 17:00h no Anfiteatro da UVV, Vila Velha.</p>
+
+<p>Fique de olho no website do evento, que será liberado ainda está semana, <a href="http://www.rockandrails.com.br">clique aqui para obter mais informações bem como sua inscrição</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Deploy de aplicações Rails com Capistrano]]></title>
+    <link href="http://www.almirmendes.com/blog/2011/07/25/deploy-de-aplicacoes-rails-com-capistrano/"/>
+    <updated>2011-07-25T18:34:50-03:00</updated>
+    <id>http://www.almirmendes.com/blog/2011/07/25/deploy-de-aplicacoes-rails-com-capistrano</id>
+    <content type="html"><![CDATA[<p>Me lembro do tempo que eu perdia fazendo subir minhas aplicações PHP para servidor de produção (deploy): tinha que criar o banco de dados, fazer um <em>dump</em> do banco de dados de desenvolvimento para carregar o banco de dados de produção, checar as permissões dos paths utilizados para upload, etc.</p>
+
+<p>Quanto tinha atualização para fazer era uma preocupação danada, eu precisava checar quais arquivos foram atualizados para só subir estes e assim não correr o risco de sobrescrever alguma configuração própria do ambiente de produção.</p>
+
+<p><img class="left" src="http://www.almirmendes.com/images/blog/ror_logo.jpg" title="Ruby on Rails framework" > Há algum tempo eu parei de desenvolver aplicações em PHP para trabalhar com o framework <a href="http://rubyonrails.org/">Ruby on Rails</a>, aproveitando a deixa, tenho uma palestra onde conto um pouco como está sendo essa migração e o que ganhei com isso. Dentre as facilidades que ganhei ao migrar para o framework Rails está o deploy - que significa implantação em inglês - de aplicações via ferramenta chamada <a href="https://github.com/capistrano/capistrano">Capistrano</a>.</p>
+
+<p>O Capistrano é uma ferramenta (gem) para deploy de aplicações web. Inicialmente utilizada para deploy de aplicações Ruby on Rails ela também pode ser personalizada para fazer deploy de aplicações não Rails. O Capistrano é tipicamente instalado em uma estação de trabalho e usado para implantar o código fonte de sua aplicação, via um gerenciador de código fonte (SCM), em um ou mais servidores previamente configurados.</p>
+
+<p>Para utilizar o Capistrano tenha em mente que:</p>
+
+<ul>
+<li>É necessário acesso SSH ao servidor de produção, onde será realizado o deploy de sua aplicação. O Capistrano não suporta FTP ou telnet;</li></li>
+<li>O servidor de produção precisa ter um shell compatível com o padrão POSIX, ou seja, precisa ter um: bash, sh, etc. Resumidamente não é aconselhável para servidores MS Windows, mas acredito que seja possível se você tiver força de vontade e instalar um pacote POSIX em seu servidor MS Windows;</li>
+<li>Trabalhe com chaves SSH, é muito mais prático e fácil, permitindo que o processo fique mais automátizado.</li>
+</ul>
+
+
+<p>O Capistrano possui um arquivo chamado <code>Capfile</code>. Este arquivo é responsável por incluir as bibliotecas necessárias, bem como os helpers utilizados para configurar o deploy de sua aplicação.</p>
+
+<h2>Instalação</h2>
+
+<p>Por se tratar de uma gem a instalação é muito simples e segue o padrão já conhecido:</p>
+
+<figure class='code'><figcaption><span>Instalando a gem capistrano direto no sistema </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>  <span class="nv">$ </span>gem install capistrano
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Ou se preferir adicione-o ao seu projeto Rails por meio do arquivo Gemfile:</p>
+
+<figure class='code'><figcaption><span>Configura</span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'>  <span class="n">gem</span> <span class="s1">&#39;capistrano&#39;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Capificação</h2>
+
+<p>O primeiro passo após instalar o Capistrano é &#8220;capificar&#8221; sua aplicação. Este processo consiste em transformar sua aplicação gerenciável pelo Capistrano. O processo é simples, rode o comando abaixo na raiz de sua aplicação:</p>
+
+<figure class='code'><figcaption><span>Tornando o projeto gerenci</span></figcaption>
+<div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ cd my_app/
+</span><span class='line'>$ capify .</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Este comando criará dois arquivos em sua aplicação, o primeiro é o já citado <code>Capfile</code>, este é o arquivo responsável por carregar as bibliotecas necessárias ao Capistrano.</p>
+
+<p>O segundo arquivo é gerado o <code>config/deploy.rb</code>, e este é o arquivo que iremos utilizar para configurar nosso deploy. Em geral este será o único arquivo que precisaremos alterar para configurar nosso deploy.</p>
+
+<h2>Configuração</h2>
+
+<p>Conforme já mencionado, a configuração é feita através do arquivo <code>config/deploy.rb</code>, o formato é muito semelhante ao <code>Rakefile</code>. O primeiro passo é informar o nome de nossa aplicação, fique a vontade para escolher um nome:</p>
+
+<figure class='code'><figcaption><span>Defini</span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">set</span> <span class="ss">:application</span><span class="p">,</span> <span class="s2">&quot;almirmendes_blog&quot;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Agora precisamos informar ao Capistrano onde reside o código fonte de nossa aplicação, para este exemplo estou considerando que minha aplicação está hospedada no <a href="http://github.com">Github</a>.</p>
+
+<figure class='code'><figcaption><span>Defini</span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">set</span> <span class="ss">:repository</span><span class="p">,</span> <span class="s2">&quot;git@github.com:m3nd3s/almirmendes_blog.git&quot;</span>
+</span><span class='line'><span class="n">set</span> <span class="ss">:scm</span><span class="p">,</span> <span class="s2">&quot;git&quot;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Agora vamos configurar o caminho onde a aplicação será implantada/instalada:</p>
+
+<figure class='code'><figcaption><span>Diret</span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">set</span> <span class="ss">:deploy_to</span><span class="p">,</span> <span class="s2">&quot;/var/www/almirmendes&quot;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Além do path/caminho nós precisamos informar ao Capistrano o(s) endereço(s) de nosso servidor de produção, segue um exemplo:</p>
+
+<figure class='code'><figcaption><span>Hosts dos servidores que utilizaremos para deploy </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">role</span> <span class="ss">:app</span><span class="p">,</span> <span class="s2">&quot;almirmendes.com&quot;</span>
+</span><span class='line'><span class="n">role</span> <span class="ss">:web</span><span class="p">,</span> <span class="s2">&quot;almirmendes.com&quot;</span>
+</span><span class='line'><span class="n">role</span> <span class="ss">:db</span><span class="p">,</span> <span class="s2">&quot;almirmendes.com&quot;</span><span class="p">,</span> <span class="ss">:primary</span> <span class="o">=&gt;</span> <span class="kp">true</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Nesse ponto pode surgir uma dúvida: <em>&#8220;Porque preciso informar três vezes o endereço?&#8221;</em>. Eu também fiquei com essa dúvida pela primeira vez, mas a explicação é muito boa e traz consigo outro recurso do Capistrano.</p>
+
+<p>Perceba que o atributo é diferente para cada um deles, isto porque em alguns casos sua aplicação está distribuída em servidores diferentes - no meu caso estou usando o mesmo servidor para a aplicação, o banco de dados e servidor web - e possivelmente você queira definir tarefas para serem executadas apenas em um ou outro servidor. Resumidamente, o Capistrano lhe fornece a opção de definir comandos/tarefas para serem executados em um servidor específico, e não em todos.</p>
+
+<p>Como em nosso exemplo estamos usando o mesmo servidor para tudo, existe uma configuração rápida para substituir as linhas citadas acima, assim a configuração mais clara e simples. Substitua as três linhas acima, caso queria, pela linha abaixo:</p>
+
+<figure class='code'><figcaption><span>O mesmo apresentado acima, entretanto em uma linha s</span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">server</span> <span class="s2">&quot;almirmendes.com&quot;</span><span class="p">,</span> <span class="ss">:app</span><span class="p">,</span> <span class="ss">:web</span><span class="p">,</span> <span class="ss">:db</span><span class="p">,</span> <span class="ss">:primary</span> <span class="o">=&gt;</span> <span class="kp">true</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Precisamos informar também o usuário que será utilizado durante o processo de deploy. É importante que este usuário tenha permissão de escrita na pasta onde a aplicação será instalada:</p>
+
+<figure class='code'><figcaption><span>Usu</span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">set</span> <span class="ss">:user</span><span class="p">,</span> <span class="s2">&quot;almir&quot;</span>
+</span><span class='line'><span class="n">set</span> <span class="ss">:use_sudo</span><span class="p">,</span> <span class="kp">false</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Por padrão o Capistrano tentará executar certos comandos com o [cci]sudo[/cci]. Se você estiver fazendo deploy de sua aplicação em um servidor compartilhado é muito provável que você não tenha acesso de superusuário e tão pouco o [cci]sudo[/cci] configurado, portanto vamos configurar o Capistrano para não utilizar o [cci]sudo[/cci] - conforme visto acima.</p>
+
+<p>Neste ponto já temos o que é suficiente para um deploy &#8220;saudável&#8221;, entretanto gostaria de passar mais algumas opções que podem ajudar:</p>
+
+<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="c1"># Necessário para integração entre Capistrano e RVM</span>
+</span><span class='line'><span class="vg">$:</span><span class="o">.</span><span class="n">unshift</span><span class="p">(</span><span class="no">File</span><span class="o">.</span><span class="n">expand_path</span><span class="p">(</span><span class="s1">&#39;./lib&#39;</span><span class="p">,</span> <span class="no">ENV</span><span class="o">[</span><span class="s1">&#39;rvm_path&#39;</span><span class="o">]</span><span class="p">))</span> <span class="c1"># Add RVM&#39;s lib directory to the load path.</span>
+</span><span class='line'><span class="nb">require</span> <span class="s2">&quot;rvm/capistrano&quot;</span><span class="err">                 </span> <span class="c1"># Load RVM&#39;s capistrano plugin.</span>
+</span><span class='line'><span class="n">set</span> <span class="ss">:rvm_ruby_string</span><span class="p">,</span> <span class="s1">&#39;1.9.2&#39;</span>
+</span><span class='line'>
+</span><span class='line'><span class="c1"># A primeira, permite definir o número de releases que serão armazenados no servidor. </span>
+</span><span class='line'><span class="c1"># Essa configuração permite que você possa manter versões anteriores de sua aplicação </span>
+</span><span class='line'><span class="c1"># no servidor e com isso posssa realizar rollback caso seja necessário </span>
+</span><span class='line'><span class="n">set</span> <span class="ss">:keep_releases</span><span class="p">,</span> <span class="mi">5</span>
+</span><span class='line'>
+</span><span class='line'><span class="c1"># A última linha é importântissima pois permite que o Capistrano utilize do recurso de </span>
+</span><span class='line'><span class="c1"># forward agent do SSH, esse recurso permite que o SSH carregue sua chave, previamente </span>
+</span><span class='line'><span class="c1"># configurada e carregada em sua estação de trabalho, para o servidor. Permitindo assim </span>
+</span><span class='line'><span class="c1"># que de lá o Capistrano consiga acessar o repositório no Github.</span>
+</span><span class='line'><span class="n">ssh_options</span><span class="o">[</span><span class="ss">:forward_agent</span><span class="o">]</span> <span class="o">=</span> <span class="kp">true</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>Deploy</h2>
+
+<p>Chegou a hora de fazer o deploy de nossa aplicação, esse processo é feito em duas etapas: setup e o deploy propriamente dito. Antes, vamos checar se todas as dependências foram cumpridas:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>cap deploy:check</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Se tudo correr bem, rode o comando setup para preparar o ambiente para o deploy:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>cap deploy:setup</span></code></pre></td></tr></table></div></figure>
+
+
+<p>O setup é necessário para criar a estrutura base que será utilizada para gerenciar os deploys, abaixo um exemplo da estrutura que é criada no <code>setup</code>:</p>
+
+<figure class='code'><figcaption><span>Estrutura base do path utilizado para deploy </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="o">[</span>deploy_to<span class="o">]</span>
+</span><span class='line'><span class="o">[</span>deploy_to<span class="o">]</span>/releases
+</span><span class='line'><span class="o">[</span>deploy_to<span class="o">]</span>/releases/20080819001122
+</span><span class='line'><span class="o">[</span>deploy_to<span class="o">]</span>/releases/...
+</span><span class='line'><span class="o">[</span>deploy_to<span class="o">]</span>/shared
+</span><span class='line'><span class="o">[</span>deploy_to<span class="o">]</span>/shared/log
+</span><span class='line'><span class="o">[</span>deploy_to<span class="o">]</span>/shared/pids
+</span><span class='line'><span class="o">[</span>deploy_to<span class="o">]</span>/shared/system
+</span><span class='line'><span class="o">[</span>deploy_to<span class="o">]</span>/current -&gt; <span class="o">[</span>deploy_to<span class="o">]</span>/releases/20100819001122
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Basicamente são duas pastas e um link simbólico. <code>releases/</code> é a pasta que manterá os releases dos deploys já realizados. A cada deploy criado uma pasta será criada nesse diretório. A pasta <code>shared/</code>, como o nome já descreve, é utilizada para compartilhar configurações, logs e arquivos que devem ser mantidos mesmo após um deploy. Dentre eles temos os logs, pids e uploads.</p>
+
+<p>Antes de fazer o deploy nós precisamos criar o banco de dados e seus respectivos acessos e permissões. Esse processo deve ser feito manualmente e imagino que você saiba como fazer isto.</p>
+
+<p>Após criar o banco de dados nós precisamos configurar o <code>database.yml</code> que será utilizado no servidor. Uma vez configurado envio para a pasta <code>shared/</code> no servidor de produção e adicione a seguinte task ao seu arquivo <code>config/deploy.rb</code>:</p>
+
+<figure class='code'><figcaption><span>Personalizando o deploy </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">after</span> <span class="ss">:deploy</span><span class="p">,</span> <span class="s1">&#39;deploy:database&#39;</span>
+</span><span class='line'><span class="n">namespace</span> <span class="ss">:deploy</span> <span class="k">do</span>
+</span><span class='line'>    <span class="n">task</span> <span class="ss">:database</span><span class="p">,</span> <span class="ss">:roles</span> <span class="o">=&gt;</span> <span class="ss">:app</span> <span class="k">do</span>
+</span><span class='line'>        <span class="n">run</span> <span class="s2">&quot;cp </span><span class="si">#{</span><span class="n">deploy_to</span><span class="si">}</span><span class="s2">/shared/database.yml </span><span class="si">#{</span><span class="n">current_path</span><span class="si">}</span><span class="s2">/config/&quot;</span>
+</span><span class='line'>    <span class="k">end</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Essa task será executada assim que a task denominada <code>:deploy</code> for finalizada e copiará o arquivo <code>database.yml</code> para o path <code>config/</code>. Hora de fazer o deploy. Para fazer o deploy rode o comando:</p>
+
+<figure class='code'><figcaption><span>Fazendo o deploy </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'> <span class="nv">$ </span>cap deploy
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Uma série de comandos será executado, ao final, se nenhum erro ocorrer, sua aplicação terá uma estrutura semelhante à exibida acima e o deploy terá sido executado com sucesso.</p>
+
+<p>Entretanto, acredito que ainda há mais um passo a ser feito, uma vez realizado o deploy, o Capistrano precisa reinicializar a aplicação e normalmente ele faz isso reiniciando o servidor web. Mas sabemos que não é necessário reinicializar o servidor web para isso, bastaria atualizar a data de alteração do arquivo [cci]tmp/restart.txt[/cci] existente na sua aplicação. Vamos sobrescrever a tarefa responsável por isso (repare que o código está dentro do namespace :deploy):</p>
+
+<figure class='code'><figcaption><span>Substituindo o restart da aplica</span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">namespace</span> <span class="ss">:deploy</span> <span class="k">do</span>
+</span><span class='line'>    <span class="n">task</span> <span class="ss">:restart</span><span class="p">,</span> <span class="ss">:roles</span> <span class="o">=&gt;</span> <span class="ss">:app</span><span class="p">,</span> <span class="ss">:except</span> <span class="o">=&gt;</span> <span class="p">{</span> <span class="ss">:no_release</span> <span class="o">=&gt;</span> <span class="kp">true</span> <span class="p">}</span> <span class="k">do</span>
+</span><span class='line'>        <span class="n">run</span> <span class="s2">&quot;cd </span><span class="si">#{</span><span class="n">current_path</span><span class="si">}</span><span class="s2"> &amp;&amp; touch tmp/restart.txt&quot;</span>
+</span><span class='line'>    <span class="k">end</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Caso necessário rode novamente o comando para deploy: <code>cap deploy</code>. Pronto, aplicação implantada. Quando um deploy é realizado um link simbólico é criado dentro do caminho configurado para deploy, via diretiva <code>deploy_to</code>, de nome <code>current</code>. O <code>current</code> aponta para o último release criado.</p>
+
+<p>O artigo ficou grande, mas espero que tenha informações úteis para lhe ajudar. Obrigado e até mais.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Review: Ciclo de Palestras do CEET Vasco Coutinho]]></title>
+    <link href="http://www.almirmendes.com/blog/2011/05/29/review-ciclo-de-palestras-do-ceet-vasco-coutinho/"/>
+    <updated>2011-05-29T15:57:59-03:00</updated>
+    <id>http://www.almirmendes.com/blog/2011/05/29/review-ciclo-de-palestras-do-ceet-vasco-coutinho</id>
+    <content type="html"><![CDATA[<p>Graças a iniciativa do <a href="http://www.ceetvascocoutinho.com.br/">Centro Estadual de Educação Técnica (CEET) Vasco Coutinho</a> em criar o <a href="http://www.ceetvascocoutinho.com.br/site/index.php?option=com_content&amp;view=article&amp;id=88:ciclodepalestra&amp;catid=41:banner"><strong>Ciclo de Palestras</strong></a>, um evento do Projeto Enriquecimento Curricular (PEC), e de um camarada que, ao que me pareceu, foi fundamental para a realização do evento (o <a href="http://twitter.com/#!/marcelo18victor">Marcelo Victor</a>), e o apoio da <a href="http://www.giran.com.br/">Giran</a>, eu e meu amigo <a href="http://www.tagliati.com.br">André Tagliati</a> tivemos a honra de palestrar sobre os temas: <a href="http://www.slideshare.net/m3nd3s/palestra-do-php-ao-rails">Do PHP ao Rails</a> e <a href="http://www.slideshare.net/m3nd3s/ciclo-de-palestras-ceet-vasco-coutinho">Arduino Project</a>.</p>
+
+<p><img title="Trecho da palestra: Do PHP ao Rails" src="http://desmond.yfrog.com/Himg618/scaled.php?tn=0&amp;server=618&amp;filename=81way.jpg&amp;xsize=640&amp;ysize=640" alt="" width="250" height="187" /></p>
+
+<p>Eu já estive no CEET VC há um bom tempo, se não me falha a memória foi em um ENCASOFT (Encontro Capixaba de Software Livre) que realizamos lá, e retornar lá foi muito legal.</p>
+
+<p>Talvez poucos saibam, mas se tem uma coisa que eu faço e GOSTO MUITO é repassar conhecimento, não sei exatamente de onde tirei isto, talvez pelo fato de tudo que eu aprendi foi com pessoas que gostavam de fazer isto também, talvez porque eu me sinta responsável por ajudar as pessoas, talvez seja porque eu desejo que as pessoas aprendam mais e sejam pessoas melhores, enfim, essa oportunidade de palestrar no CEET VC foi mais que especial: um público de jovens que um dia sonham em ser profissionais de tecnologia e ganhar dinheiro fazendo o que gostam.</p>
+
+<p>Na palestra sobre Rails, essa eu fiz <em>alone</em> mas contei com o apoio no mano <a href="http://www.leohackin.com.br/">Leo Hackin</a>, tentei repassar minha experiência como  (ex)programador PHP e quais foram os motivos que me levaram a migrar para  o Rails. Como de costume a palestra foi conduzida com um leve tom de  descontração e leves brincadeiras. Foi durante esta palestra que eu pude falar sobre algo que me incomoda ver acontecer com as pessoas: esperar o dia perfeito para começar algo.</p>
+
+<p>Sendo breve, muitas pessoas adiam as coisas que gostariam de fazer, esperam o dia em que elas tiverem tempo suficiente para fazer ou simplesmente adiam sem motivo algum, talvez por falta de interesse ou mesmo stress mental. Vendo todos aqueles alunos eu falei da necessidade de começar algo.</p>
+
+<ul>
+    <li>Se você tem vontade de aprender uma nova linguagem: COMECE!</li>
+    <li>Se você quer aprender inglês: COMECE!</li>
+    <li>Seu interesse é em se tornar um profissional melhor: COMECE!</li>
+    <li>Comece!</li>
+</ul>
+
+
+<p>Pense alguns instantes todas as vezes que você deixou de fazer algo porque não tinha tempo suficiente para fazê-lo naquele momento. Pensou? Agora some tudo e pense que se você tivesse começado naquele dia, ao menos um pouco do que você queria fazer, e perceba o tempo perdido, o quanto poderia já ter feito se tivesse começado e feito ao menos um pouco.</p>
+
+<p>Quer aprender uma linguagem nova? Comece! Leia ao menos um parágrafo por dia, mas leia e continue, dia após dia você verá que as coisas irão fluir. É disto que falo, comece e vá aos poucos, mantenha o ritmo e aos poucos as coisas irão acontecer.</p>
+
+<p>Agora voltando ao assunto, a palestra de Rails foi linda! Até a secretária de educação assistiu minha palestra (e me viu falar a palavra &#8220;merda&#8221; durante a palestra). Os que ficaram antenados tiveram a oportunidade de ganhar uma <a href="http://www.facebook.com/photo.php?pid=524153&amp;id=168969243142453">lindíssima camisa da Giran</a> que seria dada ao primeiro aluno que fizesse pergunta.</p>
+
+<p>Após o almoço eu e o amigo <a href="http://www.tagliati.com.br/">André Tagliati</a> palestramos sobre o Arduino Project, este foi o momento mais alto do dia, pelo menos para nós. Graças a uma ideia do Tagliati em utilizamos o Arduino para passar os slides utilizando o controle remoto da televisão <em>(minha esposa não gostou muito disso, ela teve que passar os canais na própria TV)</em>. Em um segundo momento eu falo sobre esta experiência, mas posso garantir que foi uma experiência muito proveitosa e instigante para todos, especialmente os alunos que, finalizada a palestra, vieram em massa conhecer a plaquinha e como nós estávamos fazendo para passar os slides com controle de TV.</p>
+
+<p>Assim como foi feito na primeira palestra, nós demos uma camisa da Giran para o primeiro aluno a fazer pergunta. Ao final da palestra o Leo Hackin falou rapidamente sobre mercado de trabalho e o futuro que eles tem bastando para isso correrem atrás pois o momento é muito favorável, afinal quando foi a última vez que se viu tantos eventos, a maioria gratuitos, e pessoas interessadas em repassar conhecimento e trocar ideias?</p>
+
+<p>Aos que não puderam ir, mesmo diante de tantos convites, só lamento. Aos que foram e também aos que comentaram no blog interessados no <strong>Arduino Hack Day</strong>, aguardem boas novas, é provável que aconteça antes do imaginado.</p>
+
+<p>Para finalizar deixo meus calorosos agradecimentos ao Marcelo Victor que nos (Giran) contactou e convidou para palestrar, a coordenadora do curso Zirlene e a todos que participaram do evento.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Arduino Hack Day - vE.S]]></title>
+    <link href="http://www.almirmendes.com/blog/2011/05/04/arduino-hack-day-ve-s/"/>
+    <updated>2011-05-04T17:30:19-03:00</updated>
+    <id>http://www.almirmendes.com/blog/2011/05/04/arduino-hack-day-ve-s</id>
+    <content type="html"><![CDATA[<p>Então galera! Esse é um post rápido com a intenção de identificar os interessados em participar de um evento sobre <a href="http://www.arduino.cc">Arduino</a>. aqui em Vitória - Epírito Santo.</p>
+
+<p><img class="aligncenter" title="Arduino" src="http://arduino.cc/en/pub/skins/arduinoWide/img/logo.png" alt="Arduino" width="170" height="116" /></p>
+
+<p>Eu e meu amigo @tagliati estamos organizando um evento para falar/codar/brincar/hackear/.*  <a href="http://www.arduino.cc">Arduino</a>, e na medida do possível criar alguns monstrinhos. A ideia principal é seguir o formato do Arduino Hack Day, um Hack Day, onde uma galera interessada no assunto se reúne para bater um papo, trocar algumas ideias e criar coisas bacanas!</p>
+
+<p><strong>Se você gosta de eletrônica, adora programar, acha irado a galera que cria algo bacana como </strong><a href="http://vimeo.com/9928343"> Super Mario Bros on an 8x8 LED matrix</a> <strong>mas não tem conhecimento algum sobre eletrônica, não sabe o que é um resistor e mesmo assim gostaria de</strong> brincar de Dr. Frankenstein, então levante a <del>mão</del> mouse e comente o post para que possamos nos comunicar e marcar algo.</p>
+
+<p>Não somos experts no assunto mas temos interesse em aprender.</p>
+
+<p>Ah! Você não tem uma Arduino? Não se preocupe, eu e @tagliati temos e acho que já é o suficiente para brincarmos com alguma coisa. Se você se interessar em comprar uma nós podemos indicar onde conseguir ;).</p>
+
+<p>Vlw!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[O meu jeito de ler livros]]></title>
+    <link href="http://www.almirmendes.com/blog/2011/02/10/o-meu-jeito-de-ler-livros/"/>
+    <updated>2011-02-10T16:20:27-03:00</updated>
+    <id>http://www.almirmendes.com/blog/2011/02/10/o-meu-jeito-de-ler-livros</id>
+    <content type="html"><![CDATA[<!-- p { margin-bottom: 0.21cm; } -->
+
+
+<p>O título pode parecer estranho a primeira vista, afinal as pessoas costumam ler livros <strong>lendo</strong>! Arruma-se um lugar tranquilo, com o mínimo de perturbação<span style="text-decoration: line-through;"> da força</span> possível, senta-se e inicia-se a leitura.</p>
+
+<p>Entretanto, eu, assim como a maioria das pessoas que fazem faculdade ocupam quase todo seu tempo livre para estudar e conseguir finalizar a faculdade.</p>
+
+<p>Pois é! Eu ainda estou agarrado na faculdade mas se Deus permitir este ano de 2011 será o meu último ano da faculdade.</p>
+
+<p>O tempo &#8220;livre&#8221; que eu tento eu aproveito para resolver minhas pendências da faculdade: fazendo exercícios <em>(que normalmente valem nota)</em>, estudando para provas, fazendo trabalhos, escrevendo meu TCC, etc. Isso acaba por consumir boa parte do meu tempo à leitura direcionada a assuntos acadêmicos, portanto assuntos como TDD, BDD, outras linguagens de programação, desenvolver e melhorar técnicas de programação, gerência de projetos com XP + Scrum e outras coisas mais que não sejam assuntos técnicos acabam ficando em segundo plano.</p>
+
+<p>Maaaasss! Não posso parar, meu trabalho depende disso, mesmo que não dependesse eu gosto muito de ler sobre assuntos não técnicos também. Ainda não tenho meio de transporte próprio, portanto utilizo o coletivo para qualquer movimentação casa-&gt;trabalho-&gt;faculdade-&gt;casa-&gt;?. Então a primeira coisa que você provavelmente irá pensar é que eu leio livros no ônibus, errado!</p>
+
+<p>Eu tenho problema que eu sequer consigo parar por um minuto e olhar para meu celular ou para ler algumas frases de jornais alheios (também aproveito minhas viagens nos coletivos para ler jornal dos demais passageiros, mas apenas os títulos maiores e as figurinhas.. rsrsrs). Bastam alguns segundos com o olhar fixo em alguma leitura e eu começo a ficar tonto, e se eu persistir a dor de cabeça é certa.</p>
+
+<p>Hoje minha rotina é: casa -&gt; trabalho -&gt; faculdade, nesse percurso de casa para o trabalho existe um trecho que faço a pé e é justamente nesse ponto que eu inicio minha leitura. Sim! Eu leio andando nas ruas. :P</p>
+
+<p>Por mais estranho que pareça, eu não consigo ler em ônibus mas consigo ler andando nas ruas. Assim que desço do coletivo eu abro minha mochila e pego o livro da vez (desta vez estou lendo o livro &#8220;Oportunidades disfarçadas&#8221; de Carlos Domingos) e inicio minha leitura. Atravesso ruas e ruas lendo, as vezes  penso que alguém poderia me achar doido, mas após alguns segundos eu desconsidero.. heh.</p>
+
+<p>Quando preciso atravessar as ruas eu passo sempre nas faixas e enquanto inicio a travessia eu paro a leitura, depois volto novamente.</p>
+
+<p>Pois é, é assim que leio meus livros, um pouco diferente a forma, mas foi deste jeito que eu consegui ler alguns bons livros aqui da Giran.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Meu ambiente de trabalho em 7 itens]]></title>
+    <link href="http://www.almirmendes.com/blog/2011/01/20/meu-ambiente-de-trabalho-em-7-itens/"/>
+    <updated>2011-01-20T11:32:54-03:00</updated>
+    <id>http://www.almirmendes.com/blog/2011/01/20/meu-ambiente-de-trabalho-em-7-itens</id>
+    <content type="html"><![CDATA[<p>Inspirado pelo post do <a href="http://jeveaux.com/2011/meu-ambiente-de-trabalho-em-7-itens/">Jeveaux</a>, que por sua vez foi inspirado pelo post da <a href="http://www.loiane.com/2011/01/meu-ambiente-de-trabalho-em-7-itens/">Loiane</a>, eu resolvi postar sobre meu &#8220;ambiente&#8221; de trabalho. Na verdade é uma seleção de ferramentas que fazem parte do meu dia-a-dia como desenvolvedor. Tanto em casa (programando por hobby ou freela) como no trabalho (<a href="http://www.giran.com.br/">Giran</a>) o set de ferramentas é praticamente o mesmo.</p>
+
+<h3>1. MacOS e GNU/Linux</h3>
+
+
+<p>Há mais de 10 anos que utilizo o sistema operacional GNU/Linux. No dia 27/05/2010 eu passei a fazer parte da equipe de desenvolvedores da Giran, onde conheci outro SO bacana (ainda assim prefiro o GNU/Linux), o MacOS X. Sendo <em>unix based</em> foi fácil me localizar, o único problema foi acostumar com o teclado uma vez que já que estava acostumado a utilizar o padrão ABNT.</p>
+
+<p>Eventualmente costumo fazer palestras sobre software livre e sempre que falo de minha experiência como <em>Linuxer</em> a primeira coisa que falo é: <em><strong>&#8220;Eu uso GNU/Linux porque gosto e pronto!&#8221;</strong></em>. Me acostumei com o poder das ferramentas e de personalização que tenho em SOs Linux, hoje já não me vejo utilizando o Microsoft Windows para trabalhar.</p>
+
+<p>Já utilizei as distros: Red Hat, Conectiva, Slackware, Debian, Archlinux e hoje estou utilizando Ubuntu em meu notebook. Todas são ótimas, cada uma com sua filosofia e portanto não acho &#8220;adequado&#8221; dizer que uma é melhor e outra é pior, apenas que cada um tem sua filosofia e seu público.</p>
+
+<h3>2. Mozilla Firefox</h3>
+
+
+<p>Gosto muito do Mozilla Firefox por seu grande conjunto de addons. Concordo que é um navegador um tanto quanto pesado, mas mesmo assim ainda acho ele o melhor para navegar e utilizar para desenvolvimento de aplicações Web. <em>&#8220;Plugado&#8221;</em> ao meu Mozilla Firefox tenho os plugins:</p>
+
+<ul>
+    <li><strong>Desenvolvimento:</strong> FireBug (fantástico), ScreenGrab, Webdeveloper e HTML Validator;</li>
+    <li><strong>Outros:</strong> Smart Bookmarks Bar e gTranslate;</li>
+</ul>
+
+
+<h3>3. (Mac|G)?Vim</h3>
+
+
+<p>Imbatível! Trabalho com desenvolvimento Web nas linguagens PHP e Ruby on Rails, eventualmente na linguagem Python. Algumas pessoas torcem o nariz quando se fala de usar o Vim (ou suas variantes) para desenvolvimento alegando que usar um editor como este é perder produtividade. Essas pessoas dizem isso porque não conhecem ou não sabem utilizar o Vim, portanto acham que ele é primitivo e ultrapassado.</p>
+
+<p>Não digo que é a melhor IDE do mundo, mas PRA MIM é a melhor IDE de desenvolvimento. Repare, eu disse <strong>PRA MIM</strong>! Com algumas configurações no .vimrc e mais alguns plugins você terá uma IDE poderosíssima com: auto-complete, syntax highlight, snippets (para N linguagens), abas, navegação em árvore, multiplas janelas e uma penca de recursos de dar inveja a qualquer outra IDE.</p>
+
+<h3>4. Git</h3>
+
+
+<p>Conheci o Git na mesma época em que conheci o MacOS X, ou seja, quando entrei para Giran. Hoje conheço pouco dessa ferramenta para controle de versão, mas o suficiente para saber que desenvolver sem ela, ou outra ferramenta de controle de versão, é viver perigosamente :-D.</p>
+
+<p>Na Giran utilizamos a dupla <a href="http://git-scm.com/">Git</a>+<a href="https://github.com/">GitHub</a>, mas em casa, para meus projetos particulares, eu utilizo o Git configurado em meu webserver (webbynode) como repositório central e acesso via ssh. Para compensar a falta de uma interface como a do GitHub eu configuro o Redmine para ler o repositório e me mostrar os detalhes do projeto. Não é como um GitHub, mas quebra um galhão.</p>
+
+<h3>5. Bash (Terminal)</h3>
+
+
+<p>Sou fã dessa &#8220;tela preta&#8221;! na verdade o bash é um dos vários interpretadores que os sistemas <em>unix based</em> podem ter. Mas como ele é o mais comum e costuma ser o default dos sistemas operacionais as pessoas acabam confundindo. Trabalhei durante alguns anos como analista de sistemas linux e por vários e vários meses essa tela preta foi minha ferramenta principal de trabalho. Cheguei a ter, em meu monitor de 21&#8221; Widescreen, mais de 9 terminais abertos. Falando em bash/terminal gostaria de citar também alguns comandos úteis que vale a pena conhecer: synergy (Synergy plus), ssh, sed, vim, screen, awk.</p>
+
+<h3>6. Gmail</h3>
+
+
+<p>O Gmail quando utilizado de forma organizada, especialmente usando uma técnica como o GTD, é sinônimo de produtividade, enquanto o Gmail sem qualquer mecanismo de organização é sinal de estresse, dor de cabeça e improdutividade. Há alguns meses resolvi tentar o <a href="http://en.wikipedia.org/wiki/Getting_Things_Done">GTD (Getting Things Done)</a>.</p>
+
+<p>Confesso não utilizar toda a metodologia na íntegra, mas consegui abstrair algumas ações que me ajudam muito no dia-a-dia. A principal delas é manter minha inbox (de todas as minhas contas) zerada. Uso meu Gmail de forma a organizar TODAS as mensagens em tags (labels) e com a ajuda dos filtros eu mantenho tudo organizado e a mão sempre que preciso pesquisar algo.</p>
+
+<p>Também faço algo no meu Gmail que muitas pessoas passaram a esquecer quando conseguiram sua conta no Gmail: deletar mensagens que não servem para mais nada. Seguindo um dos princípios do GTD, se algo não será necessário agora e nem no futuro, nem mesmo para referência: delete-a!</p>
+
+<h3>7. Rails, Python e PHP</h3>
+
+
+<p>Durante anos trabalhei <a href="http://www.php.net">PHP</a>, uma linguagem poderosíssima. Entretanto senti uma certa deficiência em alguns aspectos que me fizeram repensar o desenvolvimento e aplicações em PHP. Há alguns meses tive oportunidade de trabalhar em projetos em <a href="http://rubyonrails.org/">Ruby on Rails</a> e em <a href="http://www.python.org/">Python</a> (<a href="www.djangoproject.com/">Django</a> e <a href="http://flask.pocoo.org/">Flask</a>) e vi que essas linguagens tinham uma produtividade muito superior ao que eu estava habituado a fazer em PHP. Resumindo, passei a utilizar Rails e nos próximos meses pretendo lançar um projeto pessoal em Django (graças ao chato do <a href="http://www.franciscosouza.com.br">Francisco Souza</a> que não pára de falar em <a href="www.djangoproject.com/">Django</a>).</p>
+
+<p>Essas são as 7 ferramentas que fazem parte do meu dia-a-dia e que compõem 90% do meu ambiente de trabalho. Ainda existem outras coisas que utilizo mas não são diretamente ligadas ao desenvolvimento: OpenOffice (até mesmo no MacOS), Pidgin/Adium, Twitter, Xbox + SF4 + Ganhar do <a href="http://www.leohackin.com.br/">Leo Hackin</a> (meu arqui-rival em Street Fighter IV).</p>
+
+<p>Pois bem, agora deixo a bola (ui!) com:</p>
+
+<ul>
+    <li><a href="http://twitter.com/leohackin">@leohackin</a></li>
+    <li><a href="http://twitter.com/makotovh">@makotovh</a></li>
+    <li><a href="http://twitter.com/wbotelhos">@wbotelhos</a></li>
+    <li><a href="http://twitter.com/franciscosouza">@franciscosouza</a></li>
+    <li><a href="http://twitter.com/tagliati">@tagliati</a></li>
+    <li><a href="http://twitter.com/bt1">@bt1</a></li>
+    <li><a href="http://twitter.com/vezzoni">@vezzoni</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA['Retrô' Liberdade Interativa 2010]]></title>
+    <link href="http://www.almirmendes.com/blog/2010/12/13/retro-liberdade-interativa-2010/"/>
+    <updated>2010-12-13T11:44:34-03:00</updated>
+    <id>http://www.almirmendes.com/blog/2010/12/13/retro-liberdade-interativa-2010</id>
+    <content type="html"><![CDATA[<p>Cobrado incessantemente pelo @franciscosouza , diga-se de passagem um camaradinha muito gente boa, finalmente resolvi parar alguns minutos para criar este post.</p>
+
+<p>Para quem não conhece o Liberdade Interativa é um evento que tem como objetivo o compartilhamento de informação e conhecimento através de pequenos eventos, com palestras relativamente rápidas, de 30 a 40 minutos, realizadas por pessoas da própria comunidade aqui do Espírito Santo.</p>
+
+<p>Por várias vezes me peguei pensando sobre as pessoas da comunidade e suas capacidades, via pessoas com conhecimentos sólidos sobre servidores e serviços linux, por exemplo, via profissionais que tinham conhecimento e vontade de participar.</p>
+
+<p>Paralelo a isso eu via inúmeras pessoas que corriam atrás de aprendizado, comentavam que fuçavam a internet atrás de tutoriais, artigos, livros e tudo que lhes pudessem agregar conhecimento para aprender uma determinada linguagem de programação, para aprender como configurar um determinado serviço e outros até com necessidades simples, algo como o que fazer para tocar suas músicas favoritas em MP3 no SO Linux.</p>
+
+<p>Então conversei com alguns amigos e juntos resolvemos criar um evento em que todos estariam convidados tanto a palestrar como a participar. Por ser um evento simples só precisaríamos de um local com datashow, algo que podemos encontrar facilmente nas salas de aula das faculdades locais. Foi assim que surgiu o Liberdade Interativa, chamado de LI.</p>
+
+<p>No dia 12 de junho - dia dos namorados e dia do jogo da Argentina pela copa do mundo - realizamos o <a href="http://www.tux-es.org/liberdadeinterativa/2010/06/12-de-junho-liberdade-interativa/">I LI</a> tendo @franciscosouza e @ale_borba como palestrantes, os assuntos eram Python e Linux Desktop, um bom start para o evento, infelizmente poucas pessoas compareceram ao evento mas tinhamos que  “dar um desconto”, afinal era um sábado de manhã e ainda dia dos namorados e dia de jogo da Argentina. Mesmo assim gostei de ver os meninos falando sobre algo que gostam para pessoas interessadas em aprender.</p>
+
+<p>Alguns meses depois, em 19 de Agosto, foi a vez de @ra_pha , @franciscosouza e @m3nd3s falar sobre Bacula, Django e Iptables (firewall) no <a href="http://www.tux-es.org/liberdadeinterativa/2010/07/liberdade-interativa-19-de-agosto/">II LI</a>, nesta segunda edição do evento contamos com a ajuda e apoio do professor Gilberto Sudré que trouxe suas turmas das disciplinas que ministra na FAESA para participar do evento. Tivemos também muita gente da comunidade presente, realmente uma ótima edição, dessa vez realizada numa quinta-feira a noite.</p>
+
+<p>Novembro, dia 11, essa foi a data de realização do <a href="http://www.tux-es.org/liberdadeinterativa/2010/11/liberdade-interativa-11-de-novembro/">III LI</a>, edição mais que bacana e contou com a presença dos palestrantes @jeveaux , @bt1 e @m3nd3s . Nesta edição os assuntos eram: Scrum, Desenvolvimento web com Rails e Expressões Regulares. Essa edição foi emocionante, às vésperas do evento, o @leohackin precisou agendar um exame e não tinha certeza se seria marcado para o mesmo dia do evento, só tivemos a certeza disso um dia antes da realização do evento. Um dia antes da data agendada para ocorrer o III LI  o médico do @leohackin conseguiu agendar o exame para exatamente o mesmo dia do evento. Com isso o @leohackin não poderia palestrar e então iniciamos uma procura desesperada por alguém para palestrar em seu lugar. Imagine achar um palestrante para criar uma palestra em 24 horas.</p>
+
+<p>Nem comentei, mas a grade inicial do evento era: Scrum, TDD e Expressões Regulares, como não achamos alguém para falar sobre XP, palestra que seria ministrada pelo @leohackin , em tempo hábil o jeito foi procurar outro assunto e outro palestrante.</p>
+
+<p>Algum tempo antes do III LI ser realizado a gelara da @giran_br , onde trabalho, participou do Rails Rumble (irado!) e conhecemos o @bt1 , um camarada que nos deu um mini-micro-nano curso de Rails para conseguirmos participar do Rails Rumble. O @franciscosouza comentou porque não chamamos o @bt1 para falar sobre Rails no lugar da palestra de TDD? Propomos então o desafio a ele: Já que conseguiu criar uma aplicação em 24 horas, fazer uma palestra no mesmo tempo &#8220;é sussa&#8221;!</p>
+
+<p>E foi nesse clima que o evento foi realizado, um sucesso! Dessa vez a professora Renata Laranja levou sua turma a pedido do @ale_borba , que não queria perder o evento mas teria aula desta professora.</p>
+
+<p>Por fim já estávamos saciados, afinal tinhamos realizado 3 edições do evento em um período de 6 meses, e com a chegada do fim do ano, com isso as provas finais de faculdade, pensamos em realizar o próximo LI apenas em março de 2011, massss&#8230;. O @franciscosouza soube que o @henriquebastos viria ao ES para ministrar um curso de Django, isso duas semanas antes da vinda dele ao ES, e queria conhecer o pessoal daqui e quem sabe realizar um <a href="http://horaextra.org/" target="_blank">#horaextra</a>. Mais uma vez vamos nós, na correria, achar um local para realizar um evento, e para dar mais emoção tinhamos apenas duas semanas para: montar a grade, convidar palestrantes, conseguir a reserva do auditório e avisar o @henriquebastos . Queríamos muito realizar o evento no próprio IFES/Vitória, contamos para isso com a ajuda do João Fernando (Revista Espírito Livre) e Pedro Garcia, mas infelizmente não conseguimos, de qualquer forma muito obrigado pela força João e Pedro.</p>
+
+<p>Procuramos então outro local para realizar IV LI e finalmente conseguimos na FAESA Campus I - @faesa_avvitoria , que diga-se de passagem é a faculdade que nos tem apoiado desde o primeiro LI, nosso muito obrigado a FAESA por toda ajuda dada.</p>
+
+<p>Nasceu então o IV LI com palestras de @franciscosouza , @henriquebastos e @jeveaux que falaram sobre: BDD, como criar comunidades de sucesso e Git. Infelizmente não tivemos muitas pessoas presentes devido a chegada das férias. De qualquer forma foi um ótimo evento e tenho certeza que se perguntar aos que estavam presente você ficará com inveja do que perdeu.</p>
+
+<p>Vendo essas quatro edições do LI e fazendo um levantamento dos objetivos do evento e o que foi realizado, percebo que o LI tem cumprido sua missão de trazer pessoas interessadas em falar sobre o que gostam para pessoas que querem e desejam ouvir e aprender sobre aquilo que gostam.</p>
+
+<p>Juntando tudo que foi discutido nessas quatro edições do LI teremos os assuntos:</p>
+
+<ul>
+    <li>Quem é Python e por que eu deveria me importar?</li>
+    <li>Utilizando Linux em Desktops</li>
+    <li>Bacula – Servidor de backups centralizado</li>
+    <li>Django – Framework web para perceccionistas com prazos</li>
+    <li>Iptables – Entendendo como fazer um firewall pessoal</li>
+    <li>Desenvolvimento ágil com Scrum</li>
+    <li>Desenvolvimento Web com Rails</li>
+    <li>Expressões Regulares</li>
+    <li>Desenvolvimento guiado por comportamento (BDD)</li>
+    <li>Empreendendo uma comunidade de sucesso</li>
+    <li>Controle de versão sem dor de cabeça com Git</li>
+</ul>
+
+
+<p>Tudo isso de graça, era só comparecer ao evento e participar. É ou não é um conteúdo ótimo, assuntos que não vemos por aí sendo “cedidos” ao público em geral por profissionais da área, pessoas que entendem, trabalham e ganham dinheiro com isso. Pessoas que sabem do que estão falando e gostam do que fazem e que estarão disponíveis para responder a perguntas e o melhor de tudo, não apenas no dia do evento mas a qualquer hora que quiser via: twitter, msn. Gtalk, e-mail, etc.</p>
+
+<p>Enfim, se você não foi eu só lamento, eu estava lá! :P Fiz amigos, conheci pessoas e absorvi ainda mais conhecimento. Que venham as próximas edições do LI, eu com certeza estarei lá! ;)</p>
+
+<p>Se quiser saber mais sobre o Liberdade Interativa, ver os slides das palestras e fotos acesse o site: <a href="http://www.tux-es.org/liberdadeinterativa/">http://www.tux-es.org/liberdadeinterativa/</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[III Liberdade Interativa]]></title>
+    <link href="http://www.almirmendes.com/blog/2010/10/29/iii-liberdade-interativa/"/>
+    <updated>2010-10-29T14:38:34-03:00</updated>
+    <id>http://www.almirmendes.com/blog/2010/10/29/iii-liberdade-interativa</id>
+    <content type="html"><![CDATA[<div>
+
+O Liberdade Interativa surgiu como uma oportunidade para manter a Interatividade entre membros da comunidade  de Software Livre do Espírito Santo, o principal objetivo é trocar idéias,  compartilhar conhecimento, fortalecer e ampliar o Networking.
+<p style="text-align: center;"><img class="aligncenter" src="http://www.almirmendes.net/ext-images/banner_iiili.png" alt="III Liberdade Interativa" width="640" height="106" /></p>
+Se estiver afim de participar basta comparecer no auditório da FAESA no dia <strong>11 de novembro de 2010 (Quinta-feira)</strong>, não é necessário realizar inscrição, elas serão  realizadas no dia do evento. Nesta edição teremos três palestras, sendo duas voltadas ao desenvolvimento ágil e uma sobre expressões regulares:
+<ul>
+    <li><strong>TDD -&gt;</strong> Test Driven Development (TDD) ou em português Desenvolvimento dirigido por testes é uma técnica de desenvolvimento de software (Wikipédia). Palestra será ministrada pelo amigo <a href="http://www.leohackin.com.br/"><strong>Leonardo &#8216;hackin&#8217;</strong></a></li>
+    <li><strong>Scrum -&gt;</strong> O Scrum é um processo de desenvolvimento iterativo e incremental para gerenciamento de projetos e desenvolvimento ágil de software. (Wikipédia). Esta o <a href="http://www.jeveaux.com/"><strong>Jeveaux</strong></a> deve estar cansado de ministrar. (heheh)</li>
+    <li><strong>Expressões Regulares -&gt;</strong> Em ciência da computação, uma expressão regular (ou o estrangeirismo regex, abreviação do inglês regular expression) provê uma forma concisa e flexível de identificar cadeias de caracteres de interesse, como caracteres particulares, palavras ou padrões de caracteres. Essa <a href="http://www.almirmendes.net/">eu</a> vou ministrar, denovo :)</li>
+</ul>
+</div>
+
+
+<p>Maiores informações em: <a href="http://www.tux-es.org">http://www.tux-es.org</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Resenha: Faça como Steve Jobs]]></title>
+    <link href="http://www.almirmendes.com/blog/2010/09/15/resenha-faca-como-steve-jobs/"/>
+    <updated>2010-09-15T13:52:40-03:00</updated>
+    <id>http://www.almirmendes.com/blog/2010/09/15/resenha-faca-como-steve-jobs</id>
+    <content type="html"><![CDATA[<p>Graças a <a href="http://www.giran.com.br/" target="_blank">Giran</a>(<a href="http://twitter.com/giran_br" target="_blank">@giran_br</a>) eu tive acesso ao livro <em>Faça como Steve Jobs</em>, e diga-se de passagem mudou totalmente minha visão a respeito de como montar apresentações sejam elas para apresentação de trabalhos na faculdade ou para para apresentar temas em eventos aqui da região (ES).</p>
+
+<p>Ainda não cheguei ao nível de satisfação que desejo em minhas apresentações, mas acredito que seja questão de tempo até implementar as dicas/truques/sugestões que o autor, <a href="http://carminegallo.com/" target="_blank">Carmine Gallo</a>, apresenta no livro.</p>
+
+<p>Carmine Gallo, o autor do livro e especialista em comunicação, esclarece como o Steve Jobs, empresário e có-fundador da Apple Inc. - <em>&#8220;uma empresa multinacional norte-americana que atua no ramo de aparelhos eletrônicos e informática famosa principalmente pela fabricação do computador de marca registrada, Macintosh, com seu próprio sistema operacional, Mac OS, entre outros produtos.(<a href="http://pt.wikipedia.org/wiki/Apple_Computer,_Inc." target="_blank">Wikipedia</a>)&#8221;</em> - cria as suas apresentações, hora mostrando como Jobs faz para criar o efeito &#8220;UAU!&#8221; em suas apresentações e hora mostrando, através de dados estatísticos e estudos, toda a dinâmica que envolve durante uma apresentação seja ela qual for.</p>
+
+<p><img class="alignright" title="Faça como Steve Jobs - Editora LEYA BRASIL" src="http://www.almirmendes.net/ext-images/noname.jpeg" alt="Faça como Steve Jobs - Editora LEYA BRASIL" width="200" height="301" />O livro é recomendadíssimo para qualquer pessoa que tenha interesse em realizar apresentações, desde palestrantes que desejem turbinar suas apresentações até alunos que necessitem apresentar seus trabalhos na faculdade.</p>
+
+<p>Dentre as dicas que o livro cita eu gostaria de comentar algumas:</p>
+
+<ul>
+    <li><strong>Simplicidade:</strong> Mantenha seus Slides simples, nada de textos exagerados, excesso de imagens, etc. Os slides devem funcionar como uma extensão da sua apresentação, devem servir como auxílio ao que você está falando. Sua plateia deveria prestar mais atenção em você do que nos slides, veja alguns exemplos: <a href="http://www.slideshare.net/contest/worlds-best-presentation-contest-2009" target="_blank">World&#8217;s Best Presentation Contest 2009</a></li>
+</ul>
+
+
+<ul>
+    <li><strong>Treino:</strong> Pois é, embora pareça ridículo comentar sobre esse item a verdade é que muitos palestrantes ainda não treinam o suficiente ou mesmo sequer treinam suas apresentações. Gallo vai além e dá algumas dicas para que aos poucos você possa dominar sua apresentação.</li>
+</ul>
+
+
+<ul>
+    <li><strong>Motivação:</strong> Essa é simplesmente &#8216;demás&#8217;. Você precisa ser muito falso para conseguir fazer uma apresentação sobre algo que você não gosta ou não tem motivação, então procure sempre falar sobre temas que você gosta e se sinta motivado em falar sobre o assunto.</li>
+</ul>
+
+
+<p>Existem inúmeras outras dicas que Gallo apresenta no livro, variando desde como criar sua apresentação até como se comportar durante uma apresentação e responder a como responder perguntas inesperadas. Um livro muito bom que está me ajudando muito e acredito que vá lhe ajudar também.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Palestra: Como construir um firewall pessoal com iptables]]></title>
+    <link href="http://www.almirmendes.com/blog/2010/08/22/palestra-como-construir-um-firewall-pessoal-com-iptables/"/>
+    <updated>2010-08-22T09:13:26-03:00</updated>
+    <id>http://www.almirmendes.com/blog/2010/08/22/palestra-como-construir-um-firewall-pessoal-com-iptables</id>
+    <content type="html"><![CDATA[<p>Este post é referente a palestra que ministrei no II Liberdade Interativa (<a href="http://www.tux-es.org" target="_blank">http://www.tux-es.org</a>) sobre como construir um firewall caseiro/pessoal com iptables.</p>
+
+<p>Com as inúmeras formas de se conectar o seu computador a internet, e a grande facilidade que encontramos para fazer isso hoje em dia, nós estamos esquecendo que a internet ainda é um lugar não muito confiável.</p>
+
+<p>Mesmo que os usuários domésticos (de Linux) achem que estão seguros apenas porque são usuários comuns os IPs públicos que pegamos ao nos conectarmos a internet não vem com um &#8220;letreiro&#8221; informando que não temos nada que possa interessar a algum invasor.</p>
+
+<p>Portanto podemos ser vítimas como qualquer outra máquina/servidor na internet, e daí a necessidade de se proteger, ainda mais que os SOs Linux por default já vem com inúmeros serviços pré-instalados e também nós adicionamos muitos outros até mesmo para aprendizado ou trabalho.</p>
+
+<p>A palestra mostra como é possível criar um firewall simples para se proteger de possíveis atacantes, espero que gostem.</p>
+
+<div id="__ss_5030696" style="width: 425px;"><strong style="display: block; margin: 12px 0 4px;"><a title="Entendendo como fazer um firewall pessoal" href="http://www.slideshare.net/m3nd3s/entendendo-como-fazer-um-firewall-pessoal">Entendendo como fazer um firewall pessoal</a></strong><object id="__sse5030696" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="425" height="355" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><param name="src" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=palestraiptables-100822070351-phpapp02&amp;stripped_title=entendendo-como-fazer-um-firewall-pessoal" /><param name="name" value="__sse5030696" /><param name="allowfullscreen" value="true" /><embed id="__sse5030696" type="application/x-shockwave-flash" width="425" height="355" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=palestraiptables-100822070351-phpapp02&amp;stripped_title=entendendo-como-fazer-um-firewall-pessoal" name="__sse5030696" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+<div style="padding: 5px 0 12px;">View more <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/m3nd3s">Almir Mendes</a>.</div>
+<div style="padding: 5px 0 12px;">Você pode ver as fotos do evento nesse link: <a href="http://picasaweb.google.com.br/biasuttin/LiberdadeInterativa190810#" target="_blank">http://picasaweb.google.com.br/biasuttin/LiberdadeInterativa190810#</a></div>
+</div>
+
+]]></content>
+  </entry>
+  
+</feed>

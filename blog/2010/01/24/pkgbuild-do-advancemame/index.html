@@ -1,0 +1,343 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>PKGBUILD do AdvanceMAME - Almir 'm3nd3s'</title>
+  <meta name="author" content="m3nd3s">
+
+  
+  <meta name="description" content="Me considero um amante de jogos modelo arcade, ou para os mais &#8220;íntimos&#8221;: fliperama. Quando eu era apenas um moleque vivia gastando os &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://www.almirmendes.com/blog/2010/01/24/pkgbuild-do-advancemame">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Almir 'm3nd3s'" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<!-- <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css"> 
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css"> -->
+<link href='http://fonts.googleapis.com/css?family=Lustria|Amethysta|Terminal+Dosis' rel='stylesheet' type='text/css'>
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-10130376-2']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Almir 'm3nd3s'</a></h1>
+  
+    <h2>Ruby, Rails, Arduino, GNU/Linux, Software livre...</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:www.almirmendes.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Posts</a></li>
+  <li><a href="/presentations">Apresentações</a></li>
+  <li><a href="/about">Sobre</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">PKGBUILD Do AdvanceMAME</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-01-24T13:29:48-03:00" pubdate data-updated="true">Jan 24<span>th</span>, 2010</time>
+        
+         | <a href="#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Me considero um amante de jogos modelo arcade, ou para os mais &#8220;íntimos&#8221;: fliperama. Quando eu era apenas um moleque vivia gastando os poucos centavos que conseguia &#8220;arrumar&#8221; para jogar fliperama.</p>
+
+<p><img class="alignright" title="Arcade" src="http://www.tradeboothtrafficbuilder.com/images/arcade_game.jpg" alt="" width="300" height="300" />Ainda me lembro da primeira vez que vi um arcade. Eu retornava da escola para casa, onde na época eu cursava o que hoje é chamado de nível fundamental, nesse caminho passei em frente a uma dessas casas de jogos, havia várias máquinas - como costumavamos chamar os arcades - uma ao lado da outra. Dentre elas havia uma com um joguinho que tinha um cavaleiro lutando contra monstros, fantasmas, animais bizarros, etc.</p>
+
+<p>Essa foi a época do boom desses jogos arcade, foi justamente quando a Capcom lançou Street Fighter II. As casas de jogos viviam cheias de &#8220;competidores&#8221;.</p>
+
+<p>Havia uma plaquinha pregada na parede da casa de jogos, num local que podia ser visto por qualquer pessoa que se aproximasse da entrada, a placa dizia<em> &#8220;Não é permitida a permanência de estudantes&#8221;</em>, então fui em casa para trocar de roupa. E criança é criança né! Não pensa que roupa vai usar, apenas pega a primeira que vê pela frente e usa. Fiz exatamente isso e retornei mais tarde para jogar.</p>
+
+<p>Entretanto fui surpreendido com uma calorosa frase de boas vindas:<em> &#8220;Aqui você não pode entrar!&#8221;</em>. E o rapaz que me dizia essa frase apontou para a minha camisa. Bem, qual não foi minha surpresa quando vi que troquei a camisa da escola por uma outra camisa de escola, porém da escola que eu frequentei até a 2º série - nessa época eu deveria estar na 3ª ou 4ª série.</p>
+
+<p>Triste e morrendo de vontade de jogar retornei para minha casa, e no caminho  havia um barzinho com uma dessas máquina de fliperama (arcade). Não era a mesma, porém eu estava com muita vontade de jogar. O jogo era o de um &#8220;carro&#8221; que andava sobre um terreno irregular e atirava em outros objetos acima e à frente do carro.</p>
+
+<p>Comprei minha ficha e desde então começou minha paixão/vício, que só foi parar quando começei a trabalhar e ver o quanto custa ganhar dinheiro. :-D</p>
+
+<p>Há poucos anos descobri que eu poderia jogar esses jogos no computador, através do que conhecemos como emulador. Fazendo pesquisas  na internet descobri o MAME, na época versão para o MS Windows. E quando começei a usar GNU/Linux procurei algo equivalente, e encontrei o AdvanceMAME.</p>
+
+<p><a href="http://advancemame.sourceforge.net"><img class="aligncenter" title="AdvanceMAME" src="http://advancemame.sourceforge.net/mame-logo.png" alt="" width="598" height="71" /></a></p>
+
+<p>O AdvanceMAME é um emulador, não oficial, de MAME. A página do projeto pode ser visitada <a href="http://advancemame.sourceforge.net" target="_blank">AQUI</a>.</p>
+
+<p>O que disponibilizo para vocês é o <a title="PKGBUILD" href="http://www.almirmendes.net/downloads/advancemame.tar.gz" target="_blank">PKGBUILD</a> para distribuições Arch Linux, ainda não me senti a vontade para postar ele no AUR. Caso encontre algum bug, por favor reporte, ficarei feliz em corrigir. Se você utiliza Slackware, baixe o <a href="http://slackbuilds.org/repository/13.0/games/advancemame/" target="_blank">SlackBuild</a>, a propósito agradeço o &#8216;seb&#8217; (Sebastien) que criou o slackbuild,  já que usei-o como base para criar o PKGBUILD.</p>
+
+<p>Para instalar, baixe o PKGBUILD no link acima, descompacte, entre no diretório criado e rode o comando makepkg, tudo como usuário normal. O pacote será gerado, agora instale-o como root com o comando:</p>
+
+<pre lang="bash">pacman -U nome-do-pacote-gerado.pkg.tar.gz.</pre>
+
+
+<p>O binário <strong>advmame</strong> será salvo em /usr/games. Adicione esse path no /etc/profile na variável PATH.</p>
+
+<p>A forma certa de chamar o emulador é:
+[cc lang=&#8221;bash&#8221;]advmame nomerom[/cc]
+Se você reparou bem, não tem a extensão e nem o path. É necessário que você altere a configuração do AdvanceMAME para apontar o path onde estão os ROMs.</p>
+
+<p>Para configurá-lo execute o comando <strong>advmame</strong> sem parâmetros, ele criará o arquivo de configuração e lhe dirá qual o path default dos roms e como alterá-lo.</p>
+
+<p>Sobre os joguinhos que comentei no início do post, caso tenha ficado curioso, eles são:</p>
+
+<h3>Ghosts&#8217;n Globins</h3>
+
+
+<p style="text-align: center;"><img class="aligncenter" title="Ghosts'n Globins" src="http://upload.wikimedia.org/wikipedia/en/7/73/Gngarcade.png" alt="" width="256" height="224" /></p>
+
+
+
+
+<h3>Moon Patrol</h3>
+
+
+<p style="text-align: center;"><img class="aligncenter" title="Moon Patrol" src="http://www.gameclassification.com/files/games/moon_patrol.gif" alt="" width="240" height="248" /></p>
+
+
+<p>Hoje já parti para outros inúmeros títulos mais &#8220;recentes&#8221; como: Street Fighter, The King of Fighters, Fatal Fury, Bomberman, Black Tiger, Capitão Comando, Dungeons dragons e muitos outros, todos emulados.</p>
+
+<p>O melhor site para baixar ROMs  na minha opinião, é o <a title="Roms World" href="http://www.rom-world.com/ " target="_blank">Roms World</a>. ROMs são os jogos empacotados em formato zip, os quais você usa para carregar no emulador e jogar.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">m3nd3s</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-01-24T13:29:48-03:00" pubdate data-updated="true">Jan 24<span>th</span>, 2010</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.almirmendes.com/blog/2010/01/24/pkgbuild-do-advancemame/" data-via="m3nd3s" data-counturl="http://www.almirmendes.com/blog/2010/01/24/pkgbuild-do-advancemame/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2010/01/10/livro-como-a-starbucks-salvou-minha-vida/" title="Previous Post: Livro: Como a Starbucks salvou minha vida">&laquo; Livro: Como a Starbucks salvou minha vida</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2010/02/12/controlando-luminosidade-do-lcd-na-unha/" title="Next Post: Controlando luminosidade do LCD na "unha"">Controlando luminosidade do LCD na "unha" &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/05/13/meu-ambiente-de-trabalho-em-7-itens-2013/">Meu ambiente de trabalho em 7 itens: 2013</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/12/30/e-la-se-vai-2012/">E lá se vai 2012, que venha 2013!</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/09/25/gtd-no-meu-dia-a-dia/">GTD no meu dia-a-dia</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/09/13/rockn-rails-2012/">Rock'n Rails 2012</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/07/27/instalando-nginx-com-rvm-para-aplicacoes-rails/">Instalando Nginx com RVM para aplicações Rails</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/m3nd3s">@m3nd3s</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'm3nd3s',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - m3nd3s -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'm3nd3s';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id; js.async = true;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

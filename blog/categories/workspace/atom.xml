@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: workspace | Almir 'm3nd3s']]></title>
+  <link href="http://www.almirmendes.com/blog/categories/workspace/atom.xml" rel="self"/>
+  <link href="http://www.almirmendes.com/"/>
+  <updated>2013-05-13T13:38:49-03:00</updated>
+  <id>http://www.almirmendes.com/</id>
+  <author>
+    <name><![CDATA[m3nd3s]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Meu ambiente de trabalho em 7 itens: 2013]]></title>
+    <link href="http://www.almirmendes.com/blog/2013/05/13/meu-ambiente-de-trabalho-em-7-itens-2013/"/>
+    <updated>2013-05-13T14:19:00-03:00</updated>
+    <id>http://www.almirmendes.com/blog/2013/05/13/meu-ambiente-de-trabalho-em-7-itens-2013</id>
+    <content type="html"><![CDATA[<p>Em 20 de janeiro de 2011, inspirado por um <a href="http://jeveaux.com/2011/meu-ambiente-de-trabalho-em-7-itens/">post</a> do <a href="http://jeveaux.com/">Jeveaux</a>, eu publiquei um post sobre as <a href="/blog/2011/01/20/meu-ambiente-de-trabalho-em-7-itens/">ferramentas que utilizo em meu ambiente de trabalho</a>. Com o passar do tempo é comum que façamos mudanças em nosso ambiente visando melhorar e agilizar nosso processo de trabalho. Então resolvi dar uma atualizada no post para mostrar como e o que estou usando agora.</p>
+
+<h2>1. Navegador</h2>
+
+<p>Como desenvolvedor web o navegador é uma ferramenta essencial. Há muitos anos vinha utilizando o <a href="http://www.mozilla.org/en-US/firefox/new/">Mozilla Firefox</a> mas de uns tempos pra cá ele vinha me decepcionando.</p>
+
+<p>Ao menos em minha máquina o Firefox comia muita memória e não raro travava enquanto abria determinada página. Outro problema eram as extensões que eu precisava instalar para torna-lo uma ferramenta de trabalho (Firebug, WebDeveloper, etc).</p>
+
+<p>Hoje abro os demais navegadores apenas para fazer testes nos sistemas que trabalho. É impressionante as informações que podemos extrair através do Developer Tools do Google Chrome, até hoje não aprendi todas. Abaixo deixo alguns links que julgo ser imprecindíveis para quem desenvolve aplicações web, mais específicamente para quem tem o Google Chrome como opção:</p>
+
+<ul>
+<li><a href="https://developers.google.com/chrome-developer-tools/">Chrome DevTools</a></li>
+<li><a href="http://discover-devtools.codeschool.com/">Code School Discover DevTools</a></li>
+</ul>
+
+
+<h2>2. Editor</h2>
+
+<p>Neste caso não há uma mudança grande ou significativa, sempre utilizei Vim como editor principal e já estou tão acostumado que me minha produtividade em outro editor chega a ser péssima.</p>
+
+<p>Assim que comecei a usar o sistema MacOS eu conheci o <a href="https://github.com/b4winckler/macvim">MacVim</a>, instalei e desde então o utilizava. Um dos motivos que me fazia utiliza-lo era, principalmente, que um dos plugins que eu utilizo, o <a href="https://wincent.com/products/command-t">CommandT</a>, dependia do Vim com suporte a ruby. Como o vim padrão do MacOS não possuía suporte e eu não tinha vontade de compilar o na unha, eu utilizava o MacVim.</p>
+
+<p>Com o uso do <a href="http://mxcl.github.io/homebrew/">homebrew</a> descobri que o Vim dele incluía suporte a ruby, isso e a vontade de usar o Tmux (leia abaixo) me fizeram largar do MacVim  para o vim.</p>
+
+<h2>3. Tmux</h2>
+
+<p>Talvez a mudança/melhoria mais significativa. Ao menos uma coisa é certa, mantenho minha mente e memória ocupados por um bom tempo tendo que decorar mais algumas teclas de atalho, mas nem tanto.</p>
+
+<p>O <a href="http://tmux.sourceforge.net/">Tmux</a> é um terminal multiplexer, basicamente é um programa que lhe permite manipular vários programas em um único terminal, assim como o velho conhecido de usuários Unix Like, o <a href="http://www.gnu.org/software/screen/">GNU screen</a>. A diferença é que o Tmux tem várias features que o transformam em uma opção considerável para programadores que utilizam editores em modo texto. Recomendo olhar na internet alguns vídeos de integração Tmux + Vim + Ruby.</p>
+
+<p>Meu interesse nele surgiu pela vontade de reduzir ainda mais o uso de cliques para escolher janelas e navegar entre elas e as features que ele possui que melhorariam significativamente meu fluxo de desenvolvimento.</p>
+
+<h2>4. Git e Github</h2>
+
+<p>Simplesmente indispensável. Todos os produtos que desenvolvemos na <a href="http://www.giran.com.br/">Giran</a> são versionados pelo <a href="http://git-scm.com/book">Git</a>, nós utilizamos também o <a href="http://www.github.com">Github</a> que parafraseando um <a href="https://twitter.com/rodolfospalenza">amigo</a>, que até hoje não postou nada no blog dele:</p>
+
+<blockquote><p>Todo desenvolvedor deveria conhecer o Github e ter uma conta.</p></blockquote>
+
+<h2>5. Terminal</h2>
+
+<p>Depois de alguns meses usando o ZSH, por meio de um pacote de script providos pelo projeto <a href="https://github.com/robbyrussell/oh-my-zsh">oh-my-zsh</a>, estou de volta ao Bash. Tive alguns problemas misteriosos utilizando os scripts do oh-my-zsh então resolvi voltar ao Bash, com o auxílio de um <a href="https://github.com/revans/bash-it">outro pacote de scripts</a> deixei-o do jeito que eu queria.</p>
+
+<p>Depois de anos utilizando sistemas Unix Like - antes eu usava Linux (Slackware, Archlinux, Debian, Ubuntu) e hoje MacOSX - não consigo mais utilizar um SO que não tenha um terminal descente.</p>
+
+<h2>6. Evernote (GTD)</h2>
+
+<p>O <a href="http://evernote.com">Evernote</a> ganhou minha admiração, eu praticamente anoto tudo que julgo importante nele.</p>
+
+<p>Na Giran temos uma reunião diária, chamamos de <a href="http://improveit.com.br/scrum/daily_scrum">Daily</a>, nela repassamos tudo que fizemos no dia anterior e o que faremos no dia de hoje bem como os impedimentos que ocorreram até o momento.</p>
+
+<p>Um dos usos que faço do Evernote é anotar o que tenho feito no meu dia de trabalho, com isso conseguirei lembrar o que precisarei dizer na Daily do dia seguinte, bem como me planejar para o dia corrente. A medida que as solicitações vão chegando eu vou colocando na minha lista de coisas a fazer, conforme vou fazendo eu vou marcando como feito e tocando para o próximo da lista.</p>
+
+<p>O Evernote se tornou tão útil pra mim que o utilizo em minha vida pessoal e demais atividades que tenho fora do meu trabalho.</p>
+
+<h2>7. Monitor Externo</h2>
+
+<p>Nunca tinha pensando que fosse tão bom e produtivo ter um monitor externo.</p>
+
+<p>A possibilidade de distribuir janelas e visualiza-las ao mesmo tempo sem perda de informação é fantástico! Isso me ajuda muito na produtividade. Costumo abrir um terminal (iTerm2) em fullscreen, dividi-lo com tmux, e abrir o vim, visualizar os logs dos servidores, executar comandos, abrir o navegador e ainda sobra espaço. Tudo isso sem precisar ficar fazendo <em>"ALT + TAB"</em>.</p>
+]]></content>
+  </entry>
+  
+</feed>

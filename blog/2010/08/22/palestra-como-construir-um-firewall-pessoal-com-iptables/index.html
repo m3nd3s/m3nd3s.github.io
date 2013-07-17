@@ -1,0 +1,304 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Palestra: Como construir um firewall pessoal com iptables - Almir 'm3nd3s'</title>
+  <meta name="author" content="m3nd3s">
+
+  
+  <meta name="description" content="Este post é referente a palestra que ministrei no II Liberdade Interativa (http://www.tux-es.org) sobre como construir um firewall caseiro/pessoal &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://www.almirmendes.com/blog/2010/08/22/palestra-como-construir-um-firewall-pessoal-com-iptables">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Almir 'm3nd3s'" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<!-- <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css"> 
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css"> -->
+<link href='http://fonts.googleapis.com/css?family=Lustria|Amethysta|Terminal+Dosis' rel='stylesheet' type='text/css'>
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-10130376-2']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Almir 'm3nd3s'</a></h1>
+  
+    <h2>Ruby, Rails, Arduino, GNU/Linux, Software livre...</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:www.almirmendes.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Posts</a></li>
+  <li><a href="/presentations">Apresentações</a></li>
+  <li><a href="/about">Sobre</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Palestra: Como Construir Um Firewall Pessoal Com Iptables</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-08-22T09:13:26-03:00" pubdate data-updated="true">Aug 22<span>nd</span>, 2010</time>
+        
+         | <a href="#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Este post é referente a palestra que ministrei no II Liberdade Interativa (<a href="http://www.tux-es.org" target="_blank">http://www.tux-es.org</a>) sobre como construir um firewall caseiro/pessoal com iptables.</p>
+
+<p>Com as inúmeras formas de se conectar o seu computador a internet, e a grande facilidade que encontramos para fazer isso hoje em dia, nós estamos esquecendo que a internet ainda é um lugar não muito confiável.</p>
+
+<p>Mesmo que os usuários domésticos (de Linux) achem que estão seguros apenas porque são usuários comuns os IPs públicos que pegamos ao nos conectarmos a internet não vem com um &#8220;letreiro&#8221; informando que não temos nada que possa interessar a algum invasor.</p>
+
+<p>Portanto podemos ser vítimas como qualquer outra máquina/servidor na internet, e daí a necessidade de se proteger, ainda mais que os SOs Linux por default já vem com inúmeros serviços pré-instalados e também nós adicionamos muitos outros até mesmo para aprendizado ou trabalho.</p>
+
+<p>A palestra mostra como é possível criar um firewall simples para se proteger de possíveis atacantes, espero que gostem.</p>
+
+<div id="__ss_5030696" style="width: 425px;"><strong style="display: block; margin: 12px 0 4px;"><a title="Entendendo como fazer um firewall pessoal" href="http://www.slideshare.net/m3nd3s/entendendo-como-fazer-um-firewall-pessoal">Entendendo como fazer um firewall pessoal</a></strong><object id="__sse5030696" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="425" height="355" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><param name="src" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=palestraiptables-100822070351-phpapp02&amp;stripped_title=entendendo-como-fazer-um-firewall-pessoal" /><param name="name" value="__sse5030696" /><param name="allowfullscreen" value="true" /><embed id="__sse5030696" type="application/x-shockwave-flash" width="425" height="355" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=palestraiptables-100822070351-phpapp02&amp;stripped_title=entendendo-como-fazer-um-firewall-pessoal" name="__sse5030696" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+<div style="padding: 5px 0 12px;">View more <a href="http://www.slideshare.net/">presentations</a> from <a href="http://www.slideshare.net/m3nd3s">Almir Mendes</a>.</div>
+<div style="padding: 5px 0 12px;">Você pode ver as fotos do evento nesse link: <a href="http://picasaweb.google.com.br/biasuttin/LiberdadeInterativa190810#" target="_blank">http://picasaweb.google.com.br/biasuttin/LiberdadeInterativa190810#</a></div>
+</div>
+
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">m3nd3s</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-08-22T09:13:26-03:00" pubdate data-updated="true">Aug 22<span>nd</span>, 2010</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.almirmendes.com/blog/2010/08/22/palestra-como-construir-um-firewall-pessoal-com-iptables/" data-via="m3nd3s" data-counturl="http://www.almirmendes.com/blog/2010/08/22/palestra-como-construir-um-firewall-pessoal-com-iptables/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2010/07/22/agenda-agosto2010/" title="Previous Post: Agenda agosto/2010">&laquo; Agenda agosto/2010</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2010/09/15/resenha-faca-como-steve-jobs/" title="Next Post: Resenha: Faça como Steve Jobs">Resenha: Faça como Steve Jobs &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/05/13/meu-ambiente-de-trabalho-em-7-itens-2013/">Meu ambiente de trabalho em 7 itens: 2013</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/12/30/e-la-se-vai-2012/">E lá se vai 2012, que venha 2013!</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/09/25/gtd-no-meu-dia-a-dia/">GTD no meu dia-a-dia</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/09/13/rockn-rails-2012/">Rock'n Rails 2012</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2012/07/27/instalando-nginx-com-rvm-para-aplicacoes-rails/">Instalando Nginx com RVM para aplicações Rails</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/m3nd3s">@m3nd3s</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'm3nd3s',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - m3nd3s -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'm3nd3s';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id; js.async = true;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

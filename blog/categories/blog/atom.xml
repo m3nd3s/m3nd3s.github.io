@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: blog, | Almir 'm3nd3s']]></title>
+  <link href="http://www.almirmendes.com/blog/categories/blog/atom.xml" rel="self"/>
+  <link href="http://www.almirmendes.com/"/>
+  <updated>2013-05-13T13:38:49-03:00</updated>
+  <id>http://www.almirmendes.com/</id>
+  <author>
+    <name><![CDATA[m3nd3s]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Blog com Octopress]]></title>
+    <link href="http://www.almirmendes.com/blog/2012/02/17/blog-com-octopress/"/>
+    <updated>2012-02-17T20:40:00-02:00</updated>
+    <id>http://www.almirmendes.com/blog/2012/02/17/blog-com-octopress</id>
+    <content type="html"><![CDATA[<p>Já devem ter reparado no novo layout do meu blog. Dessa vez eu não troquei somente o tema, troquei de CMS mesmo.</p>
+
+<p>Há um bom tempo eu vinha utilizado Wordpress como solução para CMS, mas não estava tão feliz assim com ele, principalmente com os plugins referentes a exibição de código e a forma como os códigos deveriam ser "formatados", convenhamos, fazer esse tipo de "formatação" era (e ainda é) um saco.</p>
+
+<p>Desde que o <a href="https://twitter.com/#!/franciscosouza">@franciscosouza</a> me falou sobre o formato <a href="http://daringfireball.net/projects/markdown/">Markdown</a> eu tenho o utilizado sempre onde posso, só não tinha pensado ainda em escrever meus posts utilizando Markdown. Isso só me veio a mente quando o <a href="https://twitter.com/#!/ReinaldoJunior">@ReinaldoJunior</a> comentou comigo sobre o <a href="http://octopress.org">Octopress</a>, foi então que juntei o que eu mais gostava, agora eu escrevo meus blog posts como se tivesse programando \o/.</p>
+
+<p><img class="left" src="/images/blog/logoOctopress.png" title="Logo Octopress" ></p>
+
+<p>O Octopress é um framework que utiliza o <a href="https://github.com/mojombo/jekyll">Jekyll</a>, um gerador de HTML estático. Para utilizar o Jekyll você tem que escrever seu próprio template HTML, CSS, javascript e setar sua configuração. Mas com o Octopress isso fica mais fácil, o próprio Octopress cuida desse trabalho para você, permitindo que você escreva seus blog posts em HTML ou mesmo em Markdown (Amazing!!! \o/).</p>
+
+<p>O mais bacana disso tudo é que eu posso criar páginas, blog posts, configurar, etc. tudo isso no meu editor favorito: <code>(Mac|G)?Vim</code>. E ainda utilizar o formato Markdown que é muito bacana e simples.</p>
+
+<p>O Octopress vem com alguns plugins para integração com redes sociais, mas o mais bacana mesmo é o de integração com o Github, são fantásticos. Posso, por exemplo, fazer referência a algum Gist ou mesmo listar os projetos abertos que tenho no meu Github, uma belezidade.</p>
+
+<p>Eu de fato estou satisfeitíssimo com esse framework, ainda estou personalizando o tema default do meu blog, aos poucos vou trocando os detalhes já que não tenho dom para esse tipo de trabalho, acho que vou levar alguns meses até o blog ficar como eu quero. Até lá quem sabe não surgem alguns blog posts sobre o assunto. ;)</p>
+]]></content>
+  </entry>
+  
+</feed>

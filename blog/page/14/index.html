@@ -1,0 +1,517 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Almir 'm3nd3s'</title>
+  <meta name="author" content="m3nd3s">
+
+  
+  <meta name="description" content="Olá amigos! Seguindo nossa saga de configuração do GNU/Linux para funcionar perfeitamente em um Acer Aspire 5050-3284, vamos agora configurar o &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://www.almirmendes.com/blog/page/14">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Almir 'm3nd3s'" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<!-- <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css"> 
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css"> -->
+<link href='http://fonts.googleapis.com/css?family=Lustria|Amethysta|Terminal+Dosis' rel='stylesheet' type='text/css'>
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-10130376-2']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Almir 'm3nd3s'</a></h1>
+  
+    <h2>Ruby, Rails, Arduino, GNU/Linux, Software livre...</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:www.almirmendes.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Posts</a></li>
+  <li><a href="/presentations">Apresentações</a></li>
+  <li><a href="/about">Sobre</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div class="blog-index">
+  
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2009/01/14/configurando-synaptics-no-acer-5050/">Configurando Synaptics No Acer 5050</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-01-14T12:40:09-03:00" pubdate data-updated="true">Jan 14<span>th</span>, 2009</time>
+        
+         | <a href="/blog/2009/01/14/configurando-synaptics-no-acer-5050/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Olá amigos!</p>
+
+<p><img class="alignleft" title="Acer 5050" src="http://images.quebarato.com.br/photos/big/8/B/4FE8B_1.jpg" alt="Acer 5050-3284" width="225" height="225" /></p>
+
+<p>Seguindo nossa saga de configuração do GNU/Linux para funcionar perfeitamente em um Acer Aspire 5050-3284, vamos agora configurar o toutchpad. Por padrão ele já funciona, mas não permite configurar um scrool (usando as bordas do touchpad) ou mesmo aquele direcional entre os dois botões.</p>
+
+<p>Para configurar corretamente o touchpad você irá precisar do &#8221;<a title="Synaptics" href="http://web.telia.com/~u89404340/touchpad/" target="_blank">Synaptics touchpad driver for X.Org</a>&#8221;. Se você utiliza alguma distribuição que possui esse software em seu repositório, proceda com a instalação conforme de costume, caso contrário proceda com o famoso trio: ./configure &amp;&amp; make &amp;&amp; make install.</p>
+
+<p>Depois de instalado precisamos configurar o X.org. Vamos adicionar a seguinte entrada no arquivo xorg.conf:</p>
+
+<pre> Section "InputDevice"
+ Identifier    "Synaptics Mouse"
+ Driver        "synaptics"
+ Option        "Device"                "/dev/psaux"
+ Option        "Protocol"              "auto-dev"
+# enable SHMConfig if you want to enable synclient
+# NB: enabling SHMConfig is insecure, since any user can invoke it
+#  Option        "SHMConfig"             "on"
+ Option        "LeftEdge"              "1700"
+ Option        "RightEdge"             "5300"
+ Option        "TopEdge"               "1700"
+ Option        "BottomEdge"            "4200"
+ Option        "FingerLow"             "25"
+ Option        "FingerHigh"            "30"
+ Option        "MaxTapTime"            "180"
+ Option        "MaxTapMove"            "220"
+ Option        "VertScrollDelta"       "100"
+ Option        "CornerCoasting"        "1"
+ Option        "CoastingSpeed"         "3"
+ Option        "MinSpeed"              "0.09"
+ Option        "MaxSpeed"              "0.18"
+ Option        "AccelFactor"           "0.0015"
+#  Option       "Repeater"              "/dev/ps2mouse"
+EndSection</pre>
+
+
+<p>Depois de adicionada essa entrada &#8220;InputDevice&#8221;, procure agora pela seção: &#8220;ServerLayout&#8221;, e adicione:</p>
+
+<pre>Section "ServerLayout"
+...
+InputDevice    "Synaptics Mouse" "SendCoreEvents"
+...</pre>
+
+
+<p>Aqui vale relatar algo importante. No arquivo INSTALL que vem junto do fonte do Synaptics sugere que você adicione essa (código acima) entrada da seção ServerLayout com a opção &#8220;CorePointer&#8221;, mas no meu Slackware 12.1 essa opção não funciona, fazendo com que o touchpad pare de funcionar também. Sendo assim, se na sua distro também não funcionar, utilize a opção &#8220;SendCoreEvents&#8221; conforme citado acima, e tudo vai dar certo. Salve o arquivo xorg.conf e saida dele.</p>
+
+<p>Pronto, agora basta reiniciar o X e tudo deverá funcionar.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2008/12/23/acer-5050-3284-fazebdo-camera-funcionar/">Acer 5050-3284 - Fazendo Câmera Funcionar No Linux</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-12-23T09:37:23-03:00" pubdate data-updated="true">Dec 23<span>rd</span>, 2008</time>
+        
+         | <a href="/blog/2008/12/23/acer-5050-3284-fazebdo-camera-funcionar/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>A partir da versão 2.6.27 o kernel Linux passou a suportar nativamente o driver UVC - USB Video Class. Esse driver permite o suporte a inúmeras câmeras presentes na maioria dos notebooks e também dispositivos de câmera externos (USB).</p>
+
+<p>Para ativar esse driver, baixe qualquer versão do kernel Linux a partir da série 2.6.27, e na configuração do kernel selecione a opção:</p>
+
+<pre>Device Drivers --&gt;
+    Multimedia devices --&gt;
+        Video capture adapters --&gt;
+            V4L USB devices --&gt;
+                &lt;M&gt; USB Video Class</pre>
+
+
+<p>Caso possua alguma câmera USB presente na listagem de dispositivos exibidos, aproveite para marcar também. Feito isso basta proceder com a compilação do kernel conforme o costume, e bom proveito.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2008/12/22/gnulinux-acer-5050-a-saga/">GNU/Linux + Acer 5050 - a Saga!</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-12-22T15:55:42-03:00" pubdate data-updated="true">Dec 22<span>nd</span>, 2008</time>
+        
+         | <a href="/blog/2008/12/22/gnulinux-acer-5050-a-saga/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Olá amigos, finalmente resolvi postar algo útil em meu blog depois de tanto tempo. Estive pensando em postar esse conteúdo todo em um único Post, mas achei que poderia ficar muito massante e possívelmente ficaria &#8220;chato&#8221; de achar algum conteúdo específico em um Post tão grade, pois então resolvi postar em partes diferentes, cada uma com um &#8220;capítulo&#8221; diferente.</p>
+
+<p>Como este é o primeiro artigo, quero informar que o motivo que tenho para postar tal conteúdo é, antes de mais nada, para que eu  tenha guardado em algum lugar o que fiz para configurar em meu Slackware (na data do post a versão era 12.1)  o notebook da Acer, modelo 5050, mais específicamente o Acer Aspire 5050-3284.</p>
+
+<p>[caption id=&#8221;&#8221; align=&#8221;alignleft&#8221; width=&#8221;132&#8221; caption=&#8221;Acer 5050-3284&#8221;]<img title="Acer 5050-3289" src="http://www.eatec.com.br/fotos/notebooks/5050_p.jpg" alt="" width="132" height="104" />[/caption]</p>
+
+<p>Vamos começar pelo básico, mas porém o mais complicado. Devido uma incompatibilidade entre alguns destes notebooks Acer 5050 e o kernel Linux, o ACPI, e consequentemente os dispositivos que dependem do ACPI, não configuram corretamente. Este problema provavelmente é proveniente de falta de padronização dos desenvolvedores do software Phoenix BIOS utilizado nesses notebooks. Esse é o motivo de tanta dor de cabeça para por o GNU/Linux funcionando diritinho, e olha que esses notebooks já vem com GNU/Linux instalado.</p>
+
+<p>Devido a esse inconveniente, o notebook não desliga sozinho ao digitar o comando <strong>shutdown</strong> ou mesmo o <strong>halt</strong>, e sequer mostra o status da bateria. Aliado a isto, alguns outros itens podem simplesmente não funcionar enquanto não corrigido esse problema.</p>
+
+<p>Para resolver esse &#8220;pepino&#8221;, precisaremos recompilar o kernel, então vamos a obra.</p>
+
+<p>Não irei abordar uma compilação de kernel aqui, não é o foco, e também não sou expert nisso. Se você ainda não sabe como fazer isso, dê uma breve pesquisada na internet sobre o assunto, vale a pena! Uma boa idéia é pegar o <strong><em>.config</em></strong> de seu kernel atual e usá-lo como base, apenas tenha atenção de marcar como buildin (imbutido no kernel &#8220;*&#8221;) o sistema de arquivos e o driver da controladora do seu HD, caso contrário serás presenteado com um Kernel Panic.</p>
+
+<p>Bem, de qualquer forma precisaremos da DSDT - Differentiated System Description Table -  para nosso Acer 5050. Existem duas formas de se obter essa DSDT:</p>
+
+<ul>
+    <li>Você mesmo desassemblar ela, corrigir os erros, e utilizá-la.</li>
+    <li>Obter alguma na internet</li>
+</ul>
+
+
+<p>Caso vá utilizar a primeira, procure na internet como corrigir os erros, eu sugiro pesquisar exatamente pelo seu modelo, para evitar problemas ainda maiores. Ao final da página eu cito um link para começar a busca.</p>
+
+<p>Caso vá utilizar a segunda, abordada aqui nesse Post, tenha apenas a certeza de estar utilizando a DSDT correta para  seu modelo. Eu utilizo um Acer 5050-3284, e estou disponibilizando <a href="http://www.almirmendes.net/downloads/dsdt.hex" target="_self">AQUI a DSDT que utilizei para ele</a>.</p>
+
+<p>Beixe a DSDT, salve-a no diretório /usr/src. Agora vamos editar o .config de seu kernel adicionando/alterando os seguintes atributos:</p>
+
+<pre class="command">CONFIG_STANDALONE=n
+CONFIG_ACPI_CUSTOM_DSDT=y
+CONFIG_ACPI_CUSTOM_DSDT_FILE="/usr/src/dsdt.hex" #Cuidado com o Case-sensitive</pre>
+
+
+<p>Feito isto, agora proceda com a compilação do seu kernel conforme está acostumado a fazer, instale o kernel, reinicie o notebook e pronto!</p>
+
+<p>Alguns links úteis:</p>
+
+<ul>
+    <li><a href="http://www.dicas-l.com.br/dicas-l/20040710.php" target="_blank">Recompilando o kernel</a></li>
+    <li><a href="http://www.lesswatts.org/projects/acpi/overridingDSDT.php" target="_blank">Sobrescrevendo uma DSDT</a></li>
+    <li><a href="http://www.kernel.org" target="_blank">Kernel Linux</a></li>
+    <li><a href="http://www.lesswatts.org/projects/acpi/index.php" target="_blank">Linux ACPI</a></li>
+</ul>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2008/12/15/screenshot/">ScreenShot</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-12-15T15:28:27-03:00" pubdate data-updated="true">Dec 15<span>th</span>, 2008</time>
+        
+         | <a href="/blog/2008/12/15/screenshot/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Olha meu Desktop do PC do trabalho, é o espírito natalino.</p>
+
+<p>[caption id=&#8221;&#8221; align=&#8221;aligncenter&#8221; width=&#8221;440&#8221; caption=&#8221;ScreenShot&#8221;]<img title="ScreenShot" src="http://www.almirmendes.net/wp-content/images/CapturaEcra.png" alt="ScreenShot" width="440" height="275" />[/caption]</p>
+
+<p>Ps.: repara no Papai Noel passando bem alí no meio da tela, ao lado da bolinha de natal</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2008/12/15/ferias/">Férias</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-12-15T12:12:37-03:00" pubdate data-updated="true">Dec 15<span>th</span>, 2008</time>
+        
+         | <a href="/blog/2008/12/15/ferias/#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Finalmente férias!!!</p>
+
+<p>Pois é amigos, depois de muitas guerras, batalhas, mais um período longo de caminhada foi vencido. Embora com algumas escoriações, eu finalmente consegui chegar às férias!</p>
+
+<p>Peço desculpa as meus leitores pela ausência de posts nesses últimos meses, mas agora volto ao normal e vou começar com meu post sobre como configurar o o GNU/Linux para usar no Acer Aspire 5050-3284.</p>
+
+<p>Aguarde que ainda essa semana tem post novo. ;)</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  <div class="pagination">
+    
+      <a class="prev" href="/blog/page/15/">&larr; Older</a>
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+    <a class="next" href="/blog/page/13/">Newer &rarr;</a>
+    
+  </div>
+</div>
+<aside class="sidebar">
+  
+    
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  
+  <a href="https://github.com/m3nd3s">@m3nd3s</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'm3nd3s',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("m3nd3s", 1, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/m3nd3s" class="twitter-follow-button" data-show-count="false">Follow @m3nd3s</a>
+  
+</section>
+
+<section>
+  <h1>Blog de Amigos</h1>
+  <ul>
+    <li><a target="_blank" href="http://www.leohackin.com.br">Leo Hackin</a></li>
+    <li><a target="_blank" href="http://www.jeveaux.com">Jeveaux</a></li>
+    <li><a target="_blank" href="http://blog.joaovrmaia.com/">João Victor</a></li>
+    <li><a target="_blank" href="http://www.tux-es.org">Comunidade Tux-ES</a></li>
+  </ul>
+</section>
+
+  
+</aside>
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - m3nd3s -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'm3nd3s';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id; js.async = true;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
