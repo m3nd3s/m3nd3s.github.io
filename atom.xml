@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Almir 'm3nd3s']]></title>
-  <link href="http://www.almirmendes.com/atom.xml" rel="self"/>
-  <link href="http://www.almirmendes.com/"/>
-  <updated>2013-05-13T13:38:49-03:00</updated>
-  <id>http://www.almirmendes.com/</id>
+  <link href="http://m3nd3s.github.io/atom.xml" rel="self"/>
+  <link href="http://m3nd3s.github.io/"/>
+  <updated>2013-07-16T21:41:22-03:00</updated>
+  <id>http://m3nd3s.github.io/</id>
   <author>
     <name><![CDATA[m3nd3s]]></name>
     
@@ -15,10 +15,10 @@
   
   <entry>
     <title type="html"><![CDATA[Meu ambiente de trabalho em 7 itens: 2013]]></title>
-    <link href="http://www.almirmendes.com/blog/2013/05/13/meu-ambiente-de-trabalho-em-7-itens-2013/"/>
+    <link href="http://m3nd3s.github.io/blog/2013/05/13/meu-ambiente-de-trabalho-em-7-itens-2013/"/>
     <updated>2013-05-13T14:19:00-03:00</updated>
-    <id>http://www.almirmendes.com/blog/2013/05/13/meu-ambiente-de-trabalho-em-7-itens-2013</id>
-    <content type="html"><![CDATA[<p>Em 20 de janeiro de 2011, inspirado por um <a href="http://jeveaux.com/2011/meu-ambiente-de-trabalho-em-7-itens/">post</a> do <a href="http://jeveaux.com/">Jeveaux</a>, eu publiquei um post sobre as <a href="http://www.almirmendes.com/blog/2011/01/20/meu-ambiente-de-trabalho-em-7-itens/">ferramentas que utilizo em meu ambiente de trabalho</a>. Com o passar do tempo é comum que façamos mudanças em nosso ambiente visando melhorar e agilizar nosso processo de trabalho. Então resolvi dar uma atualizada no post para mostrar como e o que estou usando agora.</p>
+    <id>http://m3nd3s.github.io/blog/2013/05/13/meu-ambiente-de-trabalho-em-7-itens-2013</id>
+    <content type="html"><![CDATA[<p>Em 20 de janeiro de 2011, inspirado por um <a href="http://jeveaux.com/2011/meu-ambiente-de-trabalho-em-7-itens/">post</a> do <a href="http://jeveaux.com/">Jeveaux</a>, eu publiquei um post sobre as <a href="http://m3nd3s.github.io/blog/2011/01/20/meu-ambiente-de-trabalho-em-7-itens/">ferramentas que utilizo em meu ambiente de trabalho</a>. Com o passar do tempo é comum que façamos mudanças em nosso ambiente visando melhorar e agilizar nosso processo de trabalho. Então resolvi dar uma atualizada no post para mostrar como e o que estou usando agora.</p>
 
 <h2>1. Navegador</h2>
 
@@ -60,7 +60,7 @@
 
 <p>Depois de alguns meses usando o ZSH, por meio de um pacote de script providos pelo projeto <a href="https://github.com/robbyrussell/oh-my-zsh">oh-my-zsh</a>, estou de volta ao Bash. Tive alguns problemas misteriosos utilizando os scripts do oh-my-zsh então resolvi voltar ao Bash, com o auxílio de um <a href="https://github.com/revans/bash-it">outro pacote de scripts</a> deixei-o do jeito que eu queria.</p>
 
-<p>Depois de anos utilizando sistemas Unix Like - antes eu usava Linux (Slackware, Archlinux, Debian, Ubuntu) e hoje MacOSX - não consigo mais utilizar um SO que não tenha um terminal descente.</p>
+<p>Depois de anos utilizando sistemas Unix Like &ndash; antes eu usava Linux (Slackware, Archlinux, Debian, Ubuntu) e hoje MacOSX &ndash; não consigo mais utilizar um SO que não tenha um terminal descente.</p>
 
 <h2>6. Evernote (GTD)</h2>
 
@@ -76,22 +76,22 @@
 
 <p>Nunca tinha pensando que fosse tão bom e produtivo ter um monitor externo.</p>
 
-<p>A possibilidade de distribuir janelas e visualiza-las ao mesmo tempo sem perda de informação é fantástico! Isso me ajuda muito na produtividade. Costumo abrir um terminal (iTerm2) em fullscreen, dividi-lo com tmux, e abrir o vim, visualizar os logs dos servidores, executar comandos, abrir o navegador e ainda sobra espaço. Tudo isso sem precisar ficar fazendo <em>&#8220;ALT + TAB&#8221;</em>.</p>
+<p>A possibilidade de distribuir janelas e visualiza-las ao mesmo tempo sem perda de informação é fantástico! Isso me ajuda muito na produtividade. Costumo abrir um terminal (iTerm2) em fullscreen, dividi-lo com tmux, e abrir o vim, visualizar os logs dos servidores, executar comandos, abrir o navegador e ainda sobra espaço. Tudo isso sem precisar ficar fazendo <em>&ldquo;ALT + TAB&rdquo;</em>.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[E lá se vai 2012, que venha 2013!]]></title>
-    <link href="http://www.almirmendes.com/blog/2012/12/30/e-la-se-vai-2012/"/>
+    <link href="http://m3nd3s.github.io/blog/2012/12/30/e-la-se-vai-2012/"/>
     <updated>2012-12-30T11:10:00-03:00</updated>
-    <id>http://www.almirmendes.com/blog/2012/12/30/e-la-se-vai-2012</id>
+    <id>http://m3nd3s.github.io/blog/2012/12/30/e-la-se-vai-2012</id>
     <content type="html"><![CDATA[<p>Comentei com alguns amigos que escreveria um blog post de retrospectiva do ano de 2012, isso já tem algumas semanas, mas fui enrolando até que o <a href="http://twitter.com/jvrmaia">@jvrmaia</a> publicou o <a href="http://blog.joaovrmaia.com/blog/2012/12/29/morre-deabo-de-2012-e-vem-ni-mim-2013/">seu blog post retrospectivo</a>, então percebi que tinha que publicar logo senão ficaria feio pra mim <code>:-D</code>. Então, vamos lá!</p>
 
-<p>O ano de 2012 foi um ano irado! Simplesmente o ano de muito trabalho e diversas conquistas. Começarei pela que considero a mais marcante deste ano e provavelmente da minha vida: a conquista da minha graduação. Em julho eu terminei minha graduação em Ciência da Computação, <a href="blog/2012/07/08/mission-accomplished/">foi uma luta e tanto</a>. Depois de anos na rotina <em>trabalho -> faculdade -> casa -> repete tudo</em> eu finalmente posso escolher o que fazer após o expediente de trabalho <code>:)</code>.</p>
+<p>O ano de 2012 foi um ano irado! Simplesmente o ano de muito trabalho e diversas conquistas. Começarei pela que considero a mais marcante deste ano e provavelmente da minha vida: a conquista da minha graduação. Em julho eu terminei minha graduação em Ciência da Computação, <a href="blog/2012/07/08/mission-accomplished/">foi uma luta e tanto</a>. Depois de anos na rotina <em>trabalho &ndash;> faculdade &ndash;> casa &ndash;> repete tudo</em> eu finalmente posso escolher o que fazer após o expediente de trabalho <code>:)</code>.</p>
 
 <p>Também conquistei a liberdade automotiva :), está sendo uma experiência e tanto. É muito boa a sensação de ir aonde quer na hora que quer e escolher quando voltar.</p>
 
-<p>Vários amigos meus começaram ou já faziam algum tipo de atividade física, alguns com bikes, outros com simples caminhadas e/ou frequentando academias. Então eu e minha digníssima esposa decidimos deixar o banco dos reservas (sedentários) e partimos para a competição (fazer alguma atividade). Ainda estamos, como eu diria&#8230; em processo de adaptação :).</p>
+<p>Vários amigos meus começaram ou já faziam algum tipo de atividade física, alguns com bikes, outros com simples caminhadas e/ou frequentando academias. Então eu e minha digníssima esposa decidimos deixar o banco dos reservas (sedentários) e partimos para a competição (fazer alguma atividade). Ainda estamos, como eu diria&hellip; em processo de adaptação :).</p>
 
 <p>  Outra <em>parada</em> muito bacana foi eu ter finalmente comprado o meu videogame. Para muitos isso pode ser algo irrelevante né? Afinal, um videogame é algo banal. Deixa eu contextualizar isso: Sempre fui viciado em jogos de videogame, houve uma época que eu estava todos os dias na locadora gastando o pouco dinheiro que eu tinha para jogar. Minha paixão sempre foram os jogos de luta, parte desta história você pode <a href="blog/2010/01/24/pkgbuild-do-advancemame/">ver aqui</a>. Mas nunca tive dinheiro para comprar um videogame, e quando tive oportunidade financeira para comprar, adquirir um videogame nunca atingira o topo da minha lista de prioridades. Mas este ano consegui realizar meu sonho, coincidentemente ao final da minha faculdade.</p>
 
@@ -115,9 +115,9 @@
   
   <entry>
     <title type="html"><![CDATA[GTD no meu dia-a-dia]]></title>
-    <link href="http://www.almirmendes.com/blog/2012/09/25/gtd-no-meu-dia-a-dia/"/>
+    <link href="http://m3nd3s.github.io/blog/2012/09/25/gtd-no-meu-dia-a-dia/"/>
     <updated>2012-09-25T12:56:00-03:00</updated>
-    <id>http://www.almirmendes.com/blog/2012/09/25/gtd-no-meu-dia-a-dia</id>
+    <id>http://m3nd3s.github.io/blog/2012/09/25/gtd-no-meu-dia-a-dia</id>
     <content type="html"><![CDATA[<p>Reuniões, e-mails, solicitações, tarefas, projetos, família, lembretes, faculdade, eventos, lazer, estudos, médico, etc. São alguns exemplos das coisas que nós, querendo ou não, gerenciamos todos os dias. Quanto mais funções você acumula, quanto maior for seu envolvimento com as coisa ao seu redor, mais itens você terá para gerenciar.</p>
 
 <p>OK, talvez o parágrafo inicial tenha ficado um pouco descontextualizado, mas se você já ouviu falar de <a href="http://pt.wikipedia.org/wiki/Getting_Things_Done">Getting Things Done</a>, ou só GTD, deve imaginar do que se trata. Aos que não conhecem segue abaixo uma breve explicação sobre o que é o GTD, dito pelo próprio autor <em>Devid Allen</em>:</p>
@@ -138,7 +138,7 @@
 
 <h2>Ferramentas</h2>
 
-<p><img class="left" src="http://www.almirmendes.com/images/blog/moleskine1.png" title="Meu Moleskine" ></p>
+<p><img class="left" src="http://m3nd3s.github.io/images/blog/moleskine1.png" title="Meu Moleskine" ></p>
 
 <p>Trabalho com tecnologia da informação <em>(vulgo informática)</em> e por isso tendencio a procurar por softwares que façam o trabalho por mim, entretanto isto é um erro comum. As ferramentas servem de apoio e portanto a função delas é dar suporte. Adequar-se ao GTD é mais uma questão de mudança de hábito, e como mudar hábitos nunca é tão fácil, muitas pessoas se frustram enquanto tentam aplicar o GTD em suas vidas e acabam por culpar o software que escolheram para lhes ajudarem.</p>
 
@@ -146,13 +146,13 @@
 
 <h3>Papel e caneta</h3>
 
-<p><img class="right" src="http://www.almirmendes.com/images/blog/moleskine2.png" title="Meu Moleskine" ></p>
+<p><img class="right" src="http://m3nd3s.github.io/images/blog/moleskine2.png" title="Meu Moleskine" ></p>
 
 <p>São meus preferidos e suponho que também seja o de muitos outros colegas. É prático, está sempre a mão e é muito simples de ser utilizado. Eu tenho comigo um <a href="http://www.moleskine.com/web/us/">Moleskine</a> que ganhei, eu comecei a utilizar ele para meu GTD diário, entretanto o Moleskine é um caderno com preço um pouco acima dos demais, portanto parei de utiliza-lo como anotação diária e passei a usá-lo apenas como referência das reuniões e projetos que participo.</p>
 
 <p>Há algum tempo eu utilizava um caderno quadriculado, só que ele era um pouco grande e me atrapalhava na mesa, portanto passei a utilizar um bloco de anotações simples.</p>
 
-<p><a href="http://www.pomodorotechnique.com/"><img class="right" src="http://www.almirmendes.com/images/blog/pomodoro.jpg" title="Pomodoro Technique" ></a></p>
+<p><a href="http://www.pomodorotechnique.com/"><img class="right" src="http://m3nd3s.github.io/images/blog/pomodoro.jpg" title="Pomodoro Technique" ></a></p>
 
 <p>Estou ainda tentando me acostumar com o <a href="http://www.pomodorotechnique.com/">Pomodoro Technique</a>, muito bom para o passo <strong>Fazer</strong> do GTD. Então utilizo o bloco de anotações para marcar o que estou fazendo e quantos <em>pomodoros</em> utilizei para executar tal tarefa.</p>
 
@@ -160,7 +160,7 @@
 
 <h3>Evernote</h3>
 
-<p><a href="http://evernote.com/"><img class="center" src="http://www.almirmendes.com/images/blog/hero_evernote.png" title="Evernote" ></a></p>
+<p><a href="http://evernote.com/"><img class="center" src="http://m3nd3s.github.io/images/blog/hero_evernote.png" title="Evernote" ></a></p>
 
 <p>Existem anotações que merecem ser guardadas para referências futuras. Em geral eu descarto as folhas dos blocos, mas as mais importantes eu guardo para referência, outras eu prefiro juntar em uma nota no <a href="http://evernote.com/">Evernote</a>.</p>
 
@@ -175,11 +175,11 @@
 <p>Fiz várias pesquisas na internet e <a href="http://lifehacker.com/5321180/turn-gmail-into-your-ultimate-gtd-inbox">descobri uma forma simples</a>, hoje basicamente utilizo assim:</p>
 
 <ul>
-<li>Se for algo que eu precise fazer e for rápido <em>(regra dos 2-3 minutos do GTD)</em> eu &#8220;faço na hora&#8221;;</li>
+<li>Se for algo que eu precise fazer e for rápido <em>(regra dos 2-3 minutos do GTD)</em> eu &ldquo;faço na hora&rdquo;;</li>
 <li>Se levar mais que 2-3 minutos, marco com uma <strong>Star (exclamação)</strong> para ser feito depois;</li>
 <li>Se for algo que eu possa delegar, delego e marco com uma <strong>Star (setinhas)</strong> se precisar que eu acompanhe, caso contrário deleto o e-mail;</li>
 <li>Se for algo para leitura posterior, tenho duas opções: mando para o <a href="http://getpocket.com/">Pocket</a> quando se tratar de link ou marco com uma <strong>Star (estrela lilaz)</strong>;</li>
-<li>Se não for necessária qualquer ação mas o e-mail for importante o bastante, aplico um label &#8220;Referência* e Arquivo o e-mail;</li>
+<li>Se não for necessária qualquer ação mas o e-mail for importante o bastante, aplico um label &ldquo;Referência* e Arquivo o e-mail;</li>
 <li>Apago qualquer e-mail que eu julgar não mais necessário;</li>
 </ul>
 
@@ -202,9 +202,9 @@
 
 <p>Não tenha medo de apagar seus e-mails, use labels/pastas sempre, crie uma estrutura de labels/pastas que for conveniente para você, especialmente porque se você arquivou o e-mail é porque um dia precisará busca-lo novamente, portanto organização é fundamental.</p>
 
-<h3>Anote <em>&#8220;tuto&#8221;</em></h3>
+<h3>Anote <em>&ldquo;tuto&rdquo;</em></h3>
 
-<p>Uma frase que sempre digo: <em>&#8220;Sua mente não tem mente própria&#8221;</em>, portanto anote tudo, especialmente as coisas que você sabe precisará lembrar e mantenha isso perto de você. Seja no Evernote, seja no bloco de anotações, seja no caderno, no Smartphone ou em um belíssimo Moleskine. O importante é anotar.</p>
+<p>Uma frase que sempre digo: <em>&ldquo;Sua mente não tem mente própria&rdquo;</em>, portanto anote tudo, especialmente as coisas que você sabe precisará lembrar e mantenha isso perto de você. Seja no Evernote, seja no bloco de anotações, seja no caderno, no Smartphone ou em um belíssimo Moleskine. O importante é anotar.</p>
 
 <p>Assim como sugere o GTD, se for um compromisso ou algo que tenha data e hora para acontecer o lugar correto é o calendário. No meu caso tenho usado o Google Calendar, agendando avisos em SMS e/ou e-mail sempre que necessário para me lembrar.</p>
 
@@ -218,9 +218,9 @@
 
 <h3>ZTD</h3>
 
-<p><a href="http://zenhabits.net/zen-to-done-the-simple-productivity-e-book/"><img class="left" src="http://www.almirmendes.com/images/blog/ztd.png" title="Zen To Done" ></a></p>
+<p><a href="http://zenhabits.net/zen-to-done-the-simple-productivity-e-book/"><img class="left" src="http://m3nd3s.github.io/images/blog/ztd.png" title="Zen To Done" ></a></p>
 
-<p>Uma variante do GTD é o ZTD - Zen To Done. Ele se baseia no GTD entretanto ele faz um <em>&#8220;resumo&#8221;</em>, uma compactada no GTD para que se torne ainda mais fácil o uso dos métodos do GTD. Confesso que depois de ler tanto sobre o GTD eu foi apresentado ao ZTD (graças ao amigo <a href="https://twitter.com/leohackin">@leohackin</a>) e estou gostando. Eu encaro o ZTD como um caminho simples para aplicar o GTD.</p>
+<p>Uma variante do GTD é o ZTD &ndash; Zen To Done. Ele se baseia no GTD entretanto ele faz um <em>&ldquo;resumo&rdquo;</em>, uma compactada no GTD para que se torne ainda mais fácil o uso dos métodos do GTD. Confesso que depois de ler tanto sobre o GTD eu foi apresentado ao ZTD (graças ao amigo <a href="https://twitter.com/leohackin">@leohackin</a>) e estou gostando. Eu encaro o ZTD como um caminho simples para aplicar o GTD.</p>
 
 <p>Recomendo a leitura, o link oficial pode ser visitado <a href="http://zenhabits.net/books/">aqui</a>. Se preferir há uma tradução para <em>pt-BR</em> <a href="http://lucasteixeira.com/ztd/">disponível aqui</a>.</p>
 
@@ -236,12 +236,12 @@
   
   <entry>
     <title type="html"><![CDATA[Rock'n Rails 2012]]></title>
-    <link href="http://www.almirmendes.com/blog/2012/09/13/rockn-rails-2012/"/>
+    <link href="http://m3nd3s.github.io/blog/2012/09/13/rockn-rails-2012/"/>
     <updated>2012-09-13T12:49:00-03:00</updated>
-    <id>http://www.almirmendes.com/blog/2012/09/13/rockn-rails-2012</id>
+    <id>http://m3nd3s.github.io/blog/2012/09/13/rockn-rails-2012</id>
     <content type="html"><![CDATA[<p>É isso aí galera, o Rock&#8217;n Rails 2012 já está com data e local defindos, como no ano passado o evento será realizado na <a href="http://www.uvv.br">Universidade Vila Velha</a> no dia <strong>20 de outubro de 2012</strong>.</p>
 
-<p><a href="http://www.rockandrails.com.br"><img class="right" src="http://www.almirmendes.com/images/logo-rockandrails.jpg"></a></p>
+<p><a href="http://www.rockandrails.com.br"><img class="right" src="http://m3nd3s.github.io/images/logo-rockandrails.jpg"></a></p>
 
 <p>Nós criamos o Rock&#8217;n Rails na tentativa de juntar desenvolvedores, curiosos, empresários, todo tipo de pessoa interessada na linguagem para conversarem, aprenderem e principalmente fazerem um networking bacana entre profissionais e empresários afim de fomentar o movimento Ruby/Rails em terras capixabas.</p>
 
@@ -263,9 +263,9 @@
   
   <entry>
     <title type="html"><![CDATA[Instalando Nginx com RVM para aplicações Rails]]></title>
-    <link href="http://www.almirmendes.com/blog/2012/07/27/instalando-nginx-com-rvm-para-aplicacoes-rails/"/>
+    <link href="http://m3nd3s.github.io/blog/2012/07/27/instalando-nginx-com-rvm-para-aplicacoes-rails/"/>
     <updated>2012-07-27T13:05:00-03:00</updated>
-    <id>http://www.almirmendes.com/blog/2012/07/27/instalando-nginx-com-rvm-para-aplicacoes-rails</id>
+    <id>http://m3nd3s.github.io/blog/2012/07/27/instalando-nginx-com-rvm-para-aplicacoes-rails</id>
     <content type="html"><![CDATA[<p>Olá pessoal! Depois de muito tempo sem um post, eu resolvi fazer algo que estava no meu dashboard há um bom tempo, explicar o básico para se levantar uma aplicação Rails e Nginx em um servidor Linux.</p>
 
 <p>Minha intenção com o post é passar os caminhos básicos de como configurar o Nginx, o Passenger e o RVM em um servidor Linux. O processo é relativamente simples.</p>
@@ -433,7 +433,7 @@
 
 <p>Vamos agora dar uma organizada para termos menos trabalho no futuro, até para melhorar a manutenção. Como é padrão das distribuições linux os arquivos de configuração devem ficar no path <code>/etc</code>, sendo assim ficaria melhor se a configuração do Nginx ficasse em <code>/etc/nginx</code>, vamos criar um link simbólico dos arquivos de configuração do Nginx para o <code>/etc/nginx</code>:</p>
 
-<figure class='code'><figcaption><span>Criando link simbólico do Nginx para o</span><a href='http://www.almirmendes.com/etc/'>link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<figure class='code'><figcaption><span>Criando link simbólico do Nginx para o</span><a href='http://m3nd3s.github.io/etc/'>link</a></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='bash'><span class='line'>ln -s /usr/local/nginx/conf /etc/nginx
 </span></code></pre></td></tr></table></div></figure>
 
@@ -587,16 +587,16 @@ http {
   
   <entry>
     <title type="html"><![CDATA[Mission Accomplished]]></title>
-    <link href="http://www.almirmendes.com/blog/2012/07/08/mission-accomplished/"/>
+    <link href="http://m3nd3s.github.io/blog/2012/07/08/mission-accomplished/"/>
     <updated>2012-07-08T12:16:00-03:00</updated>
-    <id>http://www.almirmendes.com/blog/2012/07/08/mission-accomplished</id>
+    <id>http://m3nd3s.github.io/blog/2012/07/08/mission-accomplished</id>
     <content type="html"><![CDATA[<p>Senhores, vocês devem ter percebido que faz um tempo que não tenho <em>blogado</em> com algum tipo de periodicidade.</p>
 
-<p>Este primeiro semestre de 2012 foi uma verdadeira maratona pra mim. No semestre anterior a este, 2011/2, eu enfrentei as disciplinas mais &#8220;pesadas&#8221; do meu curso <em>(na minha visão)</em>: TCC e Cálculo 3. Foi um semestre <em>prova de fogo</em>! Mas graças a força dos amigos, familiares e em especial do meu colega de TCC Renato Tecchio nós conseguimos fechar o semestre com louvor. Para alguns o curso chegara ao fim, mas eu ainda tinha duas disciplinas pela frente antes de me formar.</p>
+<p>Este primeiro semestre de 2012 foi uma verdadeira maratona pra mim. No semestre anterior a este, 2011/2, eu enfrentei as disciplinas mais &ldquo;pesadas&rdquo; do meu curso <em>(na minha visão)</em>: TCC e Cálculo 3. Foi um semestre <em>prova de fogo</em>! Mas graças a força dos amigos, familiares e em especial do meu colega de TCC Renato Tecchio nós conseguimos fechar o semestre com louvor. Para alguns o curso chegara ao fim, mas eu ainda tinha duas disciplinas pela frente antes de me formar.</p>
 
-<p>Quando se está no final do curso, depois de anos ocupando todos os finais de semana com estudos, exercícios, trabalhos para nota, preocupações sobre provas e o que cairá nelas e todo tipo de coisa, que só quem faz/fez um curso de graduação sabe como é, você começa a criar &#8220;anticorpos&#8221; para o estudo, não há mais a mínima vontade de aprender. Não que seja culpa dos professores, na verdade a culpa é única do aluno, neste caso <strong>eu</strong>.</p>
+<p>Quando se está no final do curso, depois de anos ocupando todos os finais de semana com estudos, exercícios, trabalhos para nota, preocupações sobre provas e o que cairá nelas e todo tipo de coisa, que só quem faz/fez um curso de graduação sabe como é, você começa a criar &ldquo;anticorpos&rdquo; para o estudo, não há mais a mínima vontade de aprender. Não que seja culpa dos professores, na verdade a culpa é única do aluno, neste caso <strong>eu</strong>.</p>
 
-<p>Como disse meu irmão certa vez: <em>&#8220;Tem que ter emoção!&#8221;</em>. Fiquei de prova final em uma disciplina, então resolvi concentrar todas as minhas forças nesta última prova e a única coisa que eu pensava, a cada instante, era na sensação de liberdade que eu a anos tinha deixado trancada em virtude de me dedicar a um curso de graduação, a sensação de:</p>
+<p>Como disse meu irmão certa vez: <em>&ldquo;Tem que ter emoção!&rdquo;</em>. Fiquei de prova final em uma disciplina, então resolvi concentrar todas as minhas forças nesta última prova e a única coisa que eu pensava, a cada instante, era na sensação de liberdade que eu a anos tinha deixado trancada em virtude de me dedicar a um curso de graduação, a sensação de:</p>
 
 <ul>
 <li>Sair do trabalho e escolher para onde ir;</li>
@@ -609,11 +609,11 @@ http {
 
 <p>Passei duas semanas estudando e decorando todo tipo de fórmula, degustando exercícios nos finais de semana até que nesta última quinta-feira fiz a prova. Fiz a prova, conversei com a professora e disse que aguardaria o resultado. Se eu fosse pra casa sem o resultado acho que passaria mal :). E para a minha alegria e felicidade, consegui a nota que precisava para passar <code>\o/</code>.</p>
 
-<p><img class="center" src="http://www.almirmendes.com/images/mission-complete.gif" title="Missão cumprida" ></p>
+<p><img class="center" src="http://m3nd3s.github.io/images/mission-complete.gif" title="Missão cumprida" ></p>
 
 <p>É com muita alegria que digo: Mission Accomplished! Terminei meu curso de graduação em Ciência da Computação e devo isso a todos que torceram por mim, em especial a minha família, meu Pai e Minha mãe, de quem herdei muitas qualidades e me educaram para ser um vencedor. A minha esposa querida que sempre me deu toda força, participou dos momentos críticos e me apoiou, e cobrou, quando precisava. A todos os amigos de eventos e software livre, agora poderei me dedicar mais a esse propósito que tanto gosto. E por fim, mas de forma alguma menos importante a <a href="http://www.giran.com.br"> Giran </a>, se não fosse o apoio <strong>imensurável</strong> dessa galera eu teria fraquejado ou mesmo desistido em algum momento, muito obrigado a todos vocês!</p>
 
-<p>Aos que tiverem interesse e quiserem comparecer na colação de grau, ela será realizada no dia 08 de agosto de 2012, quarta-feira, às 20h no <a href="http://www.clubeitalobrasileiro.com.br">Clube Ítalo Brasileiro</a> - Ilha do Boi.</p>
+<p>Aos que tiverem interesse e quiserem comparecer na colação de grau, ela será realizada no dia 08 de agosto de 2012, quarta-feira, às 20h no <a href="http://www.clubeitalobrasileiro.com.br">Clube Ítalo Brasileiro</a> &ndash; Ilha do Boi.</p>
 
 <p>É isso aí galera, simbora que o resto do ano promete ;)</p>
 ]]></content>
@@ -621,12 +621,12 @@ http {
   
   <entry>
     <title type="html"><![CDATA[O Maior Liberdade Interativa já realizado]]></title>
-    <link href="http://www.almirmendes.com/blog/2012/04/02/o-maior-liberdade-interativa-ja-realizado/"/>
+    <link href="http://m3nd3s.github.io/blog/2012/04/02/o-maior-liberdade-interativa-ja-realizado/"/>
     <updated>2012-04-02T17:54:00-03:00</updated>
-    <id>http://www.almirmendes.com/blog/2012/04/02/o-maior-liberdade-interativa-ja-realizado</id>
+    <id>http://m3nd3s.github.io/blog/2012/04/02/o-maior-liberdade-interativa-ja-realizado</id>
     <content type="html"><![CDATA[<p>Neste último final de semana, dia 31 de março, eu fui para o norte do estado, mais precisamente em Barra de São Francisco, juntamente com os manos João Victor, André Lima, Daniel Marcos, Francisco Souza e Rodrigo Martins. De antemão eu gostaria de agradecer a eles por aceitarem o desafio de deixar sua cidade, Vitória, para compartilhar o conhecimnto que adquiriram.</p>
 
-<p><img class="center" src="http://www.almirmendes.com/images/li-bsf/foto-panoramica-liberdade-interativa.jpg" title="Foto panorâmica do LI-BSF. Origem: Site Barra - www.sitebarra.com.br" ></p>
+<p><img class="center" src="http://m3nd3s.github.io/images/li-bsf/foto-panoramica-liberdade-interativa.jpg" title="Foto panorâmica do LI-BSF. Origem: Site Barra - www.sitebarra.com.br" ></p>
 
 <p>Antes de mais nada queria dizer que formos surpreendidos com a proporção que o <a href="http://www.tux-es.org/liberdadeinterativa">LI</a> tomou nesse evento, ainda não temos uma contagem oficial sobre quantas pessoas compareceram no evento, mas certamente foram mais de 500 pessoas.</p>
 
@@ -649,9 +649,9 @@ http {
 
 <p>Após uma ótima noite e algumas horas de sono/descanso é chegada a hora de iniciar o evento. Logo pela manhã recebemos a notícia que já tinham cerca de 500 pessoas no local aguardando nossa chegada, nós não parávamos de ser surpreendidos, desde que chegamos foram várias as caravanas que chegaram, trazendo outros alunos de escolas de localidades próximas, para o evento.</p>
 
-<p>Eu fiquei muito feliz de ter palestrado ao lado de pessoas tão qualificadas e dispostas a compartilhar seus conhecimentos e experiências sem cobrar nada por isso! Como diria o André Lima: <em>&#8220;Galera! Vocês são lindos!&#8221;</em>.</p>
+<p>Eu fiquei muito feliz de ter palestrado ao lado de pessoas tão qualificadas e dispostas a compartilhar seus conhecimentos e experiências sem cobrar nada por isso! Como diria o André Lima: <em>&ldquo;Galera! Vocês são lindos!&rdquo;</em>.</p>
 
-<p><img class="center" src="http://www.almirmendes.com/images/li-bsf/foto-1.jpg" title="Foto com pessoal de BSF" ></p>
+<p><img class="center" src="http://m3nd3s.github.io/images/li-bsf/foto-1.jpg" title="Foto com pessoal de BSF" ></p>
 
 <p>Foram muitas as pessoas que conhecemos em BSF, com certeza não conseguirei lembrar o nome de cada um, portanto para não ser injusto eu prefiro não citar nomes, mas sem sombra de dúvida foi um prazer enorme conhecer vocês! Estamos à disposição para ajudar e por favor mantenham contato ;).</p>
 
@@ -661,16 +661,16 @@ http {
   
   <entry>
     <title type="html"><![CDATA[Blog com Octopress]]></title>
-    <link href="http://www.almirmendes.com/blog/2012/02/17/blog-com-octopress/"/>
+    <link href="http://m3nd3s.github.io/blog/2012/02/17/blog-com-octopress/"/>
     <updated>2012-02-17T20:40:00-02:00</updated>
-    <id>http://www.almirmendes.com/blog/2012/02/17/blog-com-octopress</id>
+    <id>http://m3nd3s.github.io/blog/2012/02/17/blog-com-octopress</id>
     <content type="html"><![CDATA[<p>Já devem ter reparado no novo layout do meu blog. Dessa vez eu não troquei somente o tema, troquei de CMS mesmo.</p>
 
-<p>Há um bom tempo eu vinha utilizado Wordpress como solução para CMS, mas não estava tão feliz assim com ele, principalmente com os plugins referentes a exibição de código e a forma como os códigos deveriam ser &#8220;formatados&#8221;, convenhamos, fazer esse tipo de &#8220;formatação&#8221; era (e ainda é) um saco.</p>
+<p>Há um bom tempo eu vinha utilizado Wordpress como solução para CMS, mas não estava tão feliz assim com ele, principalmente com os plugins referentes a exibição de código e a forma como os códigos deveriam ser &ldquo;formatados&rdquo;, convenhamos, fazer esse tipo de &ldquo;formatação&rdquo; era (e ainda é) um saco.</p>
 
 <p>Desde que o <a href="https://twitter.com/#!/franciscosouza">@franciscosouza</a> me falou sobre o formato <a href="http://daringfireball.net/projects/markdown/">Markdown</a> eu tenho o utilizado sempre onde posso, só não tinha pensado ainda em escrever meus posts utilizando Markdown. Isso só me veio a mente quando o <a href="https://twitter.com/#!/ReinaldoJunior">@ReinaldoJunior</a> comentou comigo sobre o <a href="http://octopress.org">Octopress</a>, foi então que juntei o que eu mais gostava, agora eu escrevo meus blog posts como se tivesse programando \o/.</p>
 
-<p><img class="left" src="http://www.almirmendes.com/images/blog/logoOctopress.png" title="Logo Octopress" ></p>
+<p><img class="left" src="http://m3nd3s.github.io/images/blog/logoOctopress.png" title="Logo Octopress" ></p>
 
 <p>O Octopress é um framework que utiliza o <a href="https://github.com/mojombo/jekyll">Jekyll</a>, um gerador de HTML estático. Para utilizar o Jekyll você tem que escrever seu próprio template HTML, CSS, javascript e setar sua configuração. Mas com o Octopress isso fica mais fácil, o próprio Octopress cuida desse trabalho para você, permitindo que você escreva seus blog posts em HTML ou mesmo em Markdown (Amazing!!! \o/).</p>
 
@@ -684,18 +684,18 @@ http {
   
   <entry>
     <title type="html"><![CDATA[Meu Projeto de Conclusão de Curso, usando Arduino]]></title>
-    <link href="http://www.almirmendes.com/blog/2011/12/05/meu-projeto-de-conclusao-de-curso-usando-arduino/"/>
+    <link href="http://m3nd3s.github.io/blog/2011/12/05/meu-projeto-de-conclusao-de-curso-usando-arduino/"/>
     <updated>2011-12-05T18:12:38-02:00</updated>
-    <id>http://www.almirmendes.com/blog/2011/12/05/meu-projeto-de-conclusao-de-curso-usando-arduino</id>
+    <id>http://m3nd3s.github.io/blog/2011/12/05/meu-projeto-de-conclusao-de-curso-usando-arduino</id>
     <content type="html"><![CDATA[<h2>A ideia</h2>
 
 <p>Finalmente finalizei meu Trabalho de Conclusão de Curso (TCC), defendi/apresentei no dia 16 de novembro na <a href="http://site.faesa.br">FAESA</a>, faculdade em que estou cursando graduação em Ciência da Computação.</p>
 
-<p>O trabalho foi feito em parceria meu grande amigo Renato Tecchio. O título dado ao nosso trabalho foi <strong>&#8220;Aplicação embarcada para monitoramento de temperatura em câmaras climatizadas&#8221;</strong>. O objetivo principal do trabalho era implementar um sistema embarcado para medir, registrar e monitorar câmaras climatizadas.</p>
+<p>O trabalho foi feito em parceria meu grande amigo Renato Tecchio. O título dado ao nosso trabalho foi <strong>&ldquo;Aplicação embarcada para monitoramento de temperatura em câmaras climatizadas&rdquo;</strong>. O objetivo principal do trabalho era implementar um sistema embarcado para medir, registrar e monitorar câmaras climatizadas.</p>
 
 <p>Baseado nas exigências da Agência Nacional de Vigilância Sanitária (ANVISA), mais especificamente nas portarias que regem o controle de temperatura de câmaras para armazenamento de alimentos, a nossa missão era, em resumo, implementar um sistema embarcado que pudesse medir e registrar as temperaturas câmaras climatizadas, e além disso que o sistema pudesse informar e notificar ao responsável quando a temperatura estivesse fora dos níveis aceitáveis.</p>
 
-<p><img class="left" src="http://www.almirmendes.com/images/blog/Foto_prototipo2-300x295.jpg" title="&#34;Foto do protótipo - Módulo Registrador (Arduino)&#34;" alt="&#34;Foto do protótipo - Módulo Registrador (Arduino)&#34;"></p>
+<p><img class="left" src="http://m3nd3s.github.io/images/blog/Foto_prototipo2-300x295.jpg" title="&#34;Foto do protótipo - Módulo Registrador (Arduino)&#34;" alt="&#34;Foto do protótipo - Módulo Registrador (Arduino)&#34;"></p>
 
 <p>Ao final o trabalho foi implementado em dois sistemas, um módulo registrador (usando Arduino) e um outro sistema (chamamos de Servidor de Dados e Monitoramento), implementado em Ruby on Rails, que era responsável por consumir os dados registrados pelo(s) Arduino(s) e com isso fornecer relatórios e gráficos. Também era responsabilidade do Servido de Dados e Monitoramento notificar, via SMS e/ou e-mail, o usuário sobre qualquer discrepância detectada entre as capturas de temperatura (realizadas pelo Módulo Registrador).</p>
 
@@ -706,13 +706,13 @@ http {
 
 <p>Inicialmente pensamos em implementar tanto o hardware quanto o software, mas vimos que isso nos tomaria muito tempo, mais do que o que poderíamos dispor no momento.</p>
 
-<p>Começamos então uma procura de um hardware que atendesse ao nosso projeto. O nosso orientador, o professor Marcelo Brunoro, indicou alguns hardwares existentes no mercado, mas o preço nos assustou um pouco. Partimos então para o &#8220;Saint Google&#8221; em busca de algum hardware que nos atendesse.</p>
+<p>Começamos então uma procura de um hardware que atendesse ao nosso projeto. O nosso orientador, o professor Marcelo Brunoro, indicou alguns hardwares existentes no mercado, mas o preço nos assustou um pouco. Partimos então para o &ldquo;Saint Google&rdquo; em busca de algum hardware que nos atendesse.</p>
 
 <p>Entretanto, foi em uma conversa com outro amigo, outro Renato, o <a href="http://renatocunha.com/about/">Renato Cunha</a> que me fez a indicação do Arduino, e foi como que paixão a primeira vista. Fiquei impressionado com a <a href="http://www.arduino.cc/playground/Projects/ArduinoUsers">quantidade de projetos</a> já implementados com Arduino e a capacidade dessa plaquinha, não tive dúvidas e compartilhei a descoberta com o Renato Tecchio que também aprovou. Decidimos então então utilizar o Arduino em nosso projeto.</p>
 
-<p><img class="right" src="http://www.almirmendes.com/images/blog/ArduinoDuemilanove-300x187.png" title="&#34;Arduino Duemilanove&#34;" alt="&#34;Arduino Duemilanove&#34;"></p>
+<p><img class="right" src="http://m3nd3s.github.io/images/blog/ArduinoDuemilanove-300x187.png" title="&#34;Arduino Duemilanove&#34;" alt="&#34;Arduino Duemilanove&#34;"></p>
 
-<p>Pesquisamos por quem revendia o Arduino aqui no Brasil, localizamos um revendedor e compramos as placas Arduino e Ethernet shields. Depois disso compramos um monte de &#8220;quinquilharias&#8221; para plugar ao Arduino, diga-se de passagem a maioria dessas &#8220;quinquilharias&#8221; foram adquiridas no <a href="http://www.soldafria.com.br/">Solda Fria</a>, que eu recomendo.</p>
+<p>Pesquisamos por quem revendia o Arduino aqui no Brasil, localizamos um revendedor e compramos as placas Arduino e Ethernet shields. Depois disso compramos um monte de &ldquo;quinquilharias&rdquo; para plugar ao Arduino, diga-se de passagem a maioria dessas &ldquo;quinquilharias&rdquo; foram adquiridas no <a href="http://www.soldafria.com.br/">Solda Fria</a>, que eu recomendo.</p>
 
 <h4>Mãos a obra</h4>
 
@@ -729,13 +729,13 @@ http {
 </ul>
 
 
-<p><img class="left" src="http://www.almirmendes.com/images/blog/IMG_10288_600-150x150.jpg" title="Sensor de Temperatura DS18S20" ></p>
+<p><img class="left" src="http://m3nd3s.github.io/images/blog/IMG_10288_600-150x150.jpg" title="Sensor de Temperatura DS18S20" ></p>
 
 <p>Na época em que compramos nossas placas Arduino ainda não tinham chegado aqui ao Brasil a Arduino Uno, que era versão mais nova das placas do Projeto Arduino.</p>
 
 <p>Obviamente precisávamos de um sensor de temperatura, afinal o objetivo do nosso trabalho dependia da leitura de temperaturas. A escolha do sensor DS18S20 foi simplesmente pela facilidade de já existirem drivers/bibliotecas para sua utilização com o Arduino.</p>
 
-<p>Por fim o DS1302, um relógio de tempo real (Real Time Clock - RTC). Talvez você não saiba, mas o Arduino não possui um relógio. Em nosso trabalho nós precisávamos de, além de registrar a temperatura, registrar junto a temperatura o momento em que a leitura foi realizada, por isso o uso de um RTC no projeto. A escolha do modelo DS1302 também foi por já existirem bibliotecas prontas para a comunicação do dispositivo com o Arduino.</p>
+<p>Por fim o DS1302, um relógio de tempo real (Real Time Clock &ndash; RTC). Talvez você não saiba, mas o Arduino não possui um relógio. Em nosso trabalho nós precisávamos de, além de registrar a temperatura, registrar junto a temperatura o momento em que a leitura foi realizada, por isso o uso de um RTC no projeto. A escolha do modelo DS1302 também foi por já existirem bibliotecas prontas para a comunicação do dispositivo com o Arduino.</p>
 
 <p>Depois de tudo adquirido foi só juntar tudo e programar, e foi aí que o bicho pegou!</p>
 
@@ -744,9 +744,9 @@ http {
 
 <p>Sem sombra de dúvidas foi uma experiência muito proveitosa!</p>
 
-<p>Entendemos, por experiência própria, o que significa a expressão &#8220;Enxugar bits&#8221;. A Arduino Duemilanove possui 32K de memória flash, dos quais 30K são utilizada para armazenar o sistema embarcado. Possui também 2K de memória SDRAM, esta por sua vez é utilizada para rodar o programa embarcado.</p>
+<p>Entendemos, por experiência própria, o que significa a expressão &ldquo;Enxugar bits&rdquo;. A Arduino Duemilanove possui 32K de memória flash, dos quais 30K são utilizada para armazenar o sistema embarcado. Possui também 2K de memória SDRAM, esta por sua vez é utilizada para rodar o programa embarcado.</p>
 
-<p><img class="right" src="http://www.almirmendes.com/images/blog/17810-img_3251_pl-150x150.jpg" title="DS1302 e o Cristal" ></p>
+<p><img class="right" src="http://m3nd3s.github.io/images/blog/17810-img_3251_pl-150x150.jpg" title="DS1302 e o Cristal" ></p>
 
 <p>Como puderam perceber o nosso projeto considerava o uso do RTC e o sensor de temperatura, isso implica em carregar as bibliotecas de cada um desses dispositivos. Além disso trabalho contemplava a implementação de um sistema web que permitisse ao usuário configurar o próprio dispositivo (descrição, temperaturas críticas, endereço mac, endereço IP, máscara, relógio, etc). Tudo isso e ainda todo processamento backend.</p>
 
@@ -771,18 +771,18 @@ http {
   
   <entry>
     <title type="html"><![CDATA[Que venha o Rock'n Rails]]></title>
-    <link href="http://www.almirmendes.com/blog/2011/09/14/que-venha-o-rockn-rails/"/>
+    <link href="http://m3nd3s.github.io/blog/2011/09/14/que-venha-o-rockn-rails/"/>
     <updated>2011-09-14T14:25:09-03:00</updated>
-    <id>http://www.almirmendes.com/blog/2011/09/14/que-venha-o-rockn-rails</id>
+    <id>http://m3nd3s.github.io/blog/2011/09/14/que-venha-o-rockn-rails</id>
     <content type="html"><![CDATA[<p>Já tem um bom tempo que estou brincando/trabalhando com Ruby on Rails e é chegada a hora de compartilhar esse conhecimento com a comunidade, quem sabe instigar os colegas desenvolvedores a migrar de linguagem+framework, conhecer algo novo e ágil.</p>
 
-<p><img class="center" src="http://www.almirmendes.com/images/blog/logoWeb.png" title="&#34;Giran - Soluções e E-commerce&#34;" alt="&#34;Giran - Soluções e E-commerce&#34;"></p>
+<p><img class="center" src="http://m3nd3s.github.io/images/blog/logoWeb.png" title="&#34;Giran - Soluções e E-commerce&#34;" alt="&#34;Giran - Soluções e E-commerce&#34;"></p>
 
 <p>Nós da <a href="http://www.twitter.com/giran_br">@giran_br</a> estamos organizando um evento único no nosso Espírito Santo, um evento totalmente voltado à linguagem Ruby, mais especificamente ao framework Ruby on Rails.</p>
 
 <p>O Rock and Rails é um evento dedicado ao desenvolvimento em Ruby e a framework Ruby on Rails. Diga-se de passagem a aceitação e adoção nas empresas de todo o Brasil, e do mundo, está em franco crescimento. O evento é inédito no estado e tem como objetivos principais disseminar o conhecimento da linguagem/framework e dar uma ideia da quantidade de interessados/profissionais/entusiastas não apenas da linguagem mas do desenvolvimento para internet.</p>
 
-<p><img class="left" src="http://www.almirmendes.com/images/blog/logo_rock_and_rails11.png" title="&#34;Rock and Rails&#34;" alt="&#34;Rock and Rails&#34;"></p>
+<p><img class="left" src="http://m3nd3s.github.io/images/blog/logo_rock_and_rails11.png" title="&#34;Rock and Rails&#34;" alt="&#34;Rock and Rails&#34;"></p>
 
 <p>Os recursos obtidos junto aos parceiros, patrocinadores e incrições será revertido completamente para cobertura do evento e compra de brindes para sorteio ao final do evento.</p>
 
@@ -792,22 +792,22 @@ http {
 
 <p>Se interssou? Então não perca tempo, o evento já está para acontecer, será no dia 01 de outubro de 2011, 011011 (binário!). <a href="http://www.rockandrails.com.br/inscricao/">Faça já sua inscrição</a>.</p>
 
-<p>Siga-nos no twitter (@rockandrails) e mande o seu &#8220;Eu vou ao @rockandrails!&#8221;. Ou mesmo pelo <a href="http://www.facebook.com/groups/138369966254056/">Facebook</a>, qualquer ajuda na divulgação será muito bem vinda!</p>
+<p>Siga-nos no twitter (@rockandrails) e mande o seu &ldquo;Eu vou ao @rockandrails!&rdquo;. Ou mesmo pelo <a href="http://www.facebook.com/groups/138369966254056/">Facebook</a>, qualquer ajuda na divulgação será muito bem vinda!</p>
 
-<p>Na página oficial do <a href="http://www.rockandrails.com.br">Rock and Rails</a>, você pode ver todos os detalhes do evento, a grade, os palestrantes, o local, <em>&#8220;TUTO&#8221;</em> sobre o Rock and Rails.</p>
+<p>Na página oficial do <a href="http://www.rockandrails.com.br">Rock and Rails</a>, você pode ver todos os detalhes do evento, a grade, os palestrantes, o local, <em>&ldquo;TUTO&rdquo;</em> sobre o Rock and Rails.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Eventos 2011/2]]></title>
-    <link href="http://www.almirmendes.com/blog/2011/08/21/eventos-20112/"/>
+    <link href="http://m3nd3s.github.io/blog/2011/08/21/eventos-20112/"/>
     <updated>2011-08-21T16:49:37-03:00</updated>
-    <id>http://www.almirmendes.com/blog/2011/08/21/eventos-20112</id>
-    <content type="html"><![CDATA[<p>Para que você gosta de acompanhar os eventos de informática aqui da Grande Vitória - Espírito Santo:</p>
+    <id>http://m3nd3s.github.io/blog/2011/08/21/eventos-20112</id>
+    <content type="html"><![CDATA[<p>Para que você gosta de acompanhar os eventos de informática aqui da Grande Vitória &ndash; Espírito Santo:</p>
 
-<h2>1º Fórum Capixaba de Informatica - FOCAI</h2>
+<h2>1º Fórum Capixaba de Informatica &ndash; FOCAI</h2>
 
-<p>Em setembro o SENAI será a sede do Fórum Capixaba de Informática, FOCAI 2011. São esperadas cerca de 800 pessoas entre estudantes, profissionais e especialistas da área. O evento será realizado nos dias 02 e 03 de setembro no SENAI - Beira Mar.</p>
+<p>Em setembro o SENAI será a sede do Fórum Capixaba de Informática, FOCAI 2011. São esperadas cerca de 800 pessoas entre estudantes, profissionais e especialistas da área. O evento será realizado nos dias 02 e 03 de setembro no SENAI &ndash; Beira Mar.</p>
 
 <p>O FOCAI é um evento que abrirá espaço para discussões e reflexões sobre o mercado capixaba, novas tecnologias, além de promover a integração e valorização dos profissionais e empresas do estado do Espírito Santo.</p>
 
@@ -826,9 +826,9 @@ http {
 <p>O próximo LI será realizado no dia 24 de setembro, ainda sem local definido mas muito provavelmente será realizado na Faculdade Salesiana. Abaixo os tópicos que serão abordados nesta próxima edição:</p>
 
 <ul>
-<li>Desenvolvimento Mobile com Ruby - Rodrigo Martins</li>
-<li>SEO - Daniel Marcos</li>
-<li>Hands On do Gentoo - Claudio / Spidey</li>
+<li>Desenvolvimento Mobile com Ruby &ndash; Rodrigo Martins</li>
+<li>SEO &ndash; Daniel Marcos</li>
+<li>Hands On do Gentoo &ndash; Claudio / Spidey</li>
 </ul>
 
 
@@ -850,14 +850,14 @@ http {
   
   <entry>
     <title type="html"><![CDATA[Deploy de aplicações Rails com Capistrano]]></title>
-    <link href="http://www.almirmendes.com/blog/2011/07/25/deploy-de-aplicacoes-rails-com-capistrano/"/>
+    <link href="http://m3nd3s.github.io/blog/2011/07/25/deploy-de-aplicacoes-rails-com-capistrano/"/>
     <updated>2011-07-25T18:34:50-03:00</updated>
-    <id>http://www.almirmendes.com/blog/2011/07/25/deploy-de-aplicacoes-rails-com-capistrano</id>
+    <id>http://m3nd3s.github.io/blog/2011/07/25/deploy-de-aplicacoes-rails-com-capistrano</id>
     <content type="html"><![CDATA[<p>Me lembro do tempo que eu perdia fazendo subir minhas aplicações PHP para servidor de produção (deploy): tinha que criar o banco de dados, fazer um <em>dump</em> do banco de dados de desenvolvimento para carregar o banco de dados de produção, checar as permissões dos paths utilizados para upload, etc.</p>
 
 <p>Quanto tinha atualização para fazer era uma preocupação danada, eu precisava checar quais arquivos foram atualizados para só subir estes e assim não correr o risco de sobrescrever alguma configuração própria do ambiente de produção.</p>
 
-<p><img class="left" src="http://www.almirmendes.com/images/blog/ror_logo.jpg" title="Ruby on Rails framework" > Há algum tempo eu parei de desenvolver aplicações em PHP para trabalhar com o framework <a href="http://rubyonrails.org/">Ruby on Rails</a>, aproveitando a deixa, tenho uma palestra onde conto um pouco como está sendo essa migração e o que ganhei com isso. Dentre as facilidades que ganhei ao migrar para o framework Rails está o deploy - que significa implantação em inglês - de aplicações via ferramenta chamada <a href="https://github.com/capistrano/capistrano">Capistrano</a>.</p>
+<p><img class="left" src="http://m3nd3s.github.io/images/blog/ror_logo.jpg" title="Ruby on Rails framework" > Há algum tempo eu parei de desenvolver aplicações em PHP para trabalhar com o framework <a href="http://rubyonrails.org/">Ruby on Rails</a>, aproveitando a deixa, tenho uma palestra onde conto um pouco como está sendo essa migração e o que ganhei com isso. Dentre as facilidades que ganhei ao migrar para o framework Rails está o deploy &ndash; que significa implantação em inglês &ndash; de aplicações via ferramenta chamada <a href="https://github.com/capistrano/capistrano">Capistrano</a>.</p>
 
 <p>O Capistrano é uma ferramenta (gem) para deploy de aplicações web. Inicialmente utilizada para deploy de aplicações Ruby on Rails ela também pode ser personalizada para fazer deploy de aplicações não Rails. O Capistrano é tipicamente instalado em uma estação de trabalho e usado para implantar o código fonte de sua aplicação, via um gerenciador de código fonte (SCM), em um ou mais servidores previamente configurados.</p>
 
@@ -892,7 +892,7 @@ http {
 
 <h2>Capificação</h2>
 
-<p>O primeiro passo após instalar o Capistrano é &#8220;capificar&#8221; sua aplicação. Este processo consiste em transformar sua aplicação gerenciável pelo Capistrano. O processo é simples, rode o comando abaixo na raiz de sua aplicação:</p>
+<p>O primeiro passo após instalar o Capistrano é &ldquo;capificar&rdquo; sua aplicação. Este processo consiste em transformar sua aplicação gerenciável pelo Capistrano. O processo é simples, rode o comando abaixo na raiz de sua aplicação:</p>
 
 <figure class='code'><figcaption><span>Tornando o projeto gerenci</span></figcaption>
 <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
@@ -945,9 +945,9 @@ http {
 </span></code></pre></td></tr></table></div></figure>
 
 
-<p>Nesse ponto pode surgir uma dúvida: <em>&#8220;Porque preciso informar três vezes o endereço?&#8221;</em>. Eu também fiquei com essa dúvida pela primeira vez, mas a explicação é muito boa e traz consigo outro recurso do Capistrano.</p>
+<p>Nesse ponto pode surgir uma dúvida: <em>&ldquo;Porque preciso informar três vezes o endereço?&rdquo;</em>. Eu também fiquei com essa dúvida pela primeira vez, mas a explicação é muito boa e traz consigo outro recurso do Capistrano.</p>
 
-<p>Perceba que o atributo é diferente para cada um deles, isto porque em alguns casos sua aplicação está distribuída em servidores diferentes - no meu caso estou usando o mesmo servidor para a aplicação, o banco de dados e servidor web - e possivelmente você queira definir tarefas para serem executadas apenas em um ou outro servidor. Resumidamente, o Capistrano lhe fornece a opção de definir comandos/tarefas para serem executados em um servidor específico, e não em todos.</p>
+<p>Perceba que o atributo é diferente para cada um deles, isto porque em alguns casos sua aplicação está distribuída em servidores diferentes &ndash; no meu caso estou usando o mesmo servidor para a aplicação, o banco de dados e servidor web &ndash; e possivelmente você queira definir tarefas para serem executadas apenas em um ou outro servidor. Resumidamente, o Capistrano lhe fornece a opção de definir comandos/tarefas para serem executados em um servidor específico, e não em todos.</p>
 
 <p>Como em nosso exemplo estamos usando o mesmo servidor para tudo, existe uma configuração rápida para substituir as linhas citadas acima, assim a configuração mais clara e simples. Substitua as três linhas acima, caso queria, pela linha abaixo:</p>
 
@@ -967,9 +967,9 @@ http {
 </span></code></pre></td></tr></table></div></figure>
 
 
-<p>Por padrão o Capistrano tentará executar certos comandos com o [cci]sudo[/cci]. Se você estiver fazendo deploy de sua aplicação em um servidor compartilhado é muito provável que você não tenha acesso de superusuário e tão pouco o [cci]sudo[/cci] configurado, portanto vamos configurar o Capistrano para não utilizar o [cci]sudo[/cci] - conforme visto acima.</p>
+<p>Por padrão o Capistrano tentará executar certos comandos com o [cci]sudo[/cci]. Se você estiver fazendo deploy de sua aplicação em um servidor compartilhado é muito provável que você não tenha acesso de superusuário e tão pouco o [cci]sudo[/cci] configurado, portanto vamos configurar o Capistrano para não utilizar o [cci]sudo[/cci] &ndash; conforme visto acima.</p>
 
-<p>Neste ponto já temos o que é suficiente para um deploy &#8220;saudável&#8221;, entretanto gostaria de passar mais algumas opções que podem ajudar:</p>
+<p>Neste ponto já temos o que é suficiente para um deploy &ldquo;saudável&rdquo;, entretanto gostaria de passar mais algumas opções que podem ajudar:</p>
 
 <figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
@@ -1098,9 +1098,9 @@ http {
   
   <entry>
     <title type="html"><![CDATA[Review: Ciclo de Palestras do CEET Vasco Coutinho]]></title>
-    <link href="http://www.almirmendes.com/blog/2011/05/29/review-ciclo-de-palestras-do-ceet-vasco-coutinho/"/>
+    <link href="http://m3nd3s.github.io/blog/2011/05/29/review-ciclo-de-palestras-do-ceet-vasco-coutinho/"/>
     <updated>2011-05-29T15:57:59-03:00</updated>
-    <id>http://www.almirmendes.com/blog/2011/05/29/review-ciclo-de-palestras-do-ceet-vasco-coutinho</id>
+    <id>http://m3nd3s.github.io/blog/2011/05/29/review-ciclo-de-palestras-do-ceet-vasco-coutinho</id>
     <content type="html"><![CDATA[<p>Graças a iniciativa do <a href="http://www.ceetvascocoutinho.com.br/">Centro Estadual de Educação Técnica (CEET) Vasco Coutinho</a> em criar o <a href="http://www.ceetvascocoutinho.com.br/site/index.php?option=com_content&amp;view=article&amp;id=88:ciclodepalestra&amp;catid=41:banner"><strong>Ciclo de Palestras</strong></a>, um evento do Projeto Enriquecimento Curricular (PEC), e de um camarada que, ao que me pareceu, foi fundamental para a realização do evento (o <a href="http://twitter.com/#!/marcelo18victor">Marcelo Victor</a>), e o apoio da <a href="http://www.giran.com.br/">Giran</a>, eu e meu amigo <a href="http://www.tagliati.com.br">André Tagliati</a> tivemos a honra de palestrar sobre os temas: <a href="http://www.slideshare.net/m3nd3s/palestra-do-php-ao-rails">Do PHP ao Rails</a> e <a href="http://www.slideshare.net/m3nd3s/ciclo-de-palestras-ceet-vasco-coutinho">Arduino Project</a>.</p>
 
 <p><img title="Trecho da palestra: Do PHP ao Rails" src="http://desmond.yfrog.com/Himg618/scaled.php?tn=0&amp;server=618&amp;filename=81way.jpg&amp;xsize=640&amp;ysize=640" alt="" width="250" height="187" /></p>
@@ -1125,7 +1125,7 @@ http {
 
 <p>Quer aprender uma linguagem nova? Comece! Leia ao menos um parágrafo por dia, mas leia e continue, dia após dia você verá que as coisas irão fluir. É disto que falo, comece e vá aos poucos, mantenha o ritmo e aos poucos as coisas irão acontecer.</p>
 
-<p>Agora voltando ao assunto, a palestra de Rails foi linda! Até a secretária de educação assistiu minha palestra (e me viu falar a palavra &#8220;merda&#8221; durante a palestra). Os que ficaram antenados tiveram a oportunidade de ganhar uma <a href="http://www.facebook.com/photo.php?pid=524153&amp;id=168969243142453">lindíssima camisa da Giran</a> que seria dada ao primeiro aluno que fizesse pergunta.</p>
+<p>Agora voltando ao assunto, a palestra de Rails foi linda! Até a secretária de educação assistiu minha palestra (e me viu falar a palavra &ldquo;merda&rdquo; durante a palestra). Os que ficaram antenados tiveram a oportunidade de ganhar uma <a href="http://www.facebook.com/photo.php?pid=524153&amp;id=168969243142453">lindíssima camisa da Giran</a> que seria dada ao primeiro aluno que fizesse pergunta.</p>
 
 <p>Após o almoço eu e o amigo <a href="http://www.tagliati.com.br/">André Tagliati</a> palestramos sobre o Arduino Project, este foi o momento mais alto do dia, pelo menos para nós. Graças a uma ideia do Tagliati em utilizamos o Arduino para passar os slides utilizando o controle remoto da televisão <em>(minha esposa não gostou muito disso, ela teve que passar os canais na própria TV)</em>. Em um segundo momento eu falo sobre esta experiência, mas posso garantir que foi uma experiência muito proveitosa e instigante para todos, especialmente os alunos que, finalizada a palestra, vieram em massa conhecer a plaquinha e como nós estávamos fazendo para passar os slides com controle de TV.</p>
 
@@ -1139,10 +1139,10 @@ http {
   
   <entry>
     <title type="html"><![CDATA[Arduino Hack Day - vE.S]]></title>
-    <link href="http://www.almirmendes.com/blog/2011/05/04/arduino-hack-day-ve-s/"/>
+    <link href="http://m3nd3s.github.io/blog/2011/05/04/arduino-hack-day-ve-s/"/>
     <updated>2011-05-04T17:30:19-03:00</updated>
-    <id>http://www.almirmendes.com/blog/2011/05/04/arduino-hack-day-ve-s</id>
-    <content type="html"><![CDATA[<p>Então galera! Esse é um post rápido com a intenção de identificar os interessados em participar de um evento sobre <a href="http://www.arduino.cc">Arduino</a>. aqui em Vitória - Epírito Santo.</p>
+    <id>http://m3nd3s.github.io/blog/2011/05/04/arduino-hack-day-ve-s</id>
+    <content type="html"><![CDATA[<p>Então galera! Esse é um post rápido com a intenção de identificar os interessados em participar de um evento sobre <a href="http://www.arduino.cc">Arduino</a>. aqui em Vitória &ndash; Epírito Santo.</p>
 
 <p><img class="aligncenter" title="Arduino" src="http://arduino.cc/en/pub/skins/arduinoWide/img/logo.png" alt="Arduino" width="170" height="116" /></p>
 
@@ -1160,9 +1160,9 @@ http {
   
   <entry>
     <title type="html"><![CDATA[O meu jeito de ler livros]]></title>
-    <link href="http://www.almirmendes.com/blog/2011/02/10/o-meu-jeito-de-ler-livros/"/>
+    <link href="http://m3nd3s.github.io/blog/2011/02/10/o-meu-jeito-de-ler-livros/"/>
     <updated>2011-02-10T16:20:27-03:00</updated>
-    <id>http://www.almirmendes.com/blog/2011/02/10/o-meu-jeito-de-ler-livros</id>
+    <id>http://m3nd3s.github.io/blog/2011/02/10/o-meu-jeito-de-ler-livros</id>
     <content type="html"><![CDATA[<!-- p { margin-bottom: 0.21cm; } -->
 
 
@@ -1172,15 +1172,15 @@ http {
 
 <p>Pois é! Eu ainda estou agarrado na faculdade mas se Deus permitir este ano de 2011 será o meu último ano da faculdade.</p>
 
-<p>O tempo &#8220;livre&#8221; que eu tento eu aproveito para resolver minhas pendências da faculdade: fazendo exercícios <em>(que normalmente valem nota)</em>, estudando para provas, fazendo trabalhos, escrevendo meu TCC, etc. Isso acaba por consumir boa parte do meu tempo à leitura direcionada a assuntos acadêmicos, portanto assuntos como TDD, BDD, outras linguagens de programação, desenvolver e melhorar técnicas de programação, gerência de projetos com XP + Scrum e outras coisas mais que não sejam assuntos técnicos acabam ficando em segundo plano.</p>
+<p>O tempo &ldquo;livre&rdquo; que eu tento eu aproveito para resolver minhas pendências da faculdade: fazendo exercícios <em>(que normalmente valem nota)</em>, estudando para provas, fazendo trabalhos, escrevendo meu TCC, etc. Isso acaba por consumir boa parte do meu tempo à leitura direcionada a assuntos acadêmicos, portanto assuntos como TDD, BDD, outras linguagens de programação, desenvolver e melhorar técnicas de programação, gerência de projetos com XP + Scrum e outras coisas mais que não sejam assuntos técnicos acabam ficando em segundo plano.</p>
 
 <p>Maaaasss! Não posso parar, meu trabalho depende disso, mesmo que não dependesse eu gosto muito de ler sobre assuntos não técnicos também. Ainda não tenho meio de transporte próprio, portanto utilizo o coletivo para qualquer movimentação casa-&gt;trabalho-&gt;faculdade-&gt;casa-&gt;?. Então a primeira coisa que você provavelmente irá pensar é que eu leio livros no ônibus, errado!</p>
 
 <p>Eu tenho problema que eu sequer consigo parar por um minuto e olhar para meu celular ou para ler algumas frases de jornais alheios (também aproveito minhas viagens nos coletivos para ler jornal dos demais passageiros, mas apenas os títulos maiores e as figurinhas.. rsrsrs). Bastam alguns segundos com o olhar fixo em alguma leitura e eu começo a ficar tonto, e se eu persistir a dor de cabeça é certa.</p>
 
-<p>Hoje minha rotina é: casa -&gt; trabalho -&gt; faculdade, nesse percurso de casa para o trabalho existe um trecho que faço a pé e é justamente nesse ponto que eu inicio minha leitura. Sim! Eu leio andando nas ruas. :P</p>
+<p>Hoje minha rotina é: casa &ndash;&gt; trabalho &ndash;&gt; faculdade, nesse percurso de casa para o trabalho existe um trecho que faço a pé e é justamente nesse ponto que eu inicio minha leitura. Sim! Eu leio andando nas ruas. :P</p>
 
-<p>Por mais estranho que pareça, eu não consigo ler em ônibus mas consigo ler andando nas ruas. Assim que desço do coletivo eu abro minha mochila e pego o livro da vez (desta vez estou lendo o livro &#8220;Oportunidades disfarçadas&#8221; de Carlos Domingos) e inicio minha leitura. Atravesso ruas e ruas lendo, as vezes  penso que alguém poderia me achar doido, mas após alguns segundos eu desconsidero.. heh.</p>
+<p>Por mais estranho que pareça, eu não consigo ler em ônibus mas consigo ler andando nas ruas. Assim que desço do coletivo eu abro minha mochila e pego o livro da vez (desta vez estou lendo o livro &ldquo;Oportunidades disfarçadas&rdquo; de Carlos Domingos) e inicio minha leitura. Atravesso ruas e ruas lendo, as vezes  penso que alguém poderia me achar doido, mas após alguns segundos eu desconsidero.. heh.</p>
 
 <p>Quando preciso atravessar as ruas eu passo sempre nas faixas e enquanto inicio a travessia eu paro a leitura, depois volto novamente.</p>
 
@@ -1190,24 +1190,24 @@ http {
   
   <entry>
     <title type="html"><![CDATA[Meu ambiente de trabalho em 7 itens]]></title>
-    <link href="http://www.almirmendes.com/blog/2011/01/20/meu-ambiente-de-trabalho-em-7-itens/"/>
+    <link href="http://m3nd3s.github.io/blog/2011/01/20/meu-ambiente-de-trabalho-em-7-itens/"/>
     <updated>2011-01-20T11:32:54-03:00</updated>
-    <id>http://www.almirmendes.com/blog/2011/01/20/meu-ambiente-de-trabalho-em-7-itens</id>
-    <content type="html"><![CDATA[<p>Inspirado pelo post do <a href="http://jeveaux.com/2011/meu-ambiente-de-trabalho-em-7-itens/">Jeveaux</a>, que por sua vez foi inspirado pelo post da <a href="http://www.loiane.com/2011/01/meu-ambiente-de-trabalho-em-7-itens/">Loiane</a>, eu resolvi postar sobre meu &#8220;ambiente&#8221; de trabalho. Na verdade é uma seleção de ferramentas que fazem parte do meu dia-a-dia como desenvolvedor. Tanto em casa (programando por hobby ou freela) como no trabalho (<a href="http://www.giran.com.br/">Giran</a>) o set de ferramentas é praticamente o mesmo.</p>
+    <id>http://m3nd3s.github.io/blog/2011/01/20/meu-ambiente-de-trabalho-em-7-itens</id>
+    <content type="html"><![CDATA[<p>Inspirado pelo post do <a href="http://jeveaux.com/2011/meu-ambiente-de-trabalho-em-7-itens/">Jeveaux</a>, que por sua vez foi inspirado pelo post da <a href="http://www.loiane.com/2011/01/meu-ambiente-de-trabalho-em-7-itens/">Loiane</a>, eu resolvi postar sobre meu &ldquo;ambiente&rdquo; de trabalho. Na verdade é uma seleção de ferramentas que fazem parte do meu dia-a-dia como desenvolvedor. Tanto em casa (programando por hobby ou freela) como no trabalho (<a href="http://www.giran.com.br/">Giran</a>) o set de ferramentas é praticamente o mesmo.</p>
 
 <h3>1. MacOS e GNU/Linux</h3>
 
 
 <p>Há mais de 10 anos que utilizo o sistema operacional GNU/Linux. No dia 27/05/2010 eu passei a fazer parte da equipe de desenvolvedores da Giran, onde conheci outro SO bacana (ainda assim prefiro o GNU/Linux), o MacOS X. Sendo <em>unix based</em> foi fácil me localizar, o único problema foi acostumar com o teclado uma vez que já que estava acostumado a utilizar o padrão ABNT.</p>
 
-<p>Eventualmente costumo fazer palestras sobre software livre e sempre que falo de minha experiência como <em>Linuxer</em> a primeira coisa que falo é: <em><strong>&#8220;Eu uso GNU/Linux porque gosto e pronto!&#8221;</strong></em>. Me acostumei com o poder das ferramentas e de personalização que tenho em SOs Linux, hoje já não me vejo utilizando o Microsoft Windows para trabalhar.</p>
+<p>Eventualmente costumo fazer palestras sobre software livre e sempre que falo de minha experiência como <em>Linuxer</em> a primeira coisa que falo é: <em><strong>&ldquo;Eu uso GNU/Linux porque gosto e pronto!&rdquo;</strong></em>. Me acostumei com o poder das ferramentas e de personalização que tenho em SOs Linux, hoje já não me vejo utilizando o Microsoft Windows para trabalhar.</p>
 
-<p>Já utilizei as distros: Red Hat, Conectiva, Slackware, Debian, Archlinux e hoje estou utilizando Ubuntu em meu notebook. Todas são ótimas, cada uma com sua filosofia e portanto não acho &#8220;adequado&#8221; dizer que uma é melhor e outra é pior, apenas que cada um tem sua filosofia e seu público.</p>
+<p>Já utilizei as distros: Red Hat, Conectiva, Slackware, Debian, Archlinux e hoje estou utilizando Ubuntu em meu notebook. Todas são ótimas, cada uma com sua filosofia e portanto não acho &ldquo;adequado&rdquo; dizer que uma é melhor e outra é pior, apenas que cada um tem sua filosofia e seu público.</p>
 
 <h3>2. Mozilla Firefox</h3>
 
 
-<p>Gosto muito do Mozilla Firefox por seu grande conjunto de addons. Concordo que é um navegador um tanto quanto pesado, mas mesmo assim ainda acho ele o melhor para navegar e utilizar para desenvolvimento de aplicações Web. <em>&#8220;Plugado&#8221;</em> ao meu Mozilla Firefox tenho os plugins:</p>
+<p>Gosto muito do Mozilla Firefox por seu grande conjunto de addons. Concordo que é um navegador um tanto quanto pesado, mas mesmo assim ainda acho ele o melhor para navegar e utilizar para desenvolvimento de aplicações Web. <em>&ldquo;Plugado&rdquo;</em> ao meu Mozilla Firefox tenho os plugins:</p>
 
 <ul>
     <li><strong>Desenvolvimento:</strong> FireBug (fantástico), ScreenGrab, Webdeveloper e HTML Validator;</li>
@@ -1232,7 +1232,7 @@ http {
 <h3>5. Bash (Terminal)</h3>
 
 
-<p>Sou fã dessa &#8220;tela preta&#8221;! na verdade o bash é um dos vários interpretadores que os sistemas <em>unix based</em> podem ter. Mas como ele é o mais comum e costuma ser o default dos sistemas operacionais as pessoas acabam confundindo. Trabalhei durante alguns anos como analista de sistemas linux e por vários e vários meses essa tela preta foi minha ferramenta principal de trabalho. Cheguei a ter, em meu monitor de 21&#8221; Widescreen, mais de 9 terminais abertos. Falando em bash/terminal gostaria de citar também alguns comandos úteis que vale a pena conhecer: synergy (Synergy plus), ssh, sed, vim, screen, awk.</p>
+<p>Sou fã dessa &ldquo;tela preta&rdquo;! na verdade o bash é um dos vários interpretadores que os sistemas <em>unix based</em> podem ter. Mas como ele é o mais comum e costuma ser o default dos sistemas operacionais as pessoas acabam confundindo. Trabalhei durante alguns anos como analista de sistemas linux e por vários e vários meses essa tela preta foi minha ferramenta principal de trabalho. Cheguei a ter, em meu monitor de 21&#8221; Widescreen, mais de 9 terminais abertos. Falando em bash/terminal gostaria de citar também alguns comandos úteis que vale a pena conhecer: synergy (Synergy plus), ssh, sed, vim, screen, awk.</p>
 
 <h3>6. Gmail</h3>
 
@@ -1267,9 +1267,9 @@ http {
   
   <entry>
     <title type="html"><![CDATA['Retrô' Liberdade Interativa 2010]]></title>
-    <link href="http://www.almirmendes.com/blog/2010/12/13/retro-liberdade-interativa-2010/"/>
+    <link href="http://m3nd3s.github.io/blog/2010/12/13/retro-liberdade-interativa-2010/"/>
     <updated>2010-12-13T11:44:34-03:00</updated>
-    <id>http://www.almirmendes.com/blog/2010/12/13/retro-liberdade-interativa-2010</id>
+    <id>http://m3nd3s.github.io/blog/2010/12/13/retro-liberdade-interativa-2010</id>
     <content type="html"><![CDATA[<p>Cobrado incessantemente pelo @franciscosouza , diga-se de passagem um camaradinha muito gente boa, finalmente resolvi parar alguns minutos para criar este post.</p>
 
 <p>Para quem não conhece o Liberdade Interativa é um evento que tem como objetivo o compartilhamento de informação e conhecimento através de pequenos eventos, com palestras relativamente rápidas, de 30 a 40 minutos, realizadas por pessoas da própria comunidade aqui do Espírito Santo.</p>
@@ -1280,7 +1280,7 @@ http {
 
 <p>Então conversei com alguns amigos e juntos resolvemos criar um evento em que todos estariam convidados tanto a palestrar como a participar. Por ser um evento simples só precisaríamos de um local com datashow, algo que podemos encontrar facilmente nas salas de aula das faculdades locais. Foi assim que surgiu o Liberdade Interativa, chamado de LI.</p>
 
-<p>No dia 12 de junho - dia dos namorados e dia do jogo da Argentina pela copa do mundo - realizamos o <a href="http://www.tux-es.org/liberdadeinterativa/2010/06/12-de-junho-liberdade-interativa/">I LI</a> tendo @franciscosouza e @ale_borba como palestrantes, os assuntos eram Python e Linux Desktop, um bom start para o evento, infelizmente poucas pessoas compareceram ao evento mas tinhamos que  “dar um desconto”, afinal era um sábado de manhã e ainda dia dos namorados e dia de jogo da Argentina. Mesmo assim gostei de ver os meninos falando sobre algo que gostam para pessoas interessadas em aprender.</p>
+<p>No dia 12 de junho &ndash; dia dos namorados e dia do jogo da Argentina pela copa do mundo &ndash; realizamos o <a href="http://www.tux-es.org/liberdadeinterativa/2010/06/12-de-junho-liberdade-interativa/">I LI</a> tendo @franciscosouza e @ale_borba como palestrantes, os assuntos eram Python e Linux Desktop, um bom start para o evento, infelizmente poucas pessoas compareceram ao evento mas tinhamos que  “dar um desconto”, afinal era um sábado de manhã e ainda dia dos namorados e dia de jogo da Argentina. Mesmo assim gostei de ver os meninos falando sobre algo que gostam para pessoas interessadas em aprender.</p>
 
 <p>Alguns meses depois, em 19 de Agosto, foi a vez de @ra_pha , @franciscosouza e @m3nd3s falar sobre Bacula, Django e Iptables (firewall) no <a href="http://www.tux-es.org/liberdadeinterativa/2010/07/liberdade-interativa-19-de-agosto/">II LI</a>, nesta segunda edição do evento contamos com a ajuda e apoio do professor Gilberto Sudré que trouxe suas turmas das disciplinas que ministra na FAESA para participar do evento. Tivemos também muita gente da comunidade presente, realmente uma ótima edição, dessa vez realizada numa quinta-feira a noite.</p>
 
@@ -1288,13 +1288,13 @@ http {
 
 <p>Nem comentei, mas a grade inicial do evento era: Scrum, TDD e Expressões Regulares, como não achamos alguém para falar sobre XP, palestra que seria ministrada pelo @leohackin , em tempo hábil o jeito foi procurar outro assunto e outro palestrante.</p>
 
-<p>Algum tempo antes do III LI ser realizado a gelara da @giran_br , onde trabalho, participou do Rails Rumble (irado!) e conhecemos o @bt1 , um camarada que nos deu um mini-micro-nano curso de Rails para conseguirmos participar do Rails Rumble. O @franciscosouza comentou porque não chamamos o @bt1 para falar sobre Rails no lugar da palestra de TDD? Propomos então o desafio a ele: Já que conseguiu criar uma aplicação em 24 horas, fazer uma palestra no mesmo tempo &#8220;é sussa&#8221;!</p>
+<p>Algum tempo antes do III LI ser realizado a gelara da @giran_br , onde trabalho, participou do Rails Rumble (irado!) e conhecemos o @bt1 , um camarada que nos deu um mini-micro-nano curso de Rails para conseguirmos participar do Rails Rumble. O @franciscosouza comentou porque não chamamos o @bt1 para falar sobre Rails no lugar da palestra de TDD? Propomos então o desafio a ele: Já que conseguiu criar uma aplicação em 24 horas, fazer uma palestra no mesmo tempo &ldquo;é sussa&rdquo;!</p>
 
 <p>E foi nesse clima que o evento foi realizado, um sucesso! Dessa vez a professora Renata Laranja levou sua turma a pedido do @ale_borba , que não queria perder o evento mas teria aula desta professora.</p>
 
-<p>Por fim já estávamos saciados, afinal tinhamos realizado 3 edições do evento em um período de 6 meses, e com a chegada do fim do ano, com isso as provas finais de faculdade, pensamos em realizar o próximo LI apenas em março de 2011, massss&#8230;. O @franciscosouza soube que o @henriquebastos viria ao ES para ministrar um curso de Django, isso duas semanas antes da vinda dele ao ES, e queria conhecer o pessoal daqui e quem sabe realizar um <a href="http://horaextra.org/" target="_blank">#horaextra</a>. Mais uma vez vamos nós, na correria, achar um local para realizar um evento, e para dar mais emoção tinhamos apenas duas semanas para: montar a grade, convidar palestrantes, conseguir a reserva do auditório e avisar o @henriquebastos . Queríamos muito realizar o evento no próprio IFES/Vitória, contamos para isso com a ajuda do João Fernando (Revista Espírito Livre) e Pedro Garcia, mas infelizmente não conseguimos, de qualquer forma muito obrigado pela força João e Pedro.</p>
+<p>Por fim já estávamos saciados, afinal tinhamos realizado 3 edições do evento em um período de 6 meses, e com a chegada do fim do ano, com isso as provas finais de faculdade, pensamos em realizar o próximo LI apenas em março de 2011, massss&hellip;. O @franciscosouza soube que o @henriquebastos viria ao ES para ministrar um curso de Django, isso duas semanas antes da vinda dele ao ES, e queria conhecer o pessoal daqui e quem sabe realizar um <a href="http://horaextra.org/" target="_blank">#horaextra</a>. Mais uma vez vamos nós, na correria, achar um local para realizar um evento, e para dar mais emoção tinhamos apenas duas semanas para: montar a grade, convidar palestrantes, conseguir a reserva do auditório e avisar o @henriquebastos . Queríamos muito realizar o evento no próprio IFES/Vitória, contamos para isso com a ajuda do João Fernando (Revista Espírito Livre) e Pedro Garcia, mas infelizmente não conseguimos, de qualquer forma muito obrigado pela força João e Pedro.</p>
 
-<p>Procuramos então outro local para realizar IV LI e finalmente conseguimos na FAESA Campus I - @faesa_avvitoria , que diga-se de passagem é a faculdade que nos tem apoiado desde o primeiro LI, nosso muito obrigado a FAESA por toda ajuda dada.</p>
+<p>Procuramos então outro local para realizar IV LI e finalmente conseguimos na FAESA Campus I &ndash; @faesa_avvitoria , que diga-se de passagem é a faculdade que nos tem apoiado desde o primeiro LI, nosso muito obrigado a FAESA por toda ajuda dada.</p>
 
 <p>Nasceu então o IV LI com palestras de @franciscosouza , @henriquebastos e @jeveaux que falaram sobre: BDD, como criar comunidades de sucesso e Git. Infelizmente não tivemos muitas pessoas presentes devido a chegada das férias. De qualquer forma foi um ótimo evento e tenho certeza que se perguntar aos que estavam presente você ficará com inveja do que perdeu.</p>
 
@@ -1321,15 +1321,15 @@ http {
 
 <p>Enfim, se você não foi eu só lamento, eu estava lá! :P Fiz amigos, conheci pessoas e absorvi ainda mais conhecimento. Que venham as próximas edições do LI, eu com certeza estarei lá! ;)</p>
 
-<p>Se quiser saber mais sobre o Liberdade Interativa, ver os slides das palestras e fotos acesse o site: <a href="http://www.tux-es.org/liberdadeinterativa/">http://www.tux-es.org/liberdadeinterativa/</a></p>
+<p>Se quiser saber mais sobre o Liberdade Interativa, ver os slides das palestras e fotos acesse o site: <a href="http://www.tux-es.org/liberdadeinterativa/"><a href="http://www.tux-es.org/liberdadeinterativa/">http://www.tux-es.org/liberdadeinterativa/</a></a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[III Liberdade Interativa]]></title>
-    <link href="http://www.almirmendes.com/blog/2010/10/29/iii-liberdade-interativa/"/>
+    <link href="http://m3nd3s.github.io/blog/2010/10/29/iii-liberdade-interativa/"/>
     <updated>2010-10-29T14:38:34-03:00</updated>
-    <id>http://www.almirmendes.com/blog/2010/10/29/iii-liberdade-interativa</id>
+    <id>http://m3nd3s.github.io/blog/2010/10/29/iii-liberdade-interativa</id>
     <content type="html"><![CDATA[<div>
 
 O Liberdade Interativa surgiu como uma oportunidade para manter a Interatividade entre membros da comunidade  de Software Livre do Espírito Santo, o principal objetivo é trocar idéias,  compartilhar conhecimento, fortalecer e ampliar o Networking.
@@ -1343,20 +1343,20 @@ Se estiver afim de participar basta comparecer no auditório da FAESA no dia <st
 </div>
 
 
-<p>Maiores informações em: <a href="http://www.tux-es.org">http://www.tux-es.org</a></p>
+<p>Maiores informações em: <a href="http://www.tux-es.org"><a href="http://www.tux-es.org">http://www.tux-es.org</a></a></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Resenha: Faça como Steve Jobs]]></title>
-    <link href="http://www.almirmendes.com/blog/2010/09/15/resenha-faca-como-steve-jobs/"/>
+    <link href="http://m3nd3s.github.io/blog/2010/09/15/resenha-faca-como-steve-jobs/"/>
     <updated>2010-09-15T13:52:40-03:00</updated>
-    <id>http://www.almirmendes.com/blog/2010/09/15/resenha-faca-como-steve-jobs</id>
+    <id>http://m3nd3s.github.io/blog/2010/09/15/resenha-faca-como-steve-jobs</id>
     <content type="html"><![CDATA[<p>Graças a <a href="http://www.giran.com.br/" target="_blank">Giran</a>(<a href="http://twitter.com/giran_br" target="_blank">@giran_br</a>) eu tive acesso ao livro <em>Faça como Steve Jobs</em>, e diga-se de passagem mudou totalmente minha visão a respeito de como montar apresentações sejam elas para apresentação de trabalhos na faculdade ou para para apresentar temas em eventos aqui da região (ES).</p>
 
 <p>Ainda não cheguei ao nível de satisfação que desejo em minhas apresentações, mas acredito que seja questão de tempo até implementar as dicas/truques/sugestões que o autor, <a href="http://carminegallo.com/" target="_blank">Carmine Gallo</a>, apresenta no livro.</p>
 
-<p>Carmine Gallo, o autor do livro e especialista em comunicação, esclarece como o Steve Jobs, empresário e có-fundador da Apple Inc. - <em>&#8220;uma empresa multinacional norte-americana que atua no ramo de aparelhos eletrônicos e informática famosa principalmente pela fabricação do computador de marca registrada, Macintosh, com seu próprio sistema operacional, Mac OS, entre outros produtos.(<a href="http://pt.wikipedia.org/wiki/Apple_Computer,_Inc." target="_blank">Wikipedia</a>)&#8221;</em> - cria as suas apresentações, hora mostrando como Jobs faz para criar o efeito &#8220;UAU!&#8221; em suas apresentações e hora mostrando, através de dados estatísticos e estudos, toda a dinâmica que envolve durante uma apresentação seja ela qual for.</p>
+<p>Carmine Gallo, o autor do livro e especialista em comunicação, esclarece como o Steve Jobs, empresário e có-fundador da Apple Inc. &ndash; <em>&ldquo;uma empresa multinacional norte-americana que atua no ramo de aparelhos eletrônicos e informática famosa principalmente pela fabricação do computador de marca registrada, Macintosh, com seu próprio sistema operacional, Mac OS, entre outros produtos.(<a href="http://pt.wikipedia.org/wiki/Apple_Computer,_Inc." target="_blank">Wikipedia</a>)&rdquo;</em> &ndash; cria as suas apresentações, hora mostrando como Jobs faz para criar o efeito &ldquo;UAU!&rdquo; em suas apresentações e hora mostrando, através de dados estatísticos e estudos, toda a dinâmica que envolve durante uma apresentação seja ela qual for.</p>
 
 <p><img class="alignright" title="Faça como Steve Jobs - Editora LEYA BRASIL" src="http://www.almirmendes.net/ext-images/noname.jpeg" alt="Faça como Steve Jobs - Editora LEYA BRASIL" width="200" height="301" />O livro é recomendadíssimo para qualquer pessoa que tenha interesse em realizar apresentações, desde palestrantes que desejem turbinar suas apresentações até alunos que necessitem apresentar seus trabalhos na faculdade.</p>
 
@@ -1383,14 +1383,14 @@ Se estiver afim de participar basta comparecer no auditório da FAESA no dia <st
   
   <entry>
     <title type="html"><![CDATA[Palestra: Como construir um firewall pessoal com iptables]]></title>
-    <link href="http://www.almirmendes.com/blog/2010/08/22/palestra-como-construir-um-firewall-pessoal-com-iptables/"/>
+    <link href="http://m3nd3s.github.io/blog/2010/08/22/palestra-como-construir-um-firewall-pessoal-com-iptables/"/>
     <updated>2010-08-22T09:13:26-03:00</updated>
-    <id>http://www.almirmendes.com/blog/2010/08/22/palestra-como-construir-um-firewall-pessoal-com-iptables</id>
-    <content type="html"><![CDATA[<p>Este post é referente a palestra que ministrei no II Liberdade Interativa (<a href="http://www.tux-es.org" target="_blank">http://www.tux-es.org</a>) sobre como construir um firewall caseiro/pessoal com iptables.</p>
+    <id>http://m3nd3s.github.io/blog/2010/08/22/palestra-como-construir-um-firewall-pessoal-com-iptables</id>
+    <content type="html"><![CDATA[<p>Este post é referente a palestra que ministrei no II Liberdade Interativa (<a href="http://www.tux-es.org" target="_blank"><a href="http://www.tux-es.org">http://www.tux-es.org</a></a>) sobre como construir um firewall caseiro/pessoal com iptables.</p>
 
 <p>Com as inúmeras formas de se conectar o seu computador a internet, e a grande facilidade que encontramos para fazer isso hoje em dia, nós estamos esquecendo que a internet ainda é um lugar não muito confiável.</p>
 
-<p>Mesmo que os usuários domésticos (de Linux) achem que estão seguros apenas porque são usuários comuns os IPs públicos que pegamos ao nos conectarmos a internet não vem com um &#8220;letreiro&#8221; informando que não temos nada que possa interessar a algum invasor.</p>
+<p>Mesmo que os usuários domésticos (de Linux) achem que estão seguros apenas porque são usuários comuns os IPs públicos que pegamos ao nos conectarmos a internet não vem com um &ldquo;letreiro&rdquo; informando que não temos nada que possa interessar a algum invasor.</p>
 
 <p>Portanto podemos ser vítimas como qualquer outra máquina/servidor na internet, e daí a necessidade de se proteger, ainda mais que os SOs Linux por default já vem com inúmeros serviços pré-instalados e também nós adicionamos muitos outros até mesmo para aprendizado ou trabalho.</p>
 

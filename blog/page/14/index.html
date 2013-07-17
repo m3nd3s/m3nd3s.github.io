@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://www.almirmendes.com/blog/page/14">
+  <link rel="canonical" href="http://m3nd3s.github.io/blog/page/14">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Almir 'm3nd3s'" type="application/atom+xml">
@@ -63,7 +63,7 @@
   
 <form action="http://google.com/search" method="get">
   <fieldset role="search">
-    <input type="hidden" name="q" value="site:www.almirmendes.com" />
+    <input type="hidden" name="q" value="site:m3nd3s.github.io" />
     <input class="search" type="text" name="q" results="0" placeholder="Search"/>
   </fieldset>
 </form>
@@ -117,7 +117,7 @@
 
 <p>Seguindo nossa saga de configuração do GNU/Linux para funcionar perfeitamente em um Acer Aspire 5050-3284, vamos agora configurar o toutchpad. Por padrão ele já funciona, mas não permite configurar um scrool (usando as bordas do touchpad) ou mesmo aquele direcional entre os dois botões.</p>
 
-<p>Para configurar corretamente o touchpad você irá precisar do &#8221;<a title="Synaptics" href="http://web.telia.com/~u89404340/touchpad/" target="_blank">Synaptics touchpad driver for X.Org</a>&#8221;. Se você utiliza alguma distribuição que possui esse software em seu repositório, proceda com a instalação conforme de costume, caso contrário proceda com o famoso trio: ./configure &amp;&amp; make &amp;&amp; make install.</p>
+<p>Para configurar corretamente o touchpad você irá precisar do &ldquo;<a title="Synaptics" href="http://web.telia.com/~u89404340/touchpad/" target="_blank">Synaptics touchpad driver for X.Org</a>&rdquo;. Se você utiliza alguma distribuição que possui esse software em seu repositório, proceda com a instalação conforme de costume, caso contrário proceda com o famoso trio: ./configure &amp;&amp; make &amp;&amp; make install.</p>
 
 <p>Depois de instalado precisamos configurar o X.org. Vamos adicionar a seguinte entrada no arquivo xorg.conf:</p>
 
@@ -147,7 +147,7 @@
 EndSection</pre>
 
 
-<p>Depois de adicionada essa entrada &#8220;InputDevice&#8221;, procure agora pela seção: &#8220;ServerLayout&#8221;, e adicione:</p>
+<p>Depois de adicionada essa entrada &ldquo;InputDevice&rdquo;, procure agora pela seção: &ldquo;ServerLayout&rdquo;, e adicione:</p>
 
 <pre>Section "ServerLayout"
 ...
@@ -155,7 +155,7 @@ InputDevice    "Synaptics Mouse" "SendCoreEvents"
 ...</pre>
 
 
-<p>Aqui vale relatar algo importante. No arquivo INSTALL que vem junto do fonte do Synaptics sugere que você adicione essa (código acima) entrada da seção ServerLayout com a opção &#8220;CorePointer&#8221;, mas no meu Slackware 12.1 essa opção não funciona, fazendo com que o touchpad pare de funcionar também. Sendo assim, se na sua distro também não funcionar, utilize a opção &#8220;SendCoreEvents&#8221; conforme citado acima, e tudo vai dar certo. Salve o arquivo xorg.conf e saida dele.</p>
+<p>Aqui vale relatar algo importante. No arquivo INSTALL que vem junto do fonte do Synaptics sugere que você adicione essa (código acima) entrada da seção ServerLayout com a opção &ldquo;CorePointer&rdquo;, mas no meu Slackware 12.1 essa opção não funciona, fazendo com que o touchpad pare de funcionar também. Sendo assim, se na sua distro também não funcionar, utilize a opção &ldquo;SendCoreEvents&rdquo; conforme citado acima, e tudo vai dar certo. Salve o arquivo xorg.conf e saida dele.</p>
 
 <p>Pronto, agora basta reiniciar o X e tudo deverá funcionar.</p>
 </div>
@@ -195,7 +195,7 @@ InputDevice    "Synaptics Mouse" "SendCoreEvents"
   </header>
 
 
-  <div class="entry-content"><p>A partir da versão 2.6.27 o kernel Linux passou a suportar nativamente o driver UVC - USB Video Class. Esse driver permite o suporte a inúmeras câmeras presentes na maioria dos notebooks e também dispositivos de câmera externos (USB).</p>
+  <div class="entry-content"><p>A partir da versão 2.6.27 o kernel Linux passou a suportar nativamente o driver UVC &ndash; USB Video Class. Esse driver permite o suporte a inúmeras câmeras presentes na maioria dos notebooks e também dispositivos de câmera externos (USB).</p>
 
 <p>Para ativar esse driver, baixe qualquer versão do kernel Linux a partir da série 2.6.27, e na configuração do kernel selecione a opção:</p>
 
@@ -244,21 +244,21 @@ InputDevice    "Synaptics Mouse" "SendCoreEvents"
   </header>
 
 
-  <div class="entry-content"><p>Olá amigos, finalmente resolvi postar algo útil em meu blog depois de tanto tempo. Estive pensando em postar esse conteúdo todo em um único Post, mas achei que poderia ficar muito massante e possívelmente ficaria &#8220;chato&#8221; de achar algum conteúdo específico em um Post tão grade, pois então resolvi postar em partes diferentes, cada uma com um &#8220;capítulo&#8221; diferente.</p>
+  <div class="entry-content"><p>Olá amigos, finalmente resolvi postar algo útil em meu blog depois de tanto tempo. Estive pensando em postar esse conteúdo todo em um único Post, mas achei que poderia ficar muito massante e possívelmente ficaria &ldquo;chato&rdquo; de achar algum conteúdo específico em um Post tão grade, pois então resolvi postar em partes diferentes, cada uma com um &ldquo;capítulo&rdquo; diferente.</p>
 
 <p>Como este é o primeiro artigo, quero informar que o motivo que tenho para postar tal conteúdo é, antes de mais nada, para que eu  tenha guardado em algum lugar o que fiz para configurar em meu Slackware (na data do post a versão era 12.1)  o notebook da Acer, modelo 5050, mais específicamente o Acer Aspire 5050-3284.</p>
 
-<p>[caption id=&#8221;&#8221; align=&#8221;alignleft&#8221; width=&#8221;132&#8221; caption=&#8221;Acer 5050-3284&#8221;]<img title="Acer 5050-3289" src="http://www.eatec.com.br/fotos/notebooks/5050_p.jpg" alt="" width="132" height="104" />[/caption]</p>
+<p>[caption id=&ldquo;&rdquo; align=&ldquo;alignleft&rdquo; width=&ldquo;132&rdquo; caption=&ldquo;Acer 5050-3284&rdquo;]<img title="Acer 5050-3289" src="http://www.eatec.com.br/fotos/notebooks/5050_p.jpg" alt="" width="132" height="104" />[/caption]</p>
 
 <p>Vamos começar pelo básico, mas porém o mais complicado. Devido uma incompatibilidade entre alguns destes notebooks Acer 5050 e o kernel Linux, o ACPI, e consequentemente os dispositivos que dependem do ACPI, não configuram corretamente. Este problema provavelmente é proveniente de falta de padronização dos desenvolvedores do software Phoenix BIOS utilizado nesses notebooks. Esse é o motivo de tanta dor de cabeça para por o GNU/Linux funcionando diritinho, e olha que esses notebooks já vem com GNU/Linux instalado.</p>
 
 <p>Devido a esse inconveniente, o notebook não desliga sozinho ao digitar o comando <strong>shutdown</strong> ou mesmo o <strong>halt</strong>, e sequer mostra o status da bateria. Aliado a isto, alguns outros itens podem simplesmente não funcionar enquanto não corrigido esse problema.</p>
 
-<p>Para resolver esse &#8220;pepino&#8221;, precisaremos recompilar o kernel, então vamos a obra.</p>
+<p>Para resolver esse &ldquo;pepino&rdquo;, precisaremos recompilar o kernel, então vamos a obra.</p>
 
-<p>Não irei abordar uma compilação de kernel aqui, não é o foco, e também não sou expert nisso. Se você ainda não sabe como fazer isso, dê uma breve pesquisada na internet sobre o assunto, vale a pena! Uma boa idéia é pegar o <strong><em>.config</em></strong> de seu kernel atual e usá-lo como base, apenas tenha atenção de marcar como buildin (imbutido no kernel &#8220;*&#8221;) o sistema de arquivos e o driver da controladora do seu HD, caso contrário serás presenteado com um Kernel Panic.</p>
+<p>Não irei abordar uma compilação de kernel aqui, não é o foco, e também não sou expert nisso. Se você ainda não sabe como fazer isso, dê uma breve pesquisada na internet sobre o assunto, vale a pena! Uma boa idéia é pegar o <strong><em>.config</em></strong> de seu kernel atual e usá-lo como base, apenas tenha atenção de marcar como buildin (imbutido no kernel &ldquo;*&rdquo;) o sistema de arquivos e o driver da controladora do seu HD, caso contrário serás presenteado com um Kernel Panic.</p>
 
-<p>Bem, de qualquer forma precisaremos da DSDT - Differentiated System Description Table -  para nosso Acer 5050. Existem duas formas de se obter essa DSDT:</p>
+<p>Bem, de qualquer forma precisaremos da DSDT &ndash; Differentiated System Description Table &ndash;  para nosso Acer 5050. Existem duas formas de se obter essa DSDT:</p>
 
 <ul>
     <li>Você mesmo desassemblar ela, corrigir os erros, e utilizá-la.</li>
@@ -327,7 +327,7 @@ CONFIG_ACPI_CUSTOM_DSDT_FILE="/usr/src/dsdt.hex" #Cuidado com o Case-sensitive</
 
   <div class="entry-content"><p>Olha meu Desktop do PC do trabalho, é o espírito natalino.</p>
 
-<p>[caption id=&#8221;&#8221; align=&#8221;aligncenter&#8221; width=&#8221;440&#8221; caption=&#8221;ScreenShot&#8221;]<img title="ScreenShot" src="http://www.almirmendes.net/wp-content/images/CapturaEcra.png" alt="ScreenShot" width="440" height="275" />[/caption]</p>
+<p>[caption id=&ldquo;&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;440&rdquo; caption=&ldquo;ScreenShot&rdquo;]<img title="ScreenShot" src="http://www.almirmendes.net/wp-content/images/CapturaEcra.png" alt="ScreenShot" width="440" height="275" />[/caption]</p>
 
 <p>Ps.: repara no Papai Noel passando bem alí no meio da tela, ao lado da bolinha de natal</p>
 </div>

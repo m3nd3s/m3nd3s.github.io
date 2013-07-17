@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: ruby, | Almir 'm3nd3s']]></title>
-  <link href="http://www.almirmendes.com/blog/categories/ruby/atom.xml" rel="self"/>
-  <link href="http://www.almirmendes.com/"/>
-  <updated>2013-05-13T13:38:49-03:00</updated>
-  <id>http://www.almirmendes.com/</id>
+  <link href="http://m3nd3s.github.io/blog/categories/ruby/atom.xml" rel="self"/>
+  <link href="http://m3nd3s.github.io/"/>
+  <updated>2013-07-16T21:41:22-03:00</updated>
+  <id>http://m3nd3s.github.io/</id>
   <author>
     <name><![CDATA[m3nd3s]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Rock'n Rails 2012]]></title>
-    <link href="http://www.almirmendes.com/blog/2012/09/13/rockn-rails-2012/"/>
+    <link href="http://m3nd3s.github.io/blog/2012/09/13/rockn-rails-2012/"/>
     <updated>2012-09-13T12:49:00-03:00</updated>
-    <id>http://www.almirmendes.com/blog/2012/09/13/rockn-rails-2012</id>
+    <id>http://m3nd3s.github.io/blog/2012/09/13/rockn-rails-2012</id>
     <content type="html"><![CDATA[<p>É isso aí galera, o Rock'n Rails 2012 já está com data e local defindos, como no ano passado o evento será realizado na <a href="http://www.uvv.br">Universidade Vila Velha</a> no dia <strong>20 de outubro de 2012</strong>.</p>
 
 <p><a href="http://www.rockandrails.com.br"><img class="right" src="/images/logo-rockandrails.jpg"></a></p>

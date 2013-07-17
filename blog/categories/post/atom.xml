@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: post, | Almir 'm3nd3s']]></title>
-  <link href="http://www.almirmendes.com/blog/categories/post/atom.xml" rel="self"/>
-  <link href="http://www.almirmendes.com/"/>
-  <updated>2013-05-13T13:38:49-03:00</updated>
-  <id>http://www.almirmendes.com/</id>
+  <link href="http://m3nd3s.github.io/blog/categories/post/atom.xml" rel="self"/>
+  <link href="http://m3nd3s.github.io/"/>
+  <updated>2013-07-16T21:41:22-03:00</updated>
+  <id>http://m3nd3s.github.io/</id>
   <author>
     <name><![CDATA[m3nd3s]]></name>
     
@@ -15,12 +15,12 @@
   
   <entry>
     <title type="html"><![CDATA[Blog com Octopress]]></title>
-    <link href="http://www.almirmendes.com/blog/2012/02/17/blog-com-octopress/"/>
+    <link href="http://m3nd3s.github.io/blog/2012/02/17/blog-com-octopress/"/>
     <updated>2012-02-17T20:40:00-02:00</updated>
-    <id>http://www.almirmendes.com/blog/2012/02/17/blog-com-octopress</id>
+    <id>http://m3nd3s.github.io/blog/2012/02/17/blog-com-octopress</id>
     <content type="html"><![CDATA[<p>Já devem ter reparado no novo layout do meu blog. Dessa vez eu não troquei somente o tema, troquei de CMS mesmo.</p>
 
-<p>Há um bom tempo eu vinha utilizado Wordpress como solução para CMS, mas não estava tão feliz assim com ele, principalmente com os plugins referentes a exibição de código e a forma como os códigos deveriam ser "formatados", convenhamos, fazer esse tipo de "formatação" era (e ainda é) um saco.</p>
+<p>Há um bom tempo eu vinha utilizado Wordpress como solução para CMS, mas não estava tão feliz assim com ele, principalmente com os plugins referentes a exibição de código e a forma como os códigos deveriam ser &ldquo;formatados&rdquo;, convenhamos, fazer esse tipo de &ldquo;formatação&rdquo; era (e ainda é) um saco.</p>
 
 <p>Desde que o <a href="https://twitter.com/#!/franciscosouza">@franciscosouza</a> me falou sobre o formato <a href="http://daringfireball.net/projects/markdown/">Markdown</a> eu tenho o utilizado sempre onde posso, só não tinha pensado ainda em escrever meus posts utilizando Markdown. Isso só me veio a mente quando o <a href="https://twitter.com/#!/ReinaldoJunior">@ReinaldoJunior</a> comentou comigo sobre o <a href="http://octopress.org">Octopress</a>, foi então que juntei o que eu mais gostava, agora eu escrevo meus blog posts como se tivesse programando \o/.</p>
 

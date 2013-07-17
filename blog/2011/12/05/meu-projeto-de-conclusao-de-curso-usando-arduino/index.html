@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://www.almirmendes.com/blog/2011/12/05/meu-projeto-de-conclusao-de-curso-usando-arduino">
+  <link rel="canonical" href="http://m3nd3s.github.io/blog/2011/12/05/meu-projeto-de-conclusao-de-curso-usando-arduino">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Almir 'm3nd3s'" type="application/atom+xml">
@@ -63,7 +63,7 @@
   
 <form action="http://google.com/search" method="get">
   <fieldset role="search">
-    <input type="hidden" name="q" value="site:www.almirmendes.com" />
+    <input type="hidden" name="q" value="site:m3nd3s.github.io" />
     <input class="search" type="text" name="q" results="0" placeholder="Search"/>
   </fieldset>
 </form>
@@ -112,7 +112,7 @@
 
 <p>Finalmente finalizei meu Trabalho de Conclusão de Curso (TCC), defendi/apresentei no dia 16 de novembro na <a href="http://site.faesa.br">FAESA</a>, faculdade em que estou cursando graduação em Ciência da Computação.</p>
 
-<p>O trabalho foi feito em parceria meu grande amigo Renato Tecchio. O título dado ao nosso trabalho foi <strong>&#8220;Aplicação embarcada para monitoramento de temperatura em câmaras climatizadas&#8221;</strong>. O objetivo principal do trabalho era implementar um sistema embarcado para medir, registrar e monitorar câmaras climatizadas.</p>
+<p>O trabalho foi feito em parceria meu grande amigo Renato Tecchio. O título dado ao nosso trabalho foi <strong>&ldquo;Aplicação embarcada para monitoramento de temperatura em câmaras climatizadas&rdquo;</strong>. O objetivo principal do trabalho era implementar um sistema embarcado para medir, registrar e monitorar câmaras climatizadas.</p>
 
 <p>Baseado nas exigências da Agência Nacional de Vigilância Sanitária (ANVISA), mais especificamente nas portarias que regem o controle de temperatura de câmaras para armazenamento de alimentos, a nossa missão era, em resumo, implementar um sistema embarcado que pudesse medir e registrar as temperaturas câmaras climatizadas, e além disso que o sistema pudesse informar e notificar ao responsável quando a temperatura estivesse fora dos níveis aceitáveis.</p>
 
@@ -127,13 +127,13 @@
 
 <p>Inicialmente pensamos em implementar tanto o hardware quanto o software, mas vimos que isso nos tomaria muito tempo, mais do que o que poderíamos dispor no momento.</p>
 
-<p>Começamos então uma procura de um hardware que atendesse ao nosso projeto. O nosso orientador, o professor Marcelo Brunoro, indicou alguns hardwares existentes no mercado, mas o preço nos assustou um pouco. Partimos então para o &#8220;Saint Google&#8221; em busca de algum hardware que nos atendesse.</p>
+<p>Começamos então uma procura de um hardware que atendesse ao nosso projeto. O nosso orientador, o professor Marcelo Brunoro, indicou alguns hardwares existentes no mercado, mas o preço nos assustou um pouco. Partimos então para o &ldquo;Saint Google&rdquo; em busca de algum hardware que nos atendesse.</p>
 
 <p>Entretanto, foi em uma conversa com outro amigo, outro Renato, o <a href="http://renatocunha.com/about/">Renato Cunha</a> que me fez a indicação do Arduino, e foi como que paixão a primeira vista. Fiquei impressionado com a <a href="http://www.arduino.cc/playground/Projects/ArduinoUsers">quantidade de projetos</a> já implementados com Arduino e a capacidade dessa plaquinha, não tive dúvidas e compartilhei a descoberta com o Renato Tecchio que também aprovou. Decidimos então então utilizar o Arduino em nosso projeto.</p>
 
 <p><img class="right" src="/images/blog/ArduinoDuemilanove-300x187.png" title="&#34;Arduino Duemilanove&#34;" alt="&#34;Arduino Duemilanove&#34;"></p>
 
-<p>Pesquisamos por quem revendia o Arduino aqui no Brasil, localizamos um revendedor e compramos as placas Arduino e Ethernet shields. Depois disso compramos um monte de &#8220;quinquilharias&#8221; para plugar ao Arduino, diga-se de passagem a maioria dessas &#8220;quinquilharias&#8221; foram adquiridas no <a href="http://www.soldafria.com.br/">Solda Fria</a>, que eu recomendo.</p>
+<p>Pesquisamos por quem revendia o Arduino aqui no Brasil, localizamos um revendedor e compramos as placas Arduino e Ethernet shields. Depois disso compramos um monte de &ldquo;quinquilharias&rdquo; para plugar ao Arduino, diga-se de passagem a maioria dessas &ldquo;quinquilharias&rdquo; foram adquiridas no <a href="http://www.soldafria.com.br/">Solda Fria</a>, que eu recomendo.</p>
 
 <h4>Mãos a obra</h4>
 
@@ -156,7 +156,7 @@
 
 <p>Obviamente precisávamos de um sensor de temperatura, afinal o objetivo do nosso trabalho dependia da leitura de temperaturas. A escolha do sensor DS18S20 foi simplesmente pela facilidade de já existirem drivers/bibliotecas para sua utilização com o Arduino.</p>
 
-<p>Por fim o DS1302, um relógio de tempo real (Real Time Clock - RTC). Talvez você não saiba, mas o Arduino não possui um relógio. Em nosso trabalho nós precisávamos de, além de registrar a temperatura, registrar junto a temperatura o momento em que a leitura foi realizada, por isso o uso de um RTC no projeto. A escolha do modelo DS1302 também foi por já existirem bibliotecas prontas para a comunicação do dispositivo com o Arduino.</p>
+<p>Por fim o DS1302, um relógio de tempo real (Real Time Clock &ndash; RTC). Talvez você não saiba, mas o Arduino não possui um relógio. Em nosso trabalho nós precisávamos de, além de registrar a temperatura, registrar junto a temperatura o momento em que a leitura foi realizada, por isso o uso de um RTC no projeto. A escolha do modelo DS1302 também foi por já existirem bibliotecas prontas para a comunicação do dispositivo com o Arduino.</p>
 
 <p>Depois de tudo adquirido foi só juntar tudo e programar, e foi aí que o bicho pegou!</p>
 
@@ -165,7 +165,7 @@
 
 <p>Sem sombra de dúvidas foi uma experiência muito proveitosa!</p>
 
-<p>Entendemos, por experiência própria, o que significa a expressão &#8220;Enxugar bits&#8221;. A Arduino Duemilanove possui 32K de memória flash, dos quais 30K são utilizada para armazenar o sistema embarcado. Possui também 2K de memória SDRAM, esta por sua vez é utilizada para rodar o programa embarcado.</p>
+<p>Entendemos, por experiência própria, o que significa a expressão &ldquo;Enxugar bits&rdquo;. A Arduino Duemilanove possui 32K de memória flash, dos quais 30K são utilizada para armazenar o sistema embarcado. Possui também 2K de memória SDRAM, esta por sua vez é utilizada para rodar o programa embarcado.</p>
 
 <p><img class="right" src="/images/blog/17810-img_3251_pl-150x150.jpg" title="DS1302 e o Cristal" ></p>
 
@@ -217,7 +217,7 @@
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.almirmendes.com/blog/2011/12/05/meu-projeto-de-conclusao-de-curso-usando-arduino/" data-via="m3nd3s" data-counturl="http://www.almirmendes.com/blog/2011/12/05/meu-projeto-de-conclusao-de-curso-usando-arduino/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://m3nd3s.github.io/blog/2011/12/05/meu-projeto-de-conclusao-de-curso-usando-arduino/" data-via="m3nd3s" data-counturl="http://m3nd3s.github.io/blog/2011/12/05/meu-projeto-de-conclusao-de-curso-usando-arduino/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>

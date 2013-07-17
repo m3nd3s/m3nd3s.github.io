@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: passenger | Almir 'm3nd3s']]></title>
-  <link href="http://www.almirmendes.com/blog/categories/passenger/atom.xml" rel="self"/>
-  <link href="http://www.almirmendes.com/"/>
-  <updated>2013-05-13T13:38:49-03:00</updated>
-  <id>http://www.almirmendes.com/</id>
+  <link href="http://m3nd3s.github.io/blog/categories/passenger/atom.xml" rel="self"/>
+  <link href="http://m3nd3s.github.io/"/>
+  <updated>2013-07-16T21:41:22-03:00</updated>
+  <id>http://m3nd3s.github.io/</id>
   <author>
     <name><![CDATA[m3nd3s]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Instalando Nginx com RVM para aplicações Rails]]></title>
-    <link href="http://www.almirmendes.com/blog/2012/07/27/instalando-nginx-com-rvm-para-aplicacoes-rails/"/>
+    <link href="http://m3nd3s.github.io/blog/2012/07/27/instalando-nginx-com-rvm-para-aplicacoes-rails/"/>
     <updated>2012-07-27T13:05:00-03:00</updated>
-    <id>http://www.almirmendes.com/blog/2012/07/27/instalando-nginx-com-rvm-para-aplicacoes-rails</id>
+    <id>http://m3nd3s.github.io/blog/2012/07/27/instalando-nginx-com-rvm-para-aplicacoes-rails</id>
     <content type="html"><![CDATA[<p>Olá pessoal! Depois de muito tempo sem um post, eu resolvi fazer algo que estava no meu dashboard há um bom tempo, explicar o básico para se levantar uma aplicação Rails e Nginx em um servidor Linux.</p>
 
 <p>Minha intenção com o post é passar os caminhos básicos de como configurar o Nginx, o Passenger e o RVM em um servidor Linux. O processo é relativamente simples.</p>
@@ -79,7 +79,7 @@ passenger-install-nginx-module
 <p>``` text Questionamento sobre qual processo será utilizado para instalar o Nginx + Passenger
 Automatically download and install Nginx?</p>
 
-<p>Nginx doesn't support loadable modules such as some other web servers do,
+<p>Nginx doesn&rsquo;t support loadable modules such as some other web servers do,
 so in order to install Nginx with Passenger support, it must be recompiled.</p>
 
 <p>Do you want this installer to download, compile and install Nginx for you?</p>
@@ -91,10 +91,10 @@ support, but with no other additional third party modules, will be
 installed for you to a directory of your choice.</p></li>
 <li><p>No: I want to customize my Nginx installation. (for advanced users)
 Choose this if you want to compile Nginx with more third party modules
-besides Passenger, or if you need to pass additional options to Nginx's
-'configure' script. This installer will  1) ask you for the location of
-the Nginx source code,  2) run the 'configure' script according to your
-instructions, and  3) run 'make install'.</p></li>
+besides Passenger, or if you need to pass additional options to Nginx&rsquo;s
+&lsquo;configure&rsquo; script. This installer will  1) ask you for the location of
+the Nginx source code,  2) run the &lsquo;configure&rsquo; script according to your
+instructions, and  3) run &lsquo;make install&rsquo;.</p></li>
 </ol>
 
 

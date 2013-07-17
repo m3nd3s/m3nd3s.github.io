@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://www.almirmendes.com/blog/2009/07/13/introducao-ao-pdo-php-data-objects">
+  <link rel="canonical" href="http://m3nd3s.github.io/blog/2009/07/13/introducao-ao-pdo-php-data-objects">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Almir 'm3nd3s'" type="application/atom+xml">
@@ -63,7 +63,7 @@
   
 <form action="http://google.com/search" method="get">
   <fieldset role="search">
-    <input type="hidden" name="q" value="site:www.almirmendes.com" />
+    <input type="hidden" name="q" value="site:m3nd3s.github.io" />
     <input class="search" type="text" name="q" results="0" placeholder="Search"/>
   </fieldset>
 </form>
@@ -111,7 +111,7 @@
 <div class="entry-content"><h3>Introdução</h3>
 
 
-<p>Olá amigos, em meu último artigo eu explanei um pouco sobre como utilizar a biblioteca ADOdbPHP para conexões com banco de dados. Essa ferramenta é muito utilizada por sistemas web devido as facilidades de utilização e implementação, bem como a agilidade no desenvolvimento que ela proporciona, sua principal característica é proporcional ao desenvolvedor uma &#8220;interface&#8221; única de manipulação de querys e de dados retornados do banco, independente de qual SGDB você utilize. É uma classe de abstração.</p>
+<p>Olá amigos, em meu último artigo eu explanei um pouco sobre como utilizar a biblioteca ADOdbPHP para conexões com banco de dados. Essa ferramenta é muito utilizada por sistemas web devido as facilidades de utilização e implementação, bem como a agilidade no desenvolvimento que ela proporciona, sua principal característica é proporcional ao desenvolvedor uma &ldquo;interface&rdquo; única de manipulação de querys e de dados retornados do banco, independente de qual SGDB você utilize. É uma classe de abstração.</p>
 
 <p>Pois bem, agora (já faz um tempinho) o PHP possui algo parecido, chamado de PDO (PHP Data Objects).  O PDO provê uma camada de acesso a dados, ou seja, ele funciona como uma interface para o desenvolvedor, assim como faz o ADOdbPHP só que com uma leve diferença, o PDO não é uma classe de abstração. Resumindo, você pode utilizar o mesmo conjunto de funções para se comunicar com o banco de dados escolhido.</p>
 
@@ -125,7 +125,7 @@
 <h4>Linux/Unix</h4>
 
 
-<p>Se for compilar o pacote ou fazer a instalação via código fonte, basta adicionar a diretiva &#8211;enable-pdo=shared &#8211;with-pdo-sqlite=shared para o comando ./configure. Caso já possua o PHP instalado, você pode lançar mão da instalação via PECL, basta executar o comando &#8220;pecl install pdo&#8221;, e pronto, será gerada a extensão, depois é só configurar o php.ini adicionando a linha &#8220;extension=pdo.so&#8221; para habilitar o suporte.
+<p>Se for compilar o pacote ou fazer a instalação via código fonte, basta adicionar a diretiva &mdash;enable-pdo=shared &mdash;with-pdo-sqlite=shared para o comando ./configure. Caso já possua o PHP instalado, você pode lançar mão da instalação via PECL, basta executar o comando &ldquo;pecl install pdo&rdquo;, e pronto, será gerada a extensão, depois é só configurar o php.ini adicionando a linha &ldquo;extension=pdo.so&rdquo; para habilitar o suporte.
 Não se esqueça de reiniciar o Apache.</p>
 
 <h4>Windows</h4>
@@ -136,7 +136,7 @@ Não se esqueça de reiniciar o Apache.</p>
 <pre lang="PHP">;extension=php_pdo.dll</pre>
 
 
-<p>Basta tirar o &#8220;;&#8221; para descomentar e reiniciar o Apache.</p>
+<p>Basta tirar o &ldquo;;&rdquo; para descomentar e reiniciar o Apache.</p>
 
 <h3>Utilizando a PDO</h3>
 
@@ -159,9 +159,9 @@ $conn = null;
 </pre>
 
 
-<p>Nesse nosso exemplo, temos uma conexão e uma query de consulta ao banco, agora vamos explicar o que acontece: A string de conexão com o banco seque o padrão onde o primeiro campo é o driver utilizado para conexão, no nosso caso o &#8220;mysql&#8221;, logo após vem as informações de host onde está o servidor de banco de dados que no nosso caso está na própria máquina (por isso o &#8220;localhost&#8221;), e o nome do banco de dados que no nosso caso é o &#8220;banco_teste&#8221;.</p>
+<p>Nesse nosso exemplo, temos uma conexão e uma query de consulta ao banco, agora vamos explicar o que acontece: A string de conexão com o banco seque o padrão onde o primeiro campo é o driver utilizado para conexão, no nosso caso o &ldquo;mysql&rdquo;, logo após vem as informações de host onde está o servidor de banco de dados que no nosso caso está na própria máquina (por isso o &ldquo;localhost&rdquo;), e o nome do banco de dados que no nosso caso é o &ldquo;banco_teste&rdquo;.</p>
 
-<p>Logo após a query é executada através do método &#8220;query&#8221;, que retorna o resultado como um array, que por sua vez é trabalhado pelo foreach, sendo acessado através da variável $row_result.</p>
+<p>Logo após a query é executada através do método &ldquo;query&rdquo;, que retorna o resultado como um array, que por sua vez é trabalhado pelo foreach, sendo acessado através da variável $row_result.</p>
 
 <p>Ao final temos a definição do objeto $conn para NULL.</p>
 
@@ -205,7 +205,7 @@ $conn = new PDO('mysql:host=localhost;dbname=banco_teste', "meu_usuario", "minha
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.almirmendes.com/blog/2009/07/13/introducao-ao-pdo-php-data-objects/" data-via="m3nd3s" data-counturl="http://www.almirmendes.com/blog/2009/07/13/introducao-ao-pdo-php-data-objects/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://m3nd3s.github.io/blog/2009/07/13/introducao-ao-pdo-php-data-objects/" data-via="m3nd3s" data-counturl="http://m3nd3s.github.io/blog/2009/07/13/introducao-ao-pdo-php-data-objects/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>

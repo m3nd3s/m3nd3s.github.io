@@ -9,7 +9,7 @@
   <meta name="author" content="m3nd3s">
 
   
-  <meta name="description" content="Neste post quero indicar um site/blog bacana - acho que só eu uso essa palavra - para aprender um pouco mais a linguagem Python e biblioteca Qt para &hellip;">
+  <meta name="description" content="Neste post quero indicar um site/blog bacana &ndash; acho que só eu uso essa palavra &ndash; para aprender um pouco mais a linguagem Python e &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://www.almirmendes.com/blog/page/7">
+  <link rel="canonical" href="http://m3nd3s.github.io/blog/page/7">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Almir 'm3nd3s'" type="application/atom+xml">
@@ -63,7 +63,7 @@
   
 <form action="http://google.com/search" method="get">
   <fieldset role="search">
-    <input type="hidden" name="q" value="site:www.almirmendes.com" />
+    <input type="hidden" name="q" value="site:m3nd3s.github.io" />
     <input class="search" type="text" name="q" results="0" placeholder="Search"/>
   </fieldset>
 </form>
@@ -111,9 +111,9 @@
   </header>
 
 
-  <div class="entry-content"><p>Neste post quero indicar um site/blog bacana - acho que só eu uso essa palavra - para aprender um pouco mais a linguagem Python e biblioteca Qt para desenvolvimento de aplicações Desktop.</p>
+  <div class="entry-content"><p>Neste post quero indicar um site/blog bacana &ndash; acho que só eu uso essa palavra &ndash; para aprender um pouco mais a linguagem Python e biblioteca Qt para desenvolvimento de aplicações Desktop.</p>
 
-<p>O site/blog é de um amigo, o professor Rudson Alves, o link está ali no Blogroll mas resolvi postar aqui para dar uma maior evidência pra ele. Acredito que os &#8220;Pythonistas&#8221; irão gostar também: <a title="Blog do Rudson" href="http://rra.etc.br/MyWorks/" target="_blank">Blog do Rudson</a>.</p>
+<p>O site/blog é de um amigo, o professor Rudson Alves, o link está ali no Blogroll mas resolvi postar aqui para dar uma maior evidência pra ele. Acredito que os &ldquo;Pythonistas&rdquo; irão gostar também: <a title="Blog do Rudson" href="http://rra.etc.br/MyWorks/" target="_blank">Blog do Rudson</a>.</p>
 </div>
   
   
@@ -158,9 +158,9 @@
 
 <p>A minha experiência foi em um Debian Lenny 5.0.4 <em>(servidor de um cliente)</em>, kernel 2.6.32.9 e VMWare Server 1.0.10. Eu já tinha um kernel compilado neste servidor, isso porque o hardware era muito novo e precisava de compilação de kernel mais recente que o padrão de instalação do Debian para suportar o hardware em questão.</p>
 
-<p>Mesmo se você já tiver um kernel 2.6.32.x instalado será necessário recompilar ele novamente <em>(foi o que fiz)</em>, isso  é necessário porque é preciso fazer um pequeno &#8220;hacking&#8221; no kernel manualmente.</p>
+<p>Mesmo se você já tiver um kernel 2.6.32.x instalado será necessário recompilar ele novamente <em>(foi o que fiz)</em>, isso  é necessário porque é preciso fazer um pequeno &ldquo;hacking&rdquo; no kernel manualmente.</p>
 
-<p>A idéia original surgiu a partir de uma dica encontrado no fórum da comunidade do VMWare (<a title="VMWare Communities" href="http://communities.vmware.com/thread/242415" target="_blank">http://communities.vmware.com/thread/242415</a>) que foi publicado por um &#8220;carinha&#8221; de codnome <strong>goldeneye*007</strong>. Dados os devidos créditos vamos a dica:</p>
+<p>A idéia original surgiu a partir de uma dica encontrado no fórum da comunidade do VMWare (<a title="VMWare Communities" href="http://communities.vmware.com/thread/242415" target="_blank"><a href="http://communities.vmware.com/thread/242415">http://communities.vmware.com/thread/242415</a></a>) que foi publicado por um &ldquo;carinha&rdquo; de codnome <strong>goldeneye*007</strong>. Dados os devidos créditos vamos a dica:</p>
 
 <p>Começo do princípio de que você:</p>
 
@@ -171,13 +171,13 @@
 
 
 <p>Para que o VMWare Server possa ser instalado é necessário alterar, manualmente, o arquivo <strong>arch/x86/kernel/init_task.c</strong> e adicionar a seguinte linha ao final dele:
-[cc lang=&#8221;c&#8221;]EXPORT_UNUSED_SYMBOL(init_mm);[/cc]
+[cc lang=&ldquo;c&rdquo;]EXPORT_UNUSED_SYMBOL(init_mm);[/cc]
 Realizado esse procedimento  siga com a compilação e instalação do kernel conforme já esteja acostumado (ou não) a fazer. Reinicie o sistema e selecione o kernel que acabou de compilar (claro!).</p>
 
 <p>Agora partimos para o VMWare Server. Baixe o patch disponível <a title="Patch Kernel 2.6.32.x" href="http://www.insecure.ws/warehouse/vmware-update-2.6.32-5.5.9.tar.bz2">AQUI</a> e o salve em seu sistema de arquivos. Caso não tenha o VMWare Server instalado faça-o agora, o processo de instalação irá parar em um erro durante a compilação dos módulos usados pelo VMWare, isso é esperado.</p>
 
-<p>Se já estiver com o VMWare instalado, ou tenha feito o processo de tentativa de instalação acima citado, descompacte o patch baixado, entre na pasta que foi criada e - como usuário root - execute o comando ./runme.pl:
-[cc lang=&#8221;bash&#8221;]# cd vmware-update-2.6.32-5.5.9</p>
+<p>Se já estiver com o VMWare instalado, ou tenha feito o processo de tentativa de instalação acima citado, descompacte o patch baixado, entre na pasta que foi criada e &ndash; como usuário root &ndash; execute o comando ./runme.pl:
+[cc lang=&ldquo;bash&rdquo;]# cd vmware-update-2.6.32-5.5.9</p>
 
 <h1>./runme.pl[/cc]</h1>
 
@@ -219,11 +219,11 @@ Realizado esse procedimento  siga com a compilação e instalação do kernel c
   </header>
 
 
-  <div class="entry-content"><p>O Festival Latino Americano de Instalação de Software Livre - FLISOL é um evento regional, realizado anualmente, e que ocorre de forma simultânea em diversas cidades da América Latina. O Flisol é um evento descentralizado, onde cada local escolhido realiza seu festival simultaneamente com os outros pontos espalhados pela América Latina.  O evento é livre, e nesse dia há palestras, instalação de Software Livre, como distribuições de Gnu/Linux, sistemas BSD, e aplicativos livres para Windows em geral.</p>
+  <div class="entry-content"><p>O Festival Latino Americano de Instalação de Software Livre &ndash; FLISOL é um evento regional, realizado anualmente, e que ocorre de forma simultânea em diversas cidades da América Latina. O Flisol é um evento descentralizado, onde cada local escolhido realiza seu festival simultaneamente com os outros pontos espalhados pela América Latina.  O evento é livre, e nesse dia há palestras, instalação de Software Livre, como distribuições de Gnu/Linux, sistemas BSD, e aplicativos livres para Windows em geral.</p>
 
-<p>[caption id=&#8221;&#8221; align=&#8221;aligncenter&#8221; width=&#8221;300&#8221; caption=&#8221;FLISOL 2010 - Vitória/ES&#8221;]<a href="http://flisol.espiritolivre.org/"><img title="FLISOL 2010" src="http://www.almirmendes.net/ext-images/flisol2010.png" alt="FLISOL 2010 - Vitória/ES" width="300" height="431" /></a>[/caption]</p>
+<p>[caption id=&ldquo;&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;300&rdquo; caption=&ldquo;FLISOL 2010 &ndash; Vitória/ES&rdquo;]<a href="http://flisol.espiritolivre.org/"><img title="FLISOL 2010" src="http://www.almirmendes.net/ext-images/flisol2010.png" alt="FLISOL 2010 - Vitória/ES" width="300" height="431" /></a>[/caption]</p>
 
-<p>Mais informações sobre o evento podem ser obtidas clicando no link(imagem) acima. O evento será realizado nas dependências da FAESA Campus I - Avenida Vitória, Vitória, ES.</p>
+<p>Mais informações sobre o evento podem ser obtidas clicando no link(imagem) acima. O evento será realizado nas dependências da FAESA Campus I &ndash; Avenida Vitória, Vitória, ES.</p>
 </div>
   
   
@@ -313,14 +313,14 @@ Realizado esse procedimento  siga com a compilação e instalação do kernel c
 
   <div class="entry-content"><p>Não são raras as vezes que fico sabendo de projetos bacanas, especialmente voltados a inclusão digital, que não deram certo simplesmente por falta de apoio, divulgação ou por pouco caso da comunidade que deveria se beneficiar de tal projeto.</p>
 
-<p>Hoje recebi um e-mail que minha esposa me encaminhou - falando rapidamente, a minha esposa estuda/trabalha na área de serviço social - o assunto do e-mail era: &#8220;divulguem&#8230; biblioteca digital&#8221;. Eu odeio essas correntes que se formam na internet e que disseminam, muitas vezes, informações falsas e sem nenhum embasamento, ou as vezes com embasamento até real mas fora do contexto da história. Mas como esse e-mail foi enviado por minha esposa eu resolvi ler.</p>
+<p>Hoje recebi um e-mail que minha esposa me encaminhou &ndash; falando rapidamente, a minha esposa estuda/trabalha na área de serviço social &ndash; o assunto do e-mail era: &ldquo;divulguem&hellip; biblioteca digital&rdquo;. Eu odeio essas correntes que se formam na internet e que disseminam, muitas vezes, informações falsas e sem nenhum embasamento, ou as vezes com embasamento até real mas fora do contexto da história. Mas como esse e-mail foi enviado por minha esposa eu resolvi ler.</p>
 
-<p>Logo de cara vi uma lista enorme de endereços de e-mail no &#8220;cabeçalho&#8221;. Se esse -mail fosse comparado a alguma nota/moeda do Real eu acredito que seria a nota/moeda de um real. Tudo bem, isso não vem ao caso, o motivo que me levou a postar no meu blog sobre esse assunto é o link que continha no e-mail: <a href="http://www.dominiopublico.gov.br">http://www.dominiopublico.gov.br</a>.</p>
+<p>Logo de cara vi uma lista enorme de endereços de e-mail no &ldquo;cabeçalho&rdquo;. Se esse -mail fosse comparado a alguma nota/moeda do Real eu acredito que seria a nota/moeda de um real. Tudo bem, isso não vem ao caso, o motivo que me levou a postar no meu blog sobre esse assunto é o link que continha no e-mail: <a href="http://www.dominiopublico.gov.br"><a href="http://www.dominiopublico.gov.br">http://www.dominiopublico.gov.br</a></a>.</p>
 
 <p style="text-align: center;"><img class="aligncenter" title="Livros" src="http://www.jornalpequeno.com.br/blog/CurtasCulturais/wp-content/uploads/2009/10/livros-da-biblioteca-benedito-leite.jpg" alt="Livros" width="400" height="309" /></p>
 
 
-<p>Fiz uma visita rápida e gostei do que vi. São inúmeras obras separadas em várias categorias como: Ciência da Computação, Economia, Agronomia, Direito, Meio Ambiente, etc. O acervo é gigante, existem não só obras em formato de texto mas também imagens, sons e vídeos. O melhor de tudo é que todas as obras lá publicadas podem ser baixadas sem custo algum, tudo &#8220;0800&#8221;.</p>
+<p>Fiz uma visita rápida e gostei do que vi. São inúmeras obras separadas em várias categorias como: Ciência da Computação, Economia, Agronomia, Direito, Meio Ambiente, etc. O acervo é gigante, existem não só obras em formato de texto mas também imagens, sons e vídeos. O melhor de tudo é que todas as obras lá publicadas podem ser baixadas sem custo algum, tudo &ldquo;0800&rdquo;.</p>
 
 <p>Não sei se o e-mail dizia a verdade, como falei eu suspeito de qualquer informação proveniente de remetentes desconhecidos, principalmente sem referências (artigos, notícias, informativos, etc) que comprovem o que está escrito no e-mail. Mas segundo o e-mail esse domínio estaria ameaçado de extinção por falta de acessos.</p>
 

@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://www.almirmendes.com/blog/2009/01/14/configurando-synaptics-no-acer-5050">
+  <link rel="canonical" href="http://m3nd3s.github.io/blog/2009/01/14/configurando-synaptics-no-acer-5050">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Almir 'm3nd3s'" type="application/atom+xml">
@@ -63,7 +63,7 @@
   
 <form action="http://google.com/search" method="get">
   <fieldset role="search">
-    <input type="hidden" name="q" value="site:www.almirmendes.com" />
+    <input type="hidden" name="q" value="site:m3nd3s.github.io" />
     <input class="search" type="text" name="q" results="0" placeholder="Search"/>
   </fieldset>
 </form>
@@ -114,7 +114,7 @@
 
 <p>Seguindo nossa saga de configuração do GNU/Linux para funcionar perfeitamente em um Acer Aspire 5050-3284, vamos agora configurar o toutchpad. Por padrão ele já funciona, mas não permite configurar um scrool (usando as bordas do touchpad) ou mesmo aquele direcional entre os dois botões.</p>
 
-<p>Para configurar corretamente o touchpad você irá precisar do &#8221;<a title="Synaptics" href="http://web.telia.com/~u89404340/touchpad/" target="_blank">Synaptics touchpad driver for X.Org</a>&#8221;. Se você utiliza alguma distribuição que possui esse software em seu repositório, proceda com a instalação conforme de costume, caso contrário proceda com o famoso trio: ./configure &amp;&amp; make &amp;&amp; make install.</p>
+<p>Para configurar corretamente o touchpad você irá precisar do &ldquo;<a title="Synaptics" href="http://web.telia.com/~u89404340/touchpad/" target="_blank">Synaptics touchpad driver for X.Org</a>&rdquo;. Se você utiliza alguma distribuição que possui esse software em seu repositório, proceda com a instalação conforme de costume, caso contrário proceda com o famoso trio: ./configure &amp;&amp; make &amp;&amp; make install.</p>
 
 <p>Depois de instalado precisamos configurar o X.org. Vamos adicionar a seguinte entrada no arquivo xorg.conf:</p>
 
@@ -144,7 +144,7 @@
 EndSection</pre>
 
 
-<p>Depois de adicionada essa entrada &#8220;InputDevice&#8221;, procure agora pela seção: &#8220;ServerLayout&#8221;, e adicione:</p>
+<p>Depois de adicionada essa entrada &ldquo;InputDevice&rdquo;, procure agora pela seção: &ldquo;ServerLayout&rdquo;, e adicione:</p>
 
 <pre>Section "ServerLayout"
 ...
@@ -152,7 +152,7 @@ InputDevice    "Synaptics Mouse" "SendCoreEvents"
 ...</pre>
 
 
-<p>Aqui vale relatar algo importante. No arquivo INSTALL que vem junto do fonte do Synaptics sugere que você adicione essa (código acima) entrada da seção ServerLayout com a opção &#8220;CorePointer&#8221;, mas no meu Slackware 12.1 essa opção não funciona, fazendo com que o touchpad pare de funcionar também. Sendo assim, se na sua distro também não funcionar, utilize a opção &#8220;SendCoreEvents&#8221; conforme citado acima, e tudo vai dar certo. Salve o arquivo xorg.conf e saida dele.</p>
+<p>Aqui vale relatar algo importante. No arquivo INSTALL que vem junto do fonte do Synaptics sugere que você adicione essa (código acima) entrada da seção ServerLayout com a opção &ldquo;CorePointer&rdquo;, mas no meu Slackware 12.1 essa opção não funciona, fazendo com que o touchpad pare de funcionar também. Sendo assim, se na sua distro também não funcionar, utilize a opção &ldquo;SendCoreEvents&rdquo; conforme citado acima, e tudo vai dar certo. Salve o arquivo xorg.conf e saida dele.</p>
 
 <p>Pronto, agora basta reiniciar o X e tudo deverá funcionar.</p>
 </div>
@@ -185,7 +185,7 @@ InputDevice    "Synaptics Mouse" "SendCoreEvents"
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.almirmendes.com/blog/2009/01/14/configurando-synaptics-no-acer-5050/" data-via="m3nd3s" data-counturl="http://www.almirmendes.com/blog/2009/01/14/configurando-synaptics-no-acer-5050/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://m3nd3s.github.io/blog/2009/01/14/configurando-synaptics-no-acer-5050/" data-via="m3nd3s" data-counturl="http://m3nd3s.github.io/blog/2009/01/14/configurando-synaptics-no-acer-5050/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>

@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://www.almirmendes.com/blog/2008/12/22/gnulinux-acer-5050-a-saga">
+  <link rel="canonical" href="http://m3nd3s.github.io/blog/2008/12/22/gnulinux-acer-5050-a-saga">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Almir 'm3nd3s'" type="application/atom+xml">
@@ -63,7 +63,7 @@
   
 <form action="http://google.com/search" method="get">
   <fieldset role="search">
-    <input type="hidden" name="q" value="site:www.almirmendes.com" />
+    <input type="hidden" name="q" value="site:m3nd3s.github.io" />
     <input class="search" type="text" name="q" results="0" placeholder="Search"/>
   </fieldset>
 </form>
@@ -108,21 +108,21 @@
   </header>
 
 
-<div class="entry-content"><p>Olá amigos, finalmente resolvi postar algo útil em meu blog depois de tanto tempo. Estive pensando em postar esse conteúdo todo em um único Post, mas achei que poderia ficar muito massante e possívelmente ficaria &#8220;chato&#8221; de achar algum conteúdo específico em um Post tão grade, pois então resolvi postar em partes diferentes, cada uma com um &#8220;capítulo&#8221; diferente.</p>
+<div class="entry-content"><p>Olá amigos, finalmente resolvi postar algo útil em meu blog depois de tanto tempo. Estive pensando em postar esse conteúdo todo em um único Post, mas achei que poderia ficar muito massante e possívelmente ficaria &ldquo;chato&rdquo; de achar algum conteúdo específico em um Post tão grade, pois então resolvi postar em partes diferentes, cada uma com um &ldquo;capítulo&rdquo; diferente.</p>
 
 <p>Como este é o primeiro artigo, quero informar que o motivo que tenho para postar tal conteúdo é, antes de mais nada, para que eu  tenha guardado em algum lugar o que fiz para configurar em meu Slackware (na data do post a versão era 12.1)  o notebook da Acer, modelo 5050, mais específicamente o Acer Aspire 5050-3284.</p>
 
-<p>[caption id=&#8221;&#8221; align=&#8221;alignleft&#8221; width=&#8221;132&#8221; caption=&#8221;Acer 5050-3284&#8221;]<img title="Acer 5050-3289" src="http://www.eatec.com.br/fotos/notebooks/5050_p.jpg" alt="" width="132" height="104" />[/caption]</p>
+<p>[caption id=&ldquo;&rdquo; align=&ldquo;alignleft&rdquo; width=&ldquo;132&rdquo; caption=&ldquo;Acer 5050-3284&rdquo;]<img title="Acer 5050-3289" src="http://www.eatec.com.br/fotos/notebooks/5050_p.jpg" alt="" width="132" height="104" />[/caption]</p>
 
 <p>Vamos começar pelo básico, mas porém o mais complicado. Devido uma incompatibilidade entre alguns destes notebooks Acer 5050 e o kernel Linux, o ACPI, e consequentemente os dispositivos que dependem do ACPI, não configuram corretamente. Este problema provavelmente é proveniente de falta de padronização dos desenvolvedores do software Phoenix BIOS utilizado nesses notebooks. Esse é o motivo de tanta dor de cabeça para por o GNU/Linux funcionando diritinho, e olha que esses notebooks já vem com GNU/Linux instalado.</p>
 
 <p>Devido a esse inconveniente, o notebook não desliga sozinho ao digitar o comando <strong>shutdown</strong> ou mesmo o <strong>halt</strong>, e sequer mostra o status da bateria. Aliado a isto, alguns outros itens podem simplesmente não funcionar enquanto não corrigido esse problema.</p>
 
-<p>Para resolver esse &#8220;pepino&#8221;, precisaremos recompilar o kernel, então vamos a obra.</p>
+<p>Para resolver esse &ldquo;pepino&rdquo;, precisaremos recompilar o kernel, então vamos a obra.</p>
 
-<p>Não irei abordar uma compilação de kernel aqui, não é o foco, e também não sou expert nisso. Se você ainda não sabe como fazer isso, dê uma breve pesquisada na internet sobre o assunto, vale a pena! Uma boa idéia é pegar o <strong><em>.config</em></strong> de seu kernel atual e usá-lo como base, apenas tenha atenção de marcar como buildin (imbutido no kernel &#8220;*&#8221;) o sistema de arquivos e o driver da controladora do seu HD, caso contrário serás presenteado com um Kernel Panic.</p>
+<p>Não irei abordar uma compilação de kernel aqui, não é o foco, e também não sou expert nisso. Se você ainda não sabe como fazer isso, dê uma breve pesquisada na internet sobre o assunto, vale a pena! Uma boa idéia é pegar o <strong><em>.config</em></strong> de seu kernel atual e usá-lo como base, apenas tenha atenção de marcar como buildin (imbutido no kernel &ldquo;*&rdquo;) o sistema de arquivos e o driver da controladora do seu HD, caso contrário serás presenteado com um Kernel Panic.</p>
 
-<p>Bem, de qualquer forma precisaremos da DSDT - Differentiated System Description Table -  para nosso Acer 5050. Existem duas formas de se obter essa DSDT:</p>
+<p>Bem, de qualquer forma precisaremos da DSDT &ndash; Differentiated System Description Table &ndash;  para nosso Acer 5050. Existem duas formas de se obter essa DSDT:</p>
 
 <ul>
     <li>Você mesmo desassemblar ela, corrigir os erros, e utilizá-la.</li>
@@ -182,7 +182,7 @@ CONFIG_ACPI_CUSTOM_DSDT_FILE="/usr/src/dsdt.hex" #Cuidado com o Case-sensitive</
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.almirmendes.com/blog/2008/12/22/gnulinux-acer-5050-a-saga/" data-via="m3nd3s" data-counturl="http://www.almirmendes.com/blog/2008/12/22/gnulinux-acer-5050-a-saga/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://m3nd3s.github.io/blog/2008/12/22/gnulinux-acer-5050-a-saga/" data-via="m3nd3s" data-counturl="http://m3nd3s.github.io/blog/2008/12/22/gnulinux-acer-5050-a-saga/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>

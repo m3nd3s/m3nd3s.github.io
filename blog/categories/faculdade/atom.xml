@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: faculdade | Almir 'm3nd3s']]></title>
-  <link href="http://www.almirmendes.com/blog/categories/faculdade/atom.xml" rel="self"/>
-  <link href="http://www.almirmendes.com/"/>
-  <updated>2013-05-13T13:38:49-03:00</updated>
-  <id>http://www.almirmendes.com/</id>
+  <link href="http://m3nd3s.github.io/blog/categories/faculdade/atom.xml" rel="self"/>
+  <link href="http://m3nd3s.github.io/"/>
+  <updated>2013-07-16T21:41:22-03:00</updated>
+  <id>http://m3nd3s.github.io/</id>
   <author>
     <name><![CDATA[m3nd3s]]></name>
     
@@ -15,16 +15,16 @@
   
   <entry>
     <title type="html"><![CDATA[Mission Accomplished]]></title>
-    <link href="http://www.almirmendes.com/blog/2012/07/08/mission-accomplished/"/>
+    <link href="http://m3nd3s.github.io/blog/2012/07/08/mission-accomplished/"/>
     <updated>2012-07-08T12:16:00-03:00</updated>
-    <id>http://www.almirmendes.com/blog/2012/07/08/mission-accomplished</id>
+    <id>http://m3nd3s.github.io/blog/2012/07/08/mission-accomplished</id>
     <content type="html"><![CDATA[<p>Senhores, vocês devem ter percebido que faz um tempo que não tenho <em>blogado</em> com algum tipo de periodicidade.</p>
 
-<p>Este primeiro semestre de 2012 foi uma verdadeira maratona pra mim. No semestre anterior a este, 2011/2, eu enfrentei as disciplinas mais "pesadas" do meu curso <em>(na minha visão)</em>: TCC e Cálculo 3. Foi um semestre <em>prova de fogo</em>! Mas graças a força dos amigos, familiares e em especial do meu colega de TCC Renato Tecchio nós conseguimos fechar o semestre com louvor. Para alguns o curso chegara ao fim, mas eu ainda tinha duas disciplinas pela frente antes de me formar.</p>
+<p>Este primeiro semestre de 2012 foi uma verdadeira maratona pra mim. No semestre anterior a este, 2011/2, eu enfrentei as disciplinas mais &ldquo;pesadas&rdquo; do meu curso <em>(na minha visão)</em>: TCC e Cálculo 3. Foi um semestre <em>prova de fogo</em>! Mas graças a força dos amigos, familiares e em especial do meu colega de TCC Renato Tecchio nós conseguimos fechar o semestre com louvor. Para alguns o curso chegara ao fim, mas eu ainda tinha duas disciplinas pela frente antes de me formar.</p>
 
-<p>Quando se está no final do curso, depois de anos ocupando todos os finais de semana com estudos, exercícios, trabalhos para nota, preocupações sobre provas e o que cairá nelas e todo tipo de coisa, que só quem faz/fez um curso de graduação sabe como é, você começa a criar "anticorpos" para o estudo, não há mais a mínima vontade de aprender. Não que seja culpa dos professores, na verdade a culpa é única do aluno, neste caso <strong>eu</strong>.</p>
+<p>Quando se está no final do curso, depois de anos ocupando todos os finais de semana com estudos, exercícios, trabalhos para nota, preocupações sobre provas e o que cairá nelas e todo tipo de coisa, que só quem faz/fez um curso de graduação sabe como é, você começa a criar &ldquo;anticorpos&rdquo; para o estudo, não há mais a mínima vontade de aprender. Não que seja culpa dos professores, na verdade a culpa é única do aluno, neste caso <strong>eu</strong>.</p>
 
-<p>Como disse meu irmão certa vez: <em>"Tem que ter emoção!"</em>. Fiquei de prova final em uma disciplina, então resolvi concentrar todas as minhas forças nesta última prova e a única coisa que eu pensava, a cada instante, era na sensação de liberdade que eu a anos tinha deixado trancada em virtude de me dedicar a um curso de graduação, a sensação de:</p>
+<p>Como disse meu irmão certa vez: <em>&ldquo;Tem que ter emoção!&rdquo;</em>. Fiquei de prova final em uma disciplina, então resolvi concentrar todas as minhas forças nesta última prova e a única coisa que eu pensava, a cada instante, era na sensação de liberdade que eu a anos tinha deixado trancada em virtude de me dedicar a um curso de graduação, a sensação de:</p>
 
 <ul>
 <li>Sair do trabalho e escolher para onde ir;</li>
@@ -41,7 +41,7 @@
 
 <p>É com muita alegria que digo: Mission Accomplished! Terminei meu curso de graduação em Ciência da Computação e devo isso a todos que torceram por mim, em especial a minha família, meu Pai e Minha mãe, de quem herdei muitas qualidades e me educaram para ser um vencedor. A minha esposa querida que sempre me deu toda força, participou dos momentos críticos e me apoiou, e cobrou, quando precisava. A todos os amigos de eventos e software livre, agora poderei me dedicar mais a esse propósito que tanto gosto. E por fim, mas de forma alguma menos importante a <a href="http://www.giran.com.br"> Giran </a>, se não fosse o apoio <strong>imensurável</strong> dessa galera eu teria fraquejado ou mesmo desistido em algum momento, muito obrigado a todos vocês!</p>
 
-<p>Aos que tiverem interesse e quiserem comparecer na colação de grau, ela será realizada no dia 08 de agosto de 2012, quarta-feira, às 20h no <a href="http://www.clubeitalobrasileiro.com.br">Clube Ítalo Brasileiro</a> - Ilha do Boi.</p>
+<p>Aos que tiverem interesse e quiserem comparecer na colação de grau, ela será realizada no dia 08 de agosto de 2012, quarta-feira, às 20h no <a href="http://www.clubeitalobrasileiro.com.br">Clube Ítalo Brasileiro</a> &ndash; Ilha do Boi.</p>
 
 <p>É isso aí galera, simbora que o resto do ano promete ;)</p>
 ]]></content>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: workspace | Almir 'm3nd3s']]></title>
-  <link href="http://www.almirmendes.com/blog/categories/workspace/atom.xml" rel="self"/>
-  <link href="http://www.almirmendes.com/"/>
-  <updated>2013-05-13T13:38:49-03:00</updated>
-  <id>http://www.almirmendes.com/</id>
+  <link href="http://m3nd3s.github.io/blog/categories/workspace/atom.xml" rel="self"/>
+  <link href="http://m3nd3s.github.io/"/>
+  <updated>2013-07-16T21:41:22-03:00</updated>
+  <id>http://m3nd3s.github.io/</id>
   <author>
     <name><![CDATA[m3nd3s]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Meu ambiente de trabalho em 7 itens: 2013]]></title>
-    <link href="http://www.almirmendes.com/blog/2013/05/13/meu-ambiente-de-trabalho-em-7-itens-2013/"/>
+    <link href="http://m3nd3s.github.io/blog/2013/05/13/meu-ambiente-de-trabalho-em-7-itens-2013/"/>
     <updated>2013-05-13T14:19:00-03:00</updated>
-    <id>http://www.almirmendes.com/blog/2013/05/13/meu-ambiente-de-trabalho-em-7-itens-2013</id>
+    <id>http://m3nd3s.github.io/blog/2013/05/13/meu-ambiente-de-trabalho-em-7-itens-2013</id>
     <content type="html"><![CDATA[<p>Em 20 de janeiro de 2011, inspirado por um <a href="http://jeveaux.com/2011/meu-ambiente-de-trabalho-em-7-itens/">post</a> do <a href="http://jeveaux.com/">Jeveaux</a>, eu publiquei um post sobre as <a href="/blog/2011/01/20/meu-ambiente-de-trabalho-em-7-itens/">ferramentas que utilizo em meu ambiente de trabalho</a>. Com o passar do tempo é comum que façamos mudanças em nosso ambiente visando melhorar e agilizar nosso processo de trabalho. Então resolvi dar uma atualizada no post para mostrar como e o que estou usando agora.</p>
 
 <h2>1. Navegador</h2>
@@ -60,7 +60,7 @@
 
 <p>Depois de alguns meses usando o ZSH, por meio de um pacote de script providos pelo projeto <a href="https://github.com/robbyrussell/oh-my-zsh">oh-my-zsh</a>, estou de volta ao Bash. Tive alguns problemas misteriosos utilizando os scripts do oh-my-zsh então resolvi voltar ao Bash, com o auxílio de um <a href="https://github.com/revans/bash-it">outro pacote de scripts</a> deixei-o do jeito que eu queria.</p>
 
-<p>Depois de anos utilizando sistemas Unix Like - antes eu usava Linux (Slackware, Archlinux, Debian, Ubuntu) e hoje MacOSX - não consigo mais utilizar um SO que não tenha um terminal descente.</p>
+<p>Depois de anos utilizando sistemas Unix Like &ndash; antes eu usava Linux (Slackware, Archlinux, Debian, Ubuntu) e hoje MacOSX &ndash; não consigo mais utilizar um SO que não tenha um terminal descente.</p>
 
 <h2>6. Evernote (GTD)</h2>
 
@@ -76,7 +76,7 @@
 
 <p>Nunca tinha pensando que fosse tão bom e produtivo ter um monitor externo.</p>
 
-<p>A possibilidade de distribuir janelas e visualiza-las ao mesmo tempo sem perda de informação é fantástico! Isso me ajuda muito na produtividade. Costumo abrir um terminal (iTerm2) em fullscreen, dividi-lo com tmux, e abrir o vim, visualizar os logs dos servidores, executar comandos, abrir o navegador e ainda sobra espaço. Tudo isso sem precisar ficar fazendo <em>"ALT + TAB"</em>.</p>
+<p>A possibilidade de distribuir janelas e visualiza-las ao mesmo tempo sem perda de informação é fantástico! Isso me ajuda muito na produtividade. Costumo abrir um terminal (iTerm2) em fullscreen, dividi-lo com tmux, e abrir o vim, visualizar os logs dos servidores, executar comandos, abrir o navegador e ainda sobra espaço. Tudo isso sem precisar ficar fazendo <em>&ldquo;ALT + TAB&rdquo;</em>.</p>
 ]]></content>
   </entry>
   

@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://www.almirmendes.com/blog/2010/06/29/funcao-htmlentities-para-vim">
+  <link rel="canonical" href="http://m3nd3s.github.io/blog/2010/06/29/funcao-htmlentities-para-vim">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Almir 'm3nd3s'" type="application/atom+xml">
@@ -63,7 +63,7 @@
   
 <form action="http://google.com/search" method="get">
   <fieldset role="search">
-    <input type="hidden" name="q" value="site:www.almirmendes.com" />
+    <input type="hidden" name="q" value="site:m3nd3s.github.io" />
     <input class="search" type="text" name="q" results="0" placeholder="Search"/>
   </fieldset>
 </form>
@@ -108,47 +108,47 @@
   </header>
 
 
-<div class="entry-content"><p>Minha IDE de desenvolvimento preferida sem sombra de dúvidas é o Vim (MacVim, Gvim, etc..). Desde que voltei a ter o desenvolvimento como foco do meu trabalho que voltei a usá-lo com mais frequência - diga-se de passagem diariamente!</p>
+<div class="entry-content"><p>Minha IDE de desenvolvimento preferida sem sombra de dúvidas é o Vim (MacVim, Gvim, etc..). Desde que voltei a ter o desenvolvimento como foco do meu trabalho que voltei a usá-lo com mais frequência &ndash; diga-se de passagem diariamente!</p>
 
 <p>No momento estou desenvolvendo aplicações Web em PHP, e consequentemente tenho que usar alguns códigos HTMLs nas aplicações (views). Como boa prática não é bom colocar caracteres especiais (cedilhas, vogais acentuadas, etc) diretamente no HTML, pra isso são utilizados os entities dos caracteres em questão. Só que é muito custoso, lembrar dos entities e também digitá-los em tempo de codificação. Pelo menos eu acho um saco ficar digitando os entities, fora que volta e meia acontece de um sair errado.</p>
 
-<p>Bem, pensando nisso e no poder que o Vim lhe permite, eu criei uma função - que adicionei no meu .vimrc - que faz a conversão dos caracteres e ainda mapeei ela para ser executada ao precisar uma tecla de atalho. Ficou &#8220;supimpa&#8221;!</p>
+<p>Bem, pensando nisso e no poder que o Vim lhe permite, eu criei uma função &ndash; que adicionei no meu .vimrc &ndash; que faz a conversão dos caracteres e ainda mapeei ela para ser executada ao precisar uma tecla de atalho. Ficou &ldquo;supimpa&rdquo;!</p>
 
 <p>Abaixo segue o código que adicionei ao meu .vimrc, é claro que você pode extendê-la e adicionar mais funcionalidades nela, inclusive peço que compartilhe da mesma forma que fiz.</p>
 
 <p>Então vamos lá, abra o seu arquivo ~/.vimrc e adicione o código exibido abaixo, logo após salve e está pronto para uso:</p>
 
-<p>[cc lang=&#8221;vim&#8221;]
-&#8221; Converte os caracteres especiais para suas respectivas
-&#8221; entidades em HTML
+<p>[cc lang=&ldquo;vim&rdquo;]
+&ldquo; Converte os caracteres especiais para suas respectivas
+&rdquo; entidades em HTML
 function HtmlEntities()
-   &#8221; Vogais com acento agudo
+   &ldquo; Vogais com acento agudo
    silent s/á/&amp;aacute;/eg
    silent s/é/&amp;eacute;/eg
    silent s/í/&amp;iacute;/eg
    silent s/ó/&amp;oacute;/eg
    silent s/ú/&amp;uacute;/eg</p>
 
-<p>   &#8221; Vogais com acento circunflexo
+<p>   &ldquo; Vogais com acento circunflexo
    silent s/â/&amp;acirc;/eg
    silent s/ê/&amp;ecirc;/eg
    silent s/î/&amp;icirc;/eg
    silent s/ô/&amp;ocirc;/eg
    silent s/û/&amp;ucirc;/eg</p>
 
-<p>   &#8221; Vogais com til
+<p>   &ldquo; Vogais com til
    silent s/ã/&amp;atilde;/eg
    silent s/õ/&amp;otilde;/eg</p>
 
-<p>   &#8221; C com cedilha
+<p>   &ldquo; C com cedilha
    silent s/ç/&amp;ccedil;/eg
 endfunction</p>
 
-<p>&#8221; Mapeamento da tecla através do atalho CTRL+H
-map <silent> <C-H> :%call HtmlEntities()<CR>
+<p>&ldquo; Mapeamento da tecla através do atalho CTRL+H
+map <silent> &lt;C-H> :%call HtmlEntities()<CR>
 [/cc]</p>
 
-<p>Agora fique a vontade para codificar e colocar os caracteres acentuados do jeito que você sempre fez, depois basta entrar no modo de comando e digitar CTRL+H e veja a mágica acontecer! It&#8217;s wonderful!</p>
+<p>Agora fique a vontade para codificar e colocar os caracteres acentuados do jeito que você sempre fez, depois basta entrar no modo de comando e digitar CTRL+H e veja a mágica acontecer! It&rsquo;s wonderful!</p>
 </div>
 
 
@@ -179,7 +179,7 @@ map <silent> <C-H> :%call HtmlEntities()<CR>
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.almirmendes.com/blog/2010/06/29/funcao-htmlentities-para-vim/" data-via="m3nd3s" data-counturl="http://www.almirmendes.com/blog/2010/06/29/funcao-htmlentities-para-vim/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://m3nd3s.github.io/blog/2010/06/29/funcao-htmlentities-para-vim/" data-via="m3nd3s" data-counturl="http://m3nd3s.github.io/blog/2010/06/29/funcao-htmlentities-para-vim/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>

@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://www.almirmendes.com/blog/2009/04/13/acer-5050-3284-ajustes-finos-no-audio">
+  <link rel="canonical" href="http://m3nd3s.github.io/blog/2009/04/13/acer-5050-3284-ajustes-finos-no-audio">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Almir 'm3nd3s'" type="application/atom+xml">
@@ -63,7 +63,7 @@
   
 <form action="http://google.com/search" method="get">
   <fieldset role="search">
-    <input type="hidden" name="q" value="site:www.almirmendes.com" />
+    <input type="hidden" name="q" value="site:m3nd3s.github.io" />
     <input class="search" type="text" name="q" results="0" placeholder="Search"/>
   </fieldset>
 </form>
@@ -112,15 +112,15 @@
 
 <p>Quem acompanha  meu blog, ultimamente meio desatualizado, percebe que tenho um Acer 5050-3289, e uso Slackware Linux.</p>
 
-<p>Já tenho ele totalmente funcional, video, wireless, ACPI, Audio, etc&#8230; tudo! Mas hoje o meu gerente adicionou uma tarefa para a equipe técnica de nossa empresa, solicitando a configuração correta do audio do notebook de nossa gerente geral pois ela costuma utilizar o fone de ouvido para ouvir músicas, mas o notebook dela não estava &#8220;cortando&#8221; o som ao plugar o fone de ouvido, e isso gerava um desconforto a toda a equipe (não temos parede ou baias separando as equipes) e também a ela, que preferia ouvir sozinha&#8230;</p>
+<p>Já tenho ele totalmente funcional, video, wireless, ACPI, Audio, etc&hellip; tudo! Mas hoje o meu gerente adicionou uma tarefa para a equipe técnica de nossa empresa, solicitando a configuração correta do audio do notebook de nossa gerente geral pois ela costuma utilizar o fone de ouvido para ouvir músicas, mas o notebook dela não estava &ldquo;cortando&rdquo; o som ao plugar o fone de ouvido, e isso gerava um desconforto a toda a equipe (não temos parede ou baias separando as equipes) e também a ela, que preferia ouvir sozinha&hellip;</p>
 
 <p>Como no meu notebook aparecem dois controles para audio, tanto para as caixas externas quanto para o do plug do fone, nem esquentava com isso, até essa tarefa surgir. Daí comentei que no meu apareciam dois controles e meu gerente citou que havia a possibilidade de ativar esse recurso que permitiria o sistema desativar o audio das caixinhas e habilitar apenas a do fone.</p>
 
-<p>Bem, com isso ele &#8220;ativou&#8221; meu modo de curiosidade e sai em busca, claro, principalmente para resolver o problema da gerente geral. E bingo, achei, para o meu caso e de todos os que tem o dispositivo (use o lspci para descobrir):</p>
+<p>Bem, com isso ele &ldquo;ativou&rdquo; meu modo de curiosidade e sai em busca, claro, principalmente para resolver o problema da gerente geral. E bingo, achei, para o meu caso e de todos os que tem o dispositivo (use o lspci para descobrir):</p>
 
 <p>Audio device: ATI Technologies Inc IXP SB4x0 High Definition Audio Controller (rev 01)</p>
 
-<p>Basta adicionar a seguinte linha no arquivo &#8220;/etc/modprobe.d/sound&#8221;:</p>
+<p>Basta adicionar a seguinte linha no arquivo &ldquo;/etc/modprobe.d/sound&rdquo;:</p>
 
 <pre>options snd-hda-intel model=acer-aspire</pre>
 
@@ -166,7 +166,7 @@
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.almirmendes.com/blog/2009/04/13/acer-5050-3284-ajustes-finos-no-audio/" data-via="m3nd3s" data-counturl="http://www.almirmendes.com/blog/2009/04/13/acer-5050-3284-ajustes-finos-no-audio/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://m3nd3s.github.io/blog/2009/04/13/acer-5050-3284-ajustes-finos-no-audio/" data-via="m3nd3s" data-counturl="http://m3nd3s.github.io/blog/2009/04/13/acer-5050-3284-ajustes-finos-no-audio/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>

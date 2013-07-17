@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: efetividade | Almir 'm3nd3s']]></title>
-  <link href="http://www.almirmendes.com/blog/categories/efetividade/atom.xml" rel="self"/>
-  <link href="http://www.almirmendes.com/"/>
-  <updated>2013-05-13T13:38:49-03:00</updated>
-  <id>http://www.almirmendes.com/</id>
+  <link href="http://m3nd3s.github.io/blog/categories/efetividade/atom.xml" rel="self"/>
+  <link href="http://m3nd3s.github.io/"/>
+  <updated>2013-07-16T21:41:22-03:00</updated>
+  <id>http://m3nd3s.github.io/</id>
   <author>
     <name><![CDATA[m3nd3s]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[GTD no meu dia-a-dia]]></title>
-    <link href="http://www.almirmendes.com/blog/2012/09/25/gtd-no-meu-dia-a-dia/"/>
+    <link href="http://m3nd3s.github.io/blog/2012/09/25/gtd-no-meu-dia-a-dia/"/>
     <updated>2012-09-25T12:56:00-03:00</updated>
-    <id>http://www.almirmendes.com/blog/2012/09/25/gtd-no-meu-dia-a-dia</id>
+    <id>http://m3nd3s.github.io/blog/2012/09/25/gtd-no-meu-dia-a-dia</id>
     <content type="html"><![CDATA[<p>Reuniões, e-mails, solicitações, tarefas, projetos, família, lembretes, faculdade, eventos, lazer, estudos, médico, etc. São alguns exemplos das coisas que nós, querendo ou não, gerenciamos todos os dias. Quanto mais funções você acumula, quanto maior for seu envolvimento com as coisa ao seu redor, mais itens você terá para gerenciar.</p>
 
 <p>OK, talvez o parágrafo inicial tenha ficado um pouco descontextualizado, mas se você já ouviu falar de <a href="http://pt.wikipedia.org/wiki/Getting_Things_Done">Getting Things Done</a>, ou só GTD, deve imaginar do que se trata. Aos que não conhecem segue abaixo uma breve explicação sobre o que é o GTD, dito pelo próprio autor <em>Devid Allen</em>:</p>
@@ -75,11 +75,11 @@
 <p>Fiz várias pesquisas na internet e <a href="http://lifehacker.com/5321180/turn-gmail-into-your-ultimate-gtd-inbox">descobri uma forma simples</a>, hoje basicamente utilizo assim:</p>
 
 <ul>
-<li>Se for algo que eu precise fazer e for rápido <em>(regra dos 2-3 minutos do GTD)</em> eu "faço na hora";</li>
+<li>Se for algo que eu precise fazer e for rápido <em>(regra dos 2-3 minutos do GTD)</em> eu &ldquo;faço na hora&rdquo;;</li>
 <li>Se levar mais que 2-3 minutos, marco com uma <strong>Star (exclamação)</strong> para ser feito depois;</li>
 <li>Se for algo que eu possa delegar, delego e marco com uma <strong>Star (setinhas)</strong> se precisar que eu acompanhe, caso contrário deleto o e-mail;</li>
 <li>Se for algo para leitura posterior, tenho duas opções: mando para o <a href="http://getpocket.com/">Pocket</a> quando se tratar de link ou marco com uma <strong>Star (estrela lilaz)</strong>;</li>
-<li>Se não for necessária qualquer ação mas o e-mail for importante o bastante, aplico um label "Referência* e Arquivo o e-mail;</li>
+<li>Se não for necessária qualquer ação mas o e-mail for importante o bastante, aplico um label &ldquo;Referência* e Arquivo o e-mail;</li>
 <li>Apago qualquer e-mail que eu julgar não mais necessário;</li>
 </ul>
 
@@ -102,9 +102,9 @@
 
 <p>Não tenha medo de apagar seus e-mails, use labels/pastas sempre, crie uma estrutura de labels/pastas que for conveniente para você, especialmente porque se você arquivou o e-mail é porque um dia precisará busca-lo novamente, portanto organização é fundamental.</p>
 
-<h3>Anote <em>"tuto"</em></h3>
+<h3>Anote <em>&ldquo;tuto&rdquo;</em></h3>
 
-<p>Uma frase que sempre digo: <em>"Sua mente não tem mente própria"</em>, portanto anote tudo, especialmente as coisas que você sabe precisará lembrar e mantenha isso perto de você. Seja no Evernote, seja no bloco de anotações, seja no caderno, no Smartphone ou em um belíssimo Moleskine. O importante é anotar.</p>
+<p>Uma frase que sempre digo: <em>&ldquo;Sua mente não tem mente própria&rdquo;</em>, portanto anote tudo, especialmente as coisas que você sabe precisará lembrar e mantenha isso perto de você. Seja no Evernote, seja no bloco de anotações, seja no caderno, no Smartphone ou em um belíssimo Moleskine. O importante é anotar.</p>
 
 <p>Assim como sugere o GTD, se for um compromisso ou algo que tenha data e hora para acontecer o lugar correto é o calendário. No meu caso tenho usado o Google Calendar, agendando avisos em SMS e/ou e-mail sempre que necessário para me lembrar.</p>
 
@@ -120,7 +120,7 @@
 
 <p><a href="http://zenhabits.net/zen-to-done-the-simple-productivity-e-book/"><img class="left" src="/images/blog/ztd.png" title="Zen To Done" ></a></p>
 
-<p>Uma variante do GTD é o ZTD - Zen To Done. Ele se baseia no GTD entretanto ele faz um <em>"resumo"</em>, uma compactada no GTD para que se torne ainda mais fácil o uso dos métodos do GTD. Confesso que depois de ler tanto sobre o GTD eu foi apresentado ao ZTD (graças ao amigo <a href="https://twitter.com/leohackin">@leohackin</a>) e estou gostando. Eu encaro o ZTD como um caminho simples para aplicar o GTD.</p>
+<p>Uma variante do GTD é o ZTD &ndash; Zen To Done. Ele se baseia no GTD entretanto ele faz um <em>&ldquo;resumo&rdquo;</em>, uma compactada no GTD para que se torne ainda mais fácil o uso dos métodos do GTD. Confesso que depois de ler tanto sobre o GTD eu foi apresentado ao ZTD (graças ao amigo <a href="https://twitter.com/leohackin">@leohackin</a>) e estou gostando. Eu encaro o ZTD como um caminho simples para aplicar o GTD.</p>
 
 <p>Recomendo a leitura, o link oficial pode ser visitado <a href="http://zenhabits.net/books/">aqui</a>. Se preferir há uma tradução para <em>pt-BR</em> <a href="http://lucasteixeira.com/ztd/">disponível aqui</a>.</p>
 
